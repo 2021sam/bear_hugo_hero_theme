@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ .Title }}</title>
+</head>
+<body>
+
+  <!-- 🧭 Add menu here -->
+  <nav>
+    <ul>
+      {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+
+  <!-- 🔄 This renders the page content -->
+  {{ block "main" . }}
+    {{ .Content }}
+  {{ end }}
+
+</body>
+</html>
