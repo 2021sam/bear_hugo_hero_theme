@@ -1,8 +1,10 @@
+<!-- /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/layouts/index.html -->
+
 {{ define "main" }}
-  {{ $partial := print "partials/home/" .Site.Params.homepage.layout ".html" }}
+  {{ $partial := print "home/" .Site.Params.homepage.layout ".html" }}
   {{ if templates.Exists $partial }}
     {{ partial $partial . }}
   {{ else }}
-    {{ partial "partials/home/page.html" . }}
+    {{ partial "home/page.html" . }}
   {{ end }}
 {{ end }}
