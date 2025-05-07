@@ -1,7 +1,7 @@
 <!-- /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/layouts/_default/baseof.html -->
 
-{{- partial "partials/functions/warnings.html" .Site -}}
-{{- partial "partials/functions/init.html" . -}}
+{{- partial "functions/warnings.html" .Site -}}
+{{- partial "functions/init.html" . -}}
 <!doctype html>
 <html
   lang="{{- site.Language.LanguageCode | default "" -}}"
@@ -26,7 +26,7 @@
     {{ if templates.Exists $header }}
       {{ partial $header . }}
     {{ else }}
-      {{ partial "partials/header/basic.html" . }}
+      {{ partial "header/basic.html" . }}
     {{ end }}
     <div class="relative flex grow flex-col">
       <main id="main-content" class="grow">
