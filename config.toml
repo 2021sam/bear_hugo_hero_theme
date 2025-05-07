@@ -1,0 +1,86 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "congo"
+
+
+[menu]
+
+  [[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  identifier = "rv-repair"
+  name = "RV Repair"
+  url = "/rv-repair/"
+  weight = 2
+
+  [[menu.main]]
+  identifier = "truck-services"
+  name = "Truck Repair"
+  url = "/truck-services/"
+  weight = 3
+
+  [[menu.main]]
+  identifier = "car-repair"
+  name = "Car Repair"
+  url = "/car-repair/"
+  weight = 4
+
+  [[menu.main]]
+  identifier = "sandblasting"
+  name = "Sandblasting"
+  url = "/media-sandblasting/"
+  weight = 5
+
+  [[menu.main]]
+  identifier = "welding"
+  name = "Welding"
+  url = "/welding/"
+  weight = 6
+
+  [[menu.main]]
+  identifier = "frame-repair"
+  name = "Frame Repair"
+  url = "/frame-repair/"
+  weight = 7
+
+  [[menu.main]]
+  identifier = "painting"
+  name = "Painting"
+  url = "/painting/"
+  weight = 8
+
+  [[menu.main]]
+  identifier = "vehicle-decals"
+  name = "Vehicle Decals"
+  url = "/vehicle-decals/"
+  weight = 9
+
+  [[menu.main]]
+  identifier = "stencil-painting"
+  name = "Stencil Painting"
+  url = "/stencil-painting/"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 11
+
+
+
+[params]
+  mainSections = ["posts"]
+  defaultColor = "auto"
+  description = "Your site description here"
+
+defaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
