@@ -1,3 +1,6 @@
+# /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/config.toml
+
+
 baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
@@ -78,6 +81,11 @@ theme = "congo"
   mainSections = ["posts"]
   defaultColor = "auto"
   description = "Your site description here"
+  customCSS = ["css/custom.css"]
+
+[params.assets]
+  customCSS = ["css/custom.css"]
+
 
 defaultContentLanguage = "en"
 [languages]

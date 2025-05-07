@@ -11,28 +11,19 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Docs"
-  url = "/docs"
+  name = "Blog"
+  pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "Ejemplos"
-  pageRef = "samples"
+  name = "Categories"
+  pageRef = "categories"
   weight = 20
 
 [[main]]
-  name = "Usuarios"
-  pageRef = "users"
+  name = "Tags"
+  pageRef = "tags"
   weight = 30
-
-[[main]]
-  name = "GitHub"
-  url = "https://github.com/jpanther/congo"
-  weight = 40
-  [main.params]
-    icon = "github"
-    showName = false
-    target = "_blank"
 
 [[main]]
   identifier = "search"
