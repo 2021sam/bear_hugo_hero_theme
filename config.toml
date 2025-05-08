@@ -87,6 +87,10 @@ theme = "congo"
   customCSS = ["css/custom.css"]
 
 
+[params.homepage]
+layout = "page"
+
+
 defaultContentLanguage = "en"
 [languages]
   [languages.en]
