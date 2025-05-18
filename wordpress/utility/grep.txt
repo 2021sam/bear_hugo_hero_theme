@@ -1,3 +1,4 @@
 Save entire source web page & save in wordpress folder & run the following command:
 to list all images including in sliders
+grep -oE '<img[^>]+src="[^"]+"' root.html
 grep -oE '<img[^>]+src="[^"]+"' rv_service.html
