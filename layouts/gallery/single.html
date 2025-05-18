@@ -1,0 +1,79 @@
+{{ define "main" }}
+
+<!-- Swiper 1 -->
+<div class="swiper swiper1">
+  <div class="swiper-wrapper">
+    {{ range .Params.swiperImages1 }}
+      <div class="swiper-slide">
+        <img src="{{ . }}" alt="Swiper Image 1">
+      </div>
+    {{ end }}
+  </div>
+  <div class="swiper-pagination swiper-pagination-1"></div>
+  <div class="swiper-button-next swiper-button-next-1"></div>
+  <div class="swiper-button-prev swiper-button-prev-1"></div>
+</div>
+
+<!-- Swiper 2 -->
+<div class="swiper swiper2">
+  <div class="swiper-wrapper">
+    {{ range .Params.swiperImages2 }}
+      <div class="swiper-slide">
+        <img src="{{ . }}" alt="Swiper Image 2">
+      </div>
+    {{ end }}
+  </div>
+  <div class="swiper-pagination swiper-pagination-2"></div>
+  <div class="swiper-button-next swiper-button-next-2"></div>
+  <div class="swiper-button-prev swiper-button-prev-2"></div>
+</div>
+
+<!-- Swiper 3 -->
+<div class="swiper swiper3">
+  <div class="swiper-wrapper">
+    {{ range .Params.swiperImages3 }}
+      <div class="swiper-slide">
+        <img src="{{ . }}" alt="Swiper Image 3">
+      </div>
+    {{ end }}
+  </div>
+  <div class="swiper-pagination swiper-pagination-3"></div>
+  <div class="swiper-button-next swiper-button-next-3"></div>
+  <div class="swiper-button-prev swiper-button-prev-3"></div>
+</div>
+
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+  new Swiper('.swiper1', {
+    loop: true,
+    pagination: { el: '.swiper-pagination-1', clickable: true },
+    navigation: {
+      nextEl: '.swiper-button-next-1',
+      prevEl: '.swiper-button-prev-1',
+    },
+    slidesPerView: 1,
+  });
+
+  new Swiper('.swiper2', {
+    loop: true,
+    pagination: { el: '.swiper-pagination-2', clickable: true },
+    navigation: {
+      nextEl: '.swiper-button-next-2',
+      prevEl: '.swiper-button-prev-2',
+    },
+    slidesPerView: 1,
+  });
+
+  new Swiper('.swiper3', {
+    loop: true,
+    pagination: { el: '.swiper-pagination-3', clickable: true },
+    navigation: {
+      nextEl: '.swiper-button-next-3',
+      prevEl: '.swiper-button-prev-3',
+    },
+    slidesPerView: 1,
+  });
+</script>
+{{ end }}

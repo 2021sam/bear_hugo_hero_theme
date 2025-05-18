@@ -56,9 +56,9 @@ summaryLength = 0
   weight = 3
 
   [[menu.main]]
-  identifier = "car-repair"
-  name = "Car Repair"
-  url = "/car-repair/"
+  identifier = "gallery"
+  name = "Gallery"
+  url = "/gallery/"
   weight = 4
 
   [[menu.main]]

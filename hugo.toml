@@ -25,12 +25,6 @@ theme = "congo"
   weight = 3
 
   [[menu.main]]
-  identifier = "car-repair"
-  name = "Car Repair"
-  url = "/car-repair/"
-  weight = 4
-
-  [[menu.main]]
   identifier = "sandblasting"
   name = "Sandblasting"
   url = "/media-sandblasting/"
@@ -72,6 +66,11 @@ theme = "congo"
   url = "/contact/"
   weight = 11
 
+  [[menu.main]]
+  identifier = "gallery"
+  name = "Gallery"
+  url = "/gallery/"
+  weight = 2
 
 
 [params]

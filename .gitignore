@@ -2,3 +2,5 @@ public/
 resources/
 .hugo_build.lock
 .DS_Store
+# Ignore downloaded image sliders
+static/images/rv-service/
