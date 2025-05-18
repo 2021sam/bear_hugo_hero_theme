@@ -1,3 +1,5 @@
+# /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/wordpress/utility/image_group_extractor.py
+
 import os
 import shutil
 import re
@@ -5,9 +7,14 @@ import requests
 from bs4 import BeautifulSoup
 
 # ========== Configuration ==========
-html_file = "rv_service.html"         # Path to your local HTML file
+# html_file = "rv_service.html"         # Path to your local HTML file
+html_file = os.path.join(os.path.dirname(__file__), "..", "rv_service.html")
+html_file = os.path.abspath(html_file)  # resolves ".." to absolute path
+
 url_page = "rv-service"               # Used for directory: static/{url_page}/slider_#
 # base_save_path = os.path.join("static", url_page)
+
+
 base_save_path = os.path.join("static", "images", url_page)
 
 start_group = 1                       # Skip first N-1 groups
