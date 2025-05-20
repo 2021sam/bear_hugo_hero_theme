@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Startseite
 menu: main
 weight: 10
 ---
