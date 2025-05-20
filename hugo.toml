@@ -1,7 +1,38 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+# baseURL = "https://your_domain.com/"
 baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "congo"
+
+
+
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[privacy]
+  [privacy.vimeo]
+    enableDNT = true
+  [privacy.x]
+    enableDNT = true
+  [privacy.youTube]
+    privacyEnhanced = true
+
+[services]
+  [services.x]
+    disableInlineCSS = true
+
 
 
 [menu]
@@ -23,6 +54,12 @@ theme = "congo"
   name = "Truck Repair"
   url = "/truck-services/"
   weight = 3
+
+  [[menu.main]]
+  identifier = "gallery"
+  name = "Gallery"
+  url = "/gallery/"
+  weight = 4
 
   [[menu.main]]
   identifier = "sandblasting"
@@ -65,30 +102,3 @@ theme = "congo"
   name = "Contact"
   url = "/contact/"
   weight = 11
-
-  [[menu.main]]
-  identifier = "gallery"
-  name = "Gallery"
-  url = "/gallery/"
-  weight = 2
-
-
-[params]
-  mainSections = ["posts"]
-  defaultColor = "auto"
-  description = "Your site description here"
-  customCSS = ["css/custom.css"]
-
-[params.assets]
-  customCSS = ["css/custom.css"]
-
-
-[params.homepage]
-layout = "page"
-
-
-defaultContentLanguage = "en"
-[languages]
-  [languages.en]
-    languageName = "English"
-    weight = 1

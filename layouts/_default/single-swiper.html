@@ -1,0 +1,39 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ $images := .Params.swiperImages }}
+  {{ if $images }}
+    <div class="swiper swiper1">
+      <div class="swiper-wrapper">
+        {{ range $images }}
+          <div class="swiper-slide">
+            <img src="{{ . }}" alt="" />
+          </div>
+        {{ end }}
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  {{ else }}
+    <p>No images available.</p>
+  {{ end }}
+
+
+  <!-- Swiper CSS & JS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    new Swiper(".swiper1", {
+      loop: true,
+      pagination: { el: ".swiper-pagination", clickable: true },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+{{ end }}

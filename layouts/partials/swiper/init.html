@@ -1,0 +1,23 @@
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+{{/* layouts/partials/swiper/scripts.html */}}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  {{ range $key, $images := .Params }}
+    {{ if hasPrefix (lower $key) "swiperimages" }}
+      new Swiper(".{{ $key }}", {
+        loop: true,
+        pagination: {
+          el: ".pagination-{{ $key }}",
+          clickable: true
+        },
+        navigation: {
+          nextEl: ".next-{{ $key }}",
+          prevEl: ".prev-{{ $key }}"
+        },
+        slidesPerView: 1
+      });
+    {{ end }}
+  {{ end }}
+});
+</script>
