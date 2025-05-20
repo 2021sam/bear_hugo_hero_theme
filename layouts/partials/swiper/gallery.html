@@ -1,22 +1,55 @@
-<div style="background: yellow;">swiper-gallery.html partial loaded</div>
+<div style="background: yellow">
+  layouts/partials/swiper/gallery.html partial loaded
+</div>
 
-{{/* layouts/partials/swiper-gallery.html */}}
-{{/* Renders all your swiperImages groups */}}
+{{/* Loop through all Params keys */}} {{ range $key, $val := .Params }} {{ $lk
+:= lower $key }} {{ if hasPrefix $lk "swiperimages" }} {{ $header := $val.Header
+}} {{ $desc := $val.Description }} {{ $images := $val.Images }}
 
-{{ range $key, $images := .Params }}
-  {{ $lk := lower $key }}
-  {{ if hasPrefix $lk "swiperimages" }}
-    <div class="swiper {{ $key }}">
-      <div class="swiper-wrapper">
-        {{ range $images }}
-          <div class="swiper-slide">
-            <img src="{{ . }}" alt="Slide from {{ $key }}" />
-          </div>
-        {{ end }}
+<div class="swiper-wrapper-block">
+  <div class="info-box">
+    <div class="info-box-media">
+      <div class="image-flip-container">
+        <div class="image-front">
+          <img src="/images/bearpawCircle-1.png" width="149" height="154" />
+        </div>
+        <div class="image-back">
+          <img src="/images/bearCircle.png" width="149" height="154" />
+        </div>
       </div>
-      <div class="swiper-pagination pagination-{{ $key }}"></div>
-      <div class="swiper-button-prev prev-{{ $key }}"></div>
-      <div class="swiper-button-next next-{{ $key }}"></div>
     </div>
-  {{ end }}
-{{ end }}
+    <div class="info-box-text">
+      <h2>{{ $header }}</h2>
+      <p>{{ $desc }}</p>
+    </div>
+  </div>
+
+  <div class="swiper {{ $key }}">
+    <div class="swiper-wrapper">
+      {{ range $img := $images }}
+      <div class="swiper-slide">
+        <img src="{{ $img }}" alt="Slide from {{ $key }}" />
+      </div>
+      {{ end }}
+    </div>
+    <div class="swiper-pagination pagination-{{ $key }}"></div>
+    <div class="swiper-button-prev prev-{{ $key }}"></div>
+    <div class="swiper-button-next next-{{ $key }}"></div>
+  </div>
+
+  <script>
+    new Swiper(".{{ $key }}", {
+      loop: true,
+      pagination: {
+        el: ".pagination-{{ $key }}",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".next-{{ $key }}",
+        prevEl: ".prev-{{ $key }}",
+      },
+    });
+  </script>
+</div>
+
+{{ end }} {{ end }}
