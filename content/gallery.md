@@ -1,6 +1,6 @@
 +++
 title = "Gallery Page"
-layout = "gallery"
+layout = "swiper-gallery"
 draft = false
 date = '2025-05-17T22:18:17-07:00'
 swiperImages1 = [
