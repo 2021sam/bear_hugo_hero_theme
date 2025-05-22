@@ -1,10 +1,16 @@
+<!-- /Users/2021sam/apps/BEAR/hugo/05_19/hugo-swiper-gallery/layouts/partials/swiper/init.html -->
+
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 {{/* layouts/partials/swiper/scripts.html */}}
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  {{ range $key, $images := .Params }}
-    {{ if hasPrefix (lower $key) "swiperimages" }}
+
+  {{ $gallery := site.Data.swipers.gallery }}
+  {{ range $key, $images := $gallery }}
+
+    {{ if hasPrefix (lower $key) "swiper_images_" }}
       new Swiper(".{{ $key }}", {
         loop: true,
         pagination: {

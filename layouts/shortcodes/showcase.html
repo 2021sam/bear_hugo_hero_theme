@@ -1,0 +1,6 @@
+{{/* layouts/shortcodes/showcase.html */}}
+
+{{ $index := .Get "index" | int }}
+{{ $data := .Get "data" | default "gallery" }}
+
+{{ partial "swiper/showcase.html" (dict "ctx" .Page "data" $data "index" $index) }}

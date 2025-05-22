@@ -7,9 +7,6 @@
     <title>{{ .Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    {{- partial "head/head.html" . -}}
-
-
     <!-- Swiper CSS -->
     <link
       rel="stylesheet"
@@ -19,11 +16,11 @@
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
 
     <link rel="stylesheet" href="{{ "css/swiper.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "css/logo-flip.css" | relURL }}" />
   </head>
 
   <body class="{{ .Type }} {{ .Section }} layout-{{ .Layout }}">
     <div id="wrapper">
-      {{ partial "header.html" . }}
 
       baseof.html
 

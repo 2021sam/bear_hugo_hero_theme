@@ -1,0 +1,61 @@
+<div style="background: orange;">swiper-gallery.html partial loaded</div>
+
+
+<section class="showcase-section">
+  <div style="background: yellow">
+    layouts/partials/swiper/gallery.html partial loaded
+  </div>
+
+  {{ $showcase := site.Data.swipers.showcase }}
+
+  {{ range $key, $val := $showcase }}
+    <div class="swiper-wrapper-block">
+      <div class="info-box">
+        <div class="info-box-media">
+          <div class="image-flip-container">
+            <div class="image-front">
+              <img src="/images/logo/bearpawCircle-1.png" width="149" height="154" />
+            </div>
+            <div class="image-back">
+              <img src="/images/logo/bearCircle.png" width="149" height="154" />
+            </div>
+          </div>
+        </div>
+        <div class="info-box-text">
+          <h2>{{ $val.header }}</h2>
+          <p>{{ $val.description }}</p>
+        </div>
+      </div>
+
+      <div class="swiper {{ $key }}">
+        <div class="swiper-wrapper">
+          {{ range $img := $val.images }}
+          <div class="swiper-slide">
+            <img src="{{ $img }}" alt="Slide from {{ $key }}" />
+          </div>
+          {{ end }}
+        </div>
+        <div class="swiper-pagination pagination-{{ $key }}"></div>
+        <div class="swiper-button-prev prev-{{ $key }}"></div>
+        <div class="swiper-button-next next-{{ $key }}"></div>
+      </div>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          new Swiper(".{{ $key }}", {
+            loop: true,
+            pagination: {
+              el: ".pagination-{{ $key }}",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".next-{{ $key }}",
+              prevEl: ".prev-{{ $key }}",
+            },
+            slidesPerView: 1,
+          });
+        });
+      </script>
+    </div>
+  {{ end }}
+</section>

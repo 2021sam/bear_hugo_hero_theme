@@ -1,0 +1,129 @@
+swiper_images_1:
+  header: "Body Work & Collision Repair"
+  description: "From dents to major repairs, our team brings your vehicle back to pristine condition."
+  images:
+    - "/images/rv-service/slider_1/IMG_0011-7.jpg"
+    - "/images/rv-service/slider_1/IMG_0011.jpg"
+    - "/images/rv-service/slider_1/IMG_0428-1024x682.jpg"
+    - "/images/rv-service/slider_1/IMG_1192-1024x898.jpg"
+    - "/images/rv-service/slider_1/IMG_1819-1024x859.jpg"
+    - "/images/rv-service/slider_1/IMG_1822-1024x682.jpg"
+    - "/images/rv-service/slider_1/IMG_1825-1024x682.jpg"
+    - "/images/rv-service/slider_1/IMG_1986-683x1024.jpg"
+    - "/images/rv-service/slider_1/IMG_3483.jpg"
+    - "/images/rv-service/slider_1/IMG_3484.jpg"
+    - "/images/rv-service/slider_1/IMG_3485.jpg"
+
+swiper_images_2:
+  header: "Custom Fabrication"
+  description: "We tailor your vehicle with fabricated parts for performance, safety, and style."
+  images:
+    - "/images/rv-service/slider_10/Custom_fabricating-commercial-vehicles_sm-500x400-1.jpg"
+    - "/images/rv-service/slider_10/IMG_4770-600x1024.jpg"
+    - "/images/rv-service/slider_10/IMG_9860-969x1024.jpg"
+    - "/images/rv-service/slider_10/fabrication-1024x682.jpg"
+
+swiper_images_3:
+  header: "Sand Blasting"
+  description: "Prep your surfaces for restoration or repainting with precision sandblasting."
+  images:
+    - "/images/rv-service/slider_11/1-768x576-1.jpg"
+    - "/images/rv-service/slider_11/IMG_1868-2-1024x682.jpg"
+    - "/images/rv-service/slider_11/IMG_6480-1024x682.jpg"
+    - "/images/rv-service/slider_11/sand_blasting_small-1024x727.jpg"
+
+swiper_images_4:
+  header: "Detailing Services"
+  description: "Full interior and exterior detailing to make your RV shine like new."
+  images:
+    - "/images/rv-service/slider_12/beautiful-car-interior-clean-up-service-683x1024.jpg"
+    - "/images/rv-service/slider_12/beautiful-car-polishing-service-1024x683.jpg"
+    - "/images/rv-service/slider_12/close-up-car-care-process-1024x683.jpg"
+
+swiper_images_5:
+  header: "Brand Identity"
+  description: "Proud partners and service providers recognized across the industry."
+  images:
+    - "/images/rv-service/slider_13/bearCircleBLACK-1.png"
+    - "/images/rv-service/slider_13/birdeyeLogoRed.png"
+    - "/images/rv-service/slider_13/shop_front-1024x682.jpg"
+
+swiper_images_6:
+  header: "RV Structure Repair"
+  description: "Structural services to restore your RV’s integrity and safety."
+  images:
+    - "/images/rv-service/slider_2/IMG_0002-24-1.jpg"
+    - "/images/rv-service/slider_2/IMG_0527-1024x682.jpg"
+    - "/images/rv-service/slider_2/IMG_3644-1-1024x639.jpg"
+    - "/images/rv-service/slider_2/IMG_4242_2-1024x753.jpg"
+    - "/images/rv-service/slider_2/IMG_6378.jpg"
+    - "/images/rv-service/slider_2/IMG_8250-1024x682.jpg"
+
+swiper_images_7:
+  header: "Roof Repair"
+  description: "Leak-proof solutions to protect your RV from the elements."
+  images:
+    - "/images/rv-service/slider_3/roofRepair.jpg"
+
+swiper_images_8:
+  header: "Plumbing Services"
+  description: "Complete plumbing repairs and installations for all RV models."
+  images:
+    - "/images/rv-service/slider_4/RVWasteTank.jpg"
+    - "/images/rv-service/slider_4/plumbing-1024x683.jpg"
+    - "/images/rv-service/slider_4/rvplumbing2.jpg"
+
+swiper_images_9:
+  header: "Interior Renovation"
+  description: "Modernize and refresh your RV's interior with our custom upgrades."
+  images:
+    - "/images/rv-service/slider_5/IMG_2280-1024x682.jpg"
+    - "/images/rv-service/slider_5/IMG_2456.jpg"
+    - "/images/rv-service/slider_5/IMG_2829-1024x682.jpg"
+    - "/images/rv-service/slider_5/IMG_2875-1024x682.jpg"
+
+swiper_images_10:
+  header: "Exterior Features"
+  description: "From steps to lighting, we install and repair essential RV accessories."
+  images:
+    - "/images/rv-service/slider_6/DSCN1869-1024x768.jpg"
+    - "/images/rv-service/slider_6/DSCN1870-1024x768.jpg"
+    - "/images/rv-service/slider_6/EntrySteps-1024x1014.jpg"
+    - "/images/rv-service/slider_6/IMG_0948.jpg"
+    - "/images/rv-service/slider_6/RVLights-1024x1019.jpg"
+    - "/images/rv-service/slider_6/american-rv-with-open-black-awning-parked-grass-park-rainy-day-relax-comfort-style-with-season-camping-its-finest-1-1024x573.jpg"
+    - "/images/rv-service/slider_6/backupCamera.jpg"
+
+swiper_images_11:
+  header: "Appliance Upgrades"
+  description: "Install or repair stoves, AC units, water heaters, and more."
+  images:
+    - "/images/rv-service/slider_7/Dometic-AC-2-1024x1024.png"
+    - "/images/rv-service/slider_7/GE-RV-stove-1.jpg"
+    - "/images/rv-service/slider_7/IMG_5467.jpg"
+    - "/images/rv-service/slider_7/IMG_5471-681x1024.jpg"
+    - "/images/rv-service/slider_7/dometic-Cooktop.png"
+    - "/images/rv-service/slider_7/dometic-water-heater-1024x1024.png"
+
+swiper_images_12:
+  header: "Restoration Projects"
+  description: "Before-and-after transformations from vintage to stunning."
+  images:
+    - "/images/rv-service/slider_8/100_1424-1024x768.jpg"
+    - "/images/rv-service/slider_8/IMG_0003_2-2-1024x768.jpg"
+    - "/images/rv-service/slider_8/IMG_0064-902x1024.jpg"
+    - "/images/rv-service/slider_8/IMG_6895-1024x531.jpg"
+    - "/images/rv-service/slider_8/IMG_9865-1024x548.jpg"
+    - "/images/rv-service/slider_8/IMG_9967-1024x885.jpg"
+    - "/images/rv-service/slider_8/dolphinRVBefore.jpg"
+
+swiper_images_13:
+  header: "Certifications & Insurance"
+  description: "We work with top brands and are certified by trusted partners."
+  images:
+    - "/images/rv-service/slider_9/BarLicensed2.png"
+    - "/images/rv-service/slider_9/IcarCerfied.png"
+    - "/images/rv-service/slider_9/dometic_authorized_dealer.png"
+    - "/images/rv-service/slider_9/insurance-agent-working-site-car-accident-claim-process-people-car-insurance-claim-1024x684.jpg"
+    - "/images/rv-service/slider_9/mitchell-estimating-software.png"
+    - "/images/rv-service/slider_9/ppgCertified.png"
