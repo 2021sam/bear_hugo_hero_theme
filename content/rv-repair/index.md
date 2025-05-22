@@ -15,18 +15,13 @@ layout = "swiper-showcase"
 
 #### Your Premier Destination for RV Repairs and Services
 
-{{< showcase index="1" data="showcase" >}}
-{{< showcase index="1" data="rv-service" >}}
-
 At **BEAR Collision Center,** we specialize in providing comprehensive RV
 services tailored to meet the unique needs of both individual RV owners and
 insurance companies. Located conveniently in Hayward, we offer a full spectrum
 of expert services to keep your RV in optimal condition and ensure your peace
 of mind on the road.
 
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
+<!-- {{< showcase index="1" data="rv-service" >}} -->
 
 ## Body Damage
 
@@ -34,27 +29,21 @@ From minor bumps to major accidents, our skilled technicians restore your RV
 to its pristine condition. This includes aluminum, Composites and steel
 repairs.
 
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
+<!-- {{< showcase index="2" data="rv-service" >}} -->
 
 ## Refinishing
 
 Expert PPG refinishing team will restore your paint to it's original beauty,
 or create a new look altogether.
 
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
+{{< showcase index="3" data="rv-service" >}}
 
 ## Roof Repairs
 
 Expert repairs to ensure your RV's structural integrity and safety including
 replacement, repairs and re-sealing.
 
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
+{{< showcase index="4" data="rv-service" >}}
 
 ## Plumbing Repairs
 
@@ -62,26 +51,20 @@ Swift and reliable solutions for any plumbing issues to keep your water
 systems running smoothly. This includes water storage and waste holding system
 repairs.
 
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
+{{< showcase index="5" data="rv-service" >}}
 
 ## Interior Decor
 
 Cabinets, window coverings, flooring, lighting, audio devices, and furniture.
 
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
+{{< showcase index="6" data="rv-service" >}}
 
 ## Exterior Amenities
 
 Awnings, lights, backup cameras, entry steps, rock chip guards and film, slide
 outs, and windshields and windows
 
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
+{{< showcase index="7" data="rv-service" >}}
 
 ## Electrical Repairs and Upgrades
 
