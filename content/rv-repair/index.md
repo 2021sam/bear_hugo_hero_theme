@@ -9,6 +9,7 @@ type = "page"
 url = "/rv-repair/"
 wordpress_id = 329
 layout = "swiper-showcase"
+data = "rv-service"
 +++
 
 /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/content/rv-repair/index.md
@@ -36,14 +37,14 @@ repairs.
 Expert PPG refinishing team will restore your paint to it's original beauty,
 or create a new look altogether.
 
-{{< showcase index="3" data="rv-service" >}}
+<!-- {{< showcase index="3" data="rv-service" >}} -->
 
 ## Roof Repairs
 
 Expert repairs to ensure your RV's structural integrity and safety including
 replacement, repairs and re-sealing.
 
-{{< showcase index="4" data="rv-service" >}}
+<!-- {{< showcase index="4" data="rv-service" >}} -->
 
 ## Plumbing Repairs
 
@@ -51,7 +52,7 @@ Swift and reliable solutions for any plumbing issues to keep your water
 systems running smoothly. This includes water storage and waste holding system
 repairs.
 
-{{< showcase index="5" data="rv-service" >}}
+<!-- {{< showcase index="5" data="rv-service" >}} -->
 
 ## Interior Decor
 
@@ -64,7 +65,7 @@ Cabinets, window coverings, flooring, lighting, audio devices, and furniture.
 Awnings, lights, backup cameras, entry steps, rock chip guards and film, slide
 outs, and windshields and windows
 
-{{< showcase index="7" data="rv-service" >}}
+<!-- {{< showcase index="7" data="rv-service" >}} -->
 
 ## Electrical Repairs and Upgrades
 

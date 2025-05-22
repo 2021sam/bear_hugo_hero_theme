@@ -1,5 +1,5 @@
 swiper_images_1:
-  header: "Body Damage"
+  header: "Body Work & Collision Repair"
   description: "From dents to major repairs, our team brings your vehicle back to pristine condition."
   images:
     - "/images/rv-service/slider_1/IMG_0011-7.jpg"
@@ -13,40 +13,6 @@ swiper_images_1:
     - "/images/rv-service/slider_1/IMG_3483.jpg"
     - "/images/rv-service/slider_1/IMG_3484.jpg"
     - "/images/rv-service/slider_1/IMG_3485.jpg"
-
-swiper_images_10:
-  header: "Custom Fabrication"
-  description: "We tailor your vehicle with fabricated parts for performance, safety, and style."
-  images:
-    - "/images/rv-service/slider_10/Custom_fabricating-commercial-vehicles_sm-500x400-1.jpg"
-    - "/images/rv-service/slider_10/IMG_4770-600x1024.jpg"
-    - "/images/rv-service/slider_10/IMG_9860-969x1024.jpg"
-    - "/images/rv-service/slider_10/fabrication-1024x682.jpg"
-
-swiper_images_11:
-  header: "Sand Blasting"
-  description: "Prep your surfaces for restoration or repainting with precision sandblasting."
-  images:
-    - "/images/rv-service/slider_11/1-768x576-1.jpg"
-    - "/images/rv-service/slider_11/IMG_1868-2-1024x682.jpg"
-    - "/images/rv-service/slider_11/IMG_6480-1024x682.jpg"
-    - "/images/rv-service/slider_11/sand_blasting_small-1024x727.jpg"
-
-swiper_images_12:
-  header: "Detailing Services"
-  description: "Full interior and exterior detailing to make your RV shine like new."
-  images:
-    - "/images/rv-service/slider_12/beautiful-car-interior-clean-up-service-683x1024.jpg"
-    - "/images/rv-service/slider_12/beautiful-car-polishing-service-1024x683.jpg"
-    - "/images/rv-service/slider_12/close-up-car-care-process-1024x683.jpg"
-
-swiper_images_13:
-  header: "Brand Identity"
-  description: "Proud partners and service providers recognized across the industry."
-  images:
-    - "/images/rv-service/slider_13/bearCircleBLACK-1.png"
-    - "/images/rv-service/slider_13/birdeyeLogoRed.png"
-    - "/images/rv-service/slider_13/shop_front-1024x682.jpg"
 
 swiper_images_2:
   header: "RV Structure Repair"
@@ -127,3 +93,37 @@ swiper_images_9:
     - "/images/rv-service/slider_9/insurance-agent-working-site-car-accident-claim-process-people-car-insurance-claim-1024x684.jpg"
     - "/images/rv-service/slider_9/mitchell-estimating-software.png"
     - "/images/rv-service/slider_9/ppgCertified.png"
+
+swiper_images_10:
+  header: "Custom Fabrication"
+  description: "We tailor your vehicle with fabricated parts for performance, safety, and style."
+  images:
+    - "/images/rv-service/slider_10/Custom_fabricating-commercial-vehicles_sm-500x400-1.jpg"
+    - "/images/rv-service/slider_10/IMG_4770-600x1024.jpg"
+    - "/images/rv-service/slider_10/IMG_9860-969x1024.jpg"
+    - "/images/rv-service/slider_10/fabrication-1024x682.jpg"
+
+swiper_images_11:
+  header: "Sand Blasting"
+  description: "Prep your surfaces for restoration or repainting with precision sandblasting."
+  images:
+    - "/images/rv-service/slider_11/1-768x576-1.jpg"
+    - "/images/rv-service/slider_11/IMG_1868-2-1024x682.jpg"
+    - "/images/rv-service/slider_11/IMG_6480-1024x682.jpg"
+    - "/images/rv-service/slider_11/sand_blasting_small-1024x727.jpg"
+
+swiper_images_12:
+  header: "Detailing Services"
+  description: "Full interior and exterior detailing to make your RV shine like new."
+  images:
+    - "/images/rv-service/slider_12/beautiful-car-interior-clean-up-service-683x1024.jpg"
+    - "/images/rv-service/slider_12/beautiful-car-polishing-service-1024x683.jpg"
+    - "/images/rv-service/slider_12/close-up-car-care-process-1024x683.jpg"
+
+swiper_images_13:
+  header: "Brand Identity"
+  description: "Proud partners and service providers recognized across the industry."
+  images:
+    - "/images/rv-service/slider_13/bearCircleBLACK-1.png"
+    - "/images/rv-service/slider_13/birdeyeLogoRed.png"
+    - "/images/rv-service/slider_13/shop_front-1024x682.jpg"

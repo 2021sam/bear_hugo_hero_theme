@@ -1,29 +1,39 @@
 <!-- /Users/2021sam/apps/BEAR/hugo/05_19/hugo-swiper-gallery/layouts/partials/swiper/init.html -->
 
-
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-{{/* layouts/partials/swiper/scripts.html */}}
+<!-- /Users/2021sam/apps/BEAR/hugo/05_19/hugo-swiper-gallery/layouts/partials/swiper/init.html -->
+
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () {
 
-  {{ $gallery := site.Data.swipers.gallery }}
-  {{ range $key, $images := $gallery }}
+    console.log("🛠 Swiper Init: DOM Ready");
 
-    {{ if hasPrefix (lower $key) "swiper_images_" }}
-      new Swiper(".{{ $key }}", {
-        loop: true,
-        pagination: {
-          el: ".pagination-{{ $key }}",
-          clickable: true
-        },
-        navigation: {
-          nextEl: ".next-{{ $key }}",
-          prevEl: ".prev-{{ $key }}"
-        },
-        slidesPerView: 1
-      });
+    {{ $data := .data | default "gallery" }}
+    {{ $gallery := index site.Data.swipers $data }}
+
+    console.log("🛠 Using data from: {{ $data }}.yaml");
+    console.log("🛠 Loaded keys:");
+    {{ range $key, $_ := $gallery }}
+      console.log(" - {{ $key }}");
     {{ end }}
-  {{ end }}
-});
+
+    {{ range $key, $images := $gallery }}
+      {{ if hasPrefix (lower $key) "swiper_images_" }}
+        new Swiper(".{{ $key }}", {
+          loop: true,
+          pagination: {
+            el: ".pagination-{{ $key }}",
+            clickable: true
+          },
+          navigation: {
+            nextEl: ".next-{{ $key }}",
+            prevEl: ".prev-{{ $key }}"
+          },
+          slidesPerView: 1
+        });
+      {{ end }}
+    {{ end }}
+
+  });
 </script>

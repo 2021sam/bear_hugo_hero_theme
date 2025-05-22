@@ -1,0 +1,65 @@
+<!-- /Users/2021sam/apps/BEAR/hugo/05_19/hugo-swiper-gallery/layouts/partials/swiper/init.html -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+{{- $dataName := .Params.data | default "gallery" -}} {{- $swiperData := index
+site.Data.swipers $dataName -}}
+
+<div style="background: #f8f8f8; padding: 1rem; font-family: monospace">
+  <strong>🛠 Swiper Debug</strong><br />
+  <strong>Data file:</strong> /data/swipers/{{ $dataName }}.yaml<br />
+  <strong>Loaded keys:</strong><br />
+  <ul>
+    {{- if $swiperData }} {{- range $key, $val := $swiperData }}
+    <li>{{ $key }}</li>
+    {{- end }} {{- else }}
+    <li style="color: red">❌ Data not found</li>
+    {{- end }}
+  </ul>
+</div>
+
+{{- if $swiperData }}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    console.log("✅ Swiper init started for '{{ $dataName }}.yaml'");
+
+    {{- range $key, $val := $swiperData }}
+      const swiperKey = "{{ $key }}";
+      const finalId = swiperKey.replace(/_/g, '');
+
+      console.log("🔧 Trying to init Swiper for ID:", finalId);
+
+      if (document.querySelector('#' + finalId)) {
+        console.log("✅ Found container for:", finalId);
+
+        new Swiper('#' + finalId, {
+          loop: true,
+          navigation: {
+            nextEl: '#' + finalId + ' .swiper-button-next',
+            prevEl: '#' + finalId + ' .swiper-button-prev',
+          },
+          pagination: {
+            el: '#' + finalId + ' .swiper-pagination',
+            clickable: true,
+          },
+          slidesPerView: 1,
+          spaceBetween: 20,
+          breakpoints: {
+            640: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+          },
+        });
+      } else {
+        console.warn("⚠️ Container NOT found for:", finalId);
+      }
+    {{- end }}
+  });
+</script>
+{{- end }}
