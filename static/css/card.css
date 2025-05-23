@@ -11,6 +11,8 @@
   margin: 10px;
   display: inline-block;
   background: white;
+  border-radius: 20px; /* Add this line for rounded corners */
+  overflow: hidden;    /* Ensures child images respect border radius */
 }
 
 .flipcard-inner {

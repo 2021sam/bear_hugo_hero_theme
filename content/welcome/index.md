@@ -7,6 +7,6 @@ url = "/welcome/"
 layout = "welcome"
 +++
 
-
-
 {{< flipcard front="/images/welcome/circle_RV.png" back="/images/welcome/learnMore.png" title="RV Repair" link="/rv-repair/" >}}
+
+{{< flipcard front="/images/welcome/circle_largeTruck.png" back="/images/welcome/learnMore.png" title="Truck Repair" link="/truck-repair/" >}}
