@@ -12,9 +12,7 @@ layout = "swiper-showcase"
 data = "rv-service"
 +++
 
-/Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/content/rv-repair/index.md
-
-#### Your Premier Destination for RV Repairs and Services
+### Your Premier Destination for RV Repairs and Services
 
 At **BEAR Collision Center,** we specialize in providing comprehensive RV
 services tailored to meet the unique needs of both individual RV owners and
