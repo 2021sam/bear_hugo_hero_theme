@@ -1,21 +1,15 @@
 # /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/wordpress/utility/image_group_extractor.py
 
-
-# /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/wordpress/utility/image_extractor_all.py
-
 import os
 import shutil
 import requests
 from bs4 import BeautifulSoup
 
 # ========== Configuration ==========
-
-html_file = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "welcome_index.html")
-)
-
 url_page = "welcome"
-base_save_path = os.path.join("static", "images", url_page, "all_images")
+base_save_path = os.path.join("static", "images", url_page)
+html_file = os.path.join(os.path.dirname(__file__), "..", "html", "welcome.html")
+
 
 # ========== Functions ==========
 

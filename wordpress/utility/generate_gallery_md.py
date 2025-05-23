@@ -2,11 +2,12 @@ import os
 import re
 
 # ====== Configuration ======
-page_name = "rv-service"  # Set to match your Hugo folder
+# page_name = "rv-service"  # Set to match your Hugo folder
+page_name = "welcome"  # Set to match your Hugo folder
 base_dir = os.path.join("static", "images", page_name)
-output_md = "gallery.md"
-title = "Gallery Page"
-layout = "gallery"
+output_md = "welcome.md"
+title = "Welcome Page"
+layout = "welcome"
 
 # ====== Build swiperImagesX for each slider group ======
 slider_groups = []
