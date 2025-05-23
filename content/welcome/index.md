@@ -8,9 +8,5 @@ layout = "welcome"
 +++
 
 
-{{< flipbox 
-  front="/images/welcome/circle_RV.png" 
-  back="/images/welcome/learnMore.png" 
-  title="RV Repair" 
-  link="/rv-repair/" 
->}}
+
+{{< flipcard front="/images/welcome/circle_RV.png" back="/images/welcome/learnMore.png" title="RV Repair" link="/rv-repair/" >}}
