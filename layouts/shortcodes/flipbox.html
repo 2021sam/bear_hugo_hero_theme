@@ -1,0 +1,39 @@
+<div class="wp-block-kadence-column">
+    <div class="kt-inside-inner-col">
+      <div class="wp-block-kadence-infobox">
+        <a
+          class="kt-blocks-info-box-link-wrap info-box-link kt-blocks-info-box-media-align-top kt-info-halign-center"
+          href="{{ .Get "link" }}"
+        >
+          <div class="kt-blocks-info-box-media-container">
+            <div class="kt-blocks-info-box-media kt-info-media-animate-flip">
+              <div class="kadence-info-box-image-inner-intrisic-container">
+                <div class="kadence-info-box-image-intrisic kt-info-animate-flip">
+                  <div class="kadence-info-box-image-inner-intrisic">
+                    <img
+                      src="{{ .Get "front" }}"
+                      alt=""
+                      width="149"
+                      height="154"
+                      class="kt-info-box-image"
+                    />
+                    <img
+                      src="{{ .Get "back" }}"
+                      alt=""
+                      width="149"
+                      height="154"
+                      class="kt-info-box-image-flip"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kt-infobox-textcontent">
+            <h2 class="kt-blocks-info-box-title">{{ .Get "title" }}</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  

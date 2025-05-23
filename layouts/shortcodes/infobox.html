@@ -1,0 +1,19 @@
+<div class="text-center">
+  {{ if .Get "link" }}<a href="{{ .Get "link" }}" class="group block relative inline-block">{{ end }}
+    <div class="relative w-[149px] h-[154px] mx-auto">
+      <img
+        src="{{ .Get "img1" }}"
+        alt="{{ .Get "title" }}"
+        class="absolute top-0 left-0 w-full h-full object-contain transition-opacity duration-300 opacity-100 group-hover:opacity-0"
+      />
+      {{ if .Get "img2" }}
+      <img
+        src="{{ .Get "img2" }}"
+        alt="{{ .Get "title" }} flipped"
+        class="absolute top-0 left-0 w-full h-full object-contain transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+      />
+      {{ end }}
+    </div>
+    <h2 class="mt-4 text-lg font-semibold">{{ .Get "title" }}</h2>
+  {{ if .Get "link" }}</a>{{ end }}
+</div>

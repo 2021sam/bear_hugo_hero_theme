@@ -44,6 +44,13 @@ summaryLength = 0
   weight = 1
 
   [[menu.main]]
+  identifier = "welcome"
+  name = "Welcome"
+  url = "/welcome/"
+  weight = 1
+
+
+  [[menu.main]]
   identifier = "rv-repair"
   name = "RV Repair"
   url = "/rv-repair/"
@@ -102,3 +109,16 @@ summaryLength = 0
   name = "Contact"
   url = "/contact/"
   weight = 11
+
+
+
+[build]
+  writeStats = true
+  useResourceCacheWhen = "always"
+
+[markup]
+  [markup.postCSS]
+    use = ["postcss"]
+    includePaths = ["assets/css"]
+  [markup.highlight]
+    noClasses = false
