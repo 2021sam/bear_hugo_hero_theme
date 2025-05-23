@@ -22,109 +22,32 @@ insurance companies. Located conveniently in Hayward, we offer a full spectrum
 of expert services to keep your RV in optimal condition and ensure your peace
 of mind on the road.
 
-<!-- {{< showcase index="1" data="rv-service" >}} -->
+{{< showcase index="1" data="rv-service" >}}
 
-## Body Damage
+{{< showcase index="2" data="rv-service" >}}
 
-From minor bumps to major accidents, our skilled technicians restore your RV
-to its pristine condition. This includes aluminum, Composites and steel
-repairs.
+{{< showcase index="3" data="rv-service" >}}
 
-<!-- {{< showcase index="2" data="rv-service" >}} -->
+{{< showcase index="4" data="rv-service" >}}
 
-## Refinishing
-
-Expert PPG refinishing team will restore your paint to it's original beauty,
-or create a new look altogether.
-
-<!-- {{< showcase index="3" data="rv-service" >}} -->
-
-## Roof Repairs
-
-Expert repairs to ensure your RV's structural integrity and safety including
-replacement, repairs and re-sealing.
-
-<!-- {{< showcase index="4" data="rv-service" >}} -->
-
-## Plumbing Repairs
-
-Swift and reliable solutions for any plumbing issues to keep your water
-systems running smoothly. This includes water storage and waste holding system
-repairs.
-
-<!-- {{< showcase index="5" data="rv-service" >}} -->
-
-## Interior Decor
-
-Cabinets, window coverings, flooring, lighting, audio devices, and furniture.
+{{< showcase index="5" data="rv-service" >}}
 
 {{< showcase index="6" data="rv-service" >}}
 
-## Exterior Amenities
-
-Awnings, lights, backup cameras, entry steps, rock chip guards and film, slide
-outs, and windshields and windows
-
 {{< showcase index="7" data="rv-service" >}}
 
-## Electrical Repairs and Upgrades
+{{< showcase index="8" data="rv-service" >}}
 
-Including A/C, furnace, and water heaters, refrigerators, ovens, stoves, and
-alarms enhancing comfort and convenience during your travels. BEAR is a
-Dometic Authorized dealer.
+{{< showcase index="9" data="rv-service" >}}
 
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
+{{< showcase index="10" data="rv-service" >}}
 
-## Custom Vinyl & Paint Graphic Designs
+{{< showcase index="11" data="rv-service" >}}
 
-Personalize your RV to reflect your style and personality with our custom
-designs. This also includes diamond shields and chip protectors.
+{{< showcase index="12" data="rv-service" >}}
 
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
+{{< showcase index="13" data="rv-service" >}}
 
-## Insurance Claim Specialist
-
-We are a preferred repair center with major insurance companies, handling
-claims efficiently to minimize downtime for your RV.
-
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
-
-## Local Sourcing Fabrication
-
-Custom or hard-to-find parts fabricated quickly to get you back on the road
-without delay.
-
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
-
-## Large Facility
-
-Equipped to accommodate even the largest buses and RVs, ensuring ample space
-for comprehensive repairs.
-
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
-
-## Detailing and Cleaning
-
-First-class detailing services and deep cleaning for impeccable maintenance of
-your RV's interior.
-
-![](https://cabear.com/wp-
-content/uploads/2024/08/bearpawCircle-1.png)![](https://cabear.com/wp-
-content/uploads/2024/08/bearCircle.png)
-
-## Secure Storage
-
-Our gated and locked facility provides a secure environment for your RV.
 
 #### Why Choose Us?
 
