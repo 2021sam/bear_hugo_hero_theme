@@ -1,6 +1,18 @@
-# /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/wordpress/utility/image_group_extractor.py
+To **extract and download *all images*** — not grouped by slideshow or marked by a `start_sequence` — you can **simplify the script** by:
 
+1. **Removing the grouping logic**.
+2. **Extracting every `<img src="...">`** from the HTML.
+3. **Saving all images into a flat folder**, or optionally naming them sequentially.
 
+---
+
+Here is the **updated version** of your script to extract **all images**, regardless of grouping:
+
+---
+
+### ✅ `image_extractor_all.py` – Extract all images
+
+```python
 # /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/wordpress/utility/image_extractor_all.py
 
 import os
@@ -11,10 +23,10 @@ from bs4 import BeautifulSoup
 # ========== Configuration ==========
 
 html_file = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "welcome_index.html")
+    os.path.join(os.path.dirname(__file__), "..", "rv_service.html")
 )
 
-url_page = "welcome"
+url_page = "rv-service"
 base_save_path = os.path.join("static", "images", url_page, "all_images")
 
 # ========== Functions ==========
@@ -68,3 +80,24 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+---
+
+### ✅ Key Differences from Your Original Script:
+
+| Feature                | Old Script (Slideshow Grouping)   | New Script (All Images)           |
+| ---------------------- | --------------------------------- | --------------------------------- |
+| Grouping               | Groups by marker images (sliders) | No grouping                       |
+| `start_sequence` used? | Yes                               | ❌ Not used                        |
+| Folder output          | `slider_1`, `slider_2`, etc.      | Single folder: `all_images`       |
+| Target use case        | Grouped slideshows                | Every image, anywhere in the HTML |
+
+---
+
+Let me know if you'd like:
+
+* File naming to be sequential (`image_001.jpg`, etc),
+* Logging to a CSV,
+* To skip or overwrite duplicates,
+* Or if you want to extract images only from a certain part of the DOM (e.g., just `.entry-content`).
