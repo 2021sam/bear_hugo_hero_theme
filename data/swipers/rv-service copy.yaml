@@ -51,10 +51,15 @@ swiper_images_5:
 
 swiper_images_6:
   header: "Exterior Features"
-  description: "From steps to lighting we install and repair essential RV accessories."
+  description: "From steps to lighting, we install and repair essential RV accessories."
   images:
     - "/images/rv-service/slider_6/DSCN1869-1024x768.jpg"
     - "/images/rv-service/slider_6/DSCN1870-1024x768.jpg"
+    - "/images/rv-service/slider_6/EntrySteps-1024x1014.jpg"
+    - "/images/rv-service/slider_6/IMG_0948.jpg"
+    - "/images/rv-service/slider_6/RVLights-1024x1019.jpg"
+    - "/images/rv-service/slider_6/american-rv-1024x573.jpg"
+    - "/images/rv-service/slider_6/backupCamera.jpg"
 
 swiper_images_7:
   header: "Appliance Upgrades"

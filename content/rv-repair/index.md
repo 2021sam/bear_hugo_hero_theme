@@ -65,7 +65,7 @@ Cabinets, window coverings, flooring, lighting, audio devices, and furniture.
 Awnings, lights, backup cameras, entry steps, rock chip guards and film, slide
 outs, and windshields and windows
 
-<!-- {{< showcase index="7" data="rv-service" >}} -->
+{{< showcase index="7" data="rv-service" >}}
 
 ## Electrical Repairs and Upgrades
 
