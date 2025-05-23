@@ -9,7 +9,6 @@ title = 'My New Hugo Site'
 theme = "hugo-arcana"
 
 
-
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
@@ -36,7 +35,6 @@ summaryLength = 0
 
 
 [menu]
-
   [[menu.main]]
   identifier = "home"
   name = "Home"
