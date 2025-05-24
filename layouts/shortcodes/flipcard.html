@@ -1,8 +1,8 @@
 <a href="{{ .Get "link" | absURL }}" class="flipcard-link">
   <div class="flipcard-container">
     <div class="flipcard-inner">
-      <img src="{{ .Get "front" | absURL }}" alt="Front" class="flipcard-front" />
-      <img src="{{ .Get "back" | absURL }}" alt="Back" class="flipcard-back" />
+      <img src="{{ .Get "front" | relURL }}" alt="Front" class="flipcard-front" />
+      <img src="{{ .Get "back" | relURL }}" alt="Back" class="flipcard-back" />
     </div>
     <div class="flipcard-title">{{ .Get "title" }}</div>
   </div>

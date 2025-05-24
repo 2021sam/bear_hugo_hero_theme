@@ -17,10 +17,15 @@
       <div class="info-box-media">
         <div class="image-flip-container">
           <div class="image-front">
-            <img src="/images/logo/bearpawCircle-1.png" alt="Front logo" />
+
+            <img src="{{ "images/logo/bearpawCircle-1.png" | relURL }}" alt="Front logo" />
+
           </div>
           <div class="image-back">
-            <img src="/images/logo/bearCircle.png" alt="Back logo" />
+            
+
+            <img src="{{ "images/logo/bearCircle.png"     | relURL }}" alt="Back logo"  />
+
           </div>
         </div>
       </div>
@@ -34,7 +39,7 @@
       <div class="swiper-wrapper">
         {{ range $show.images }}
           <div class="swiper-slide">
-            <img src="{{ . }}" alt="Slide from {{ $key }}">
+            <img src="{{ . | relURL }}" alt="Slide from {{ $key }}">
           </div>
         {{ end }}
       </div>

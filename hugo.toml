@@ -12,7 +12,7 @@ theme = "hugo-arcana"
 
   [[menu.main]]
   name = "RV Repair"
-  url = "/rvrepair/"
+  url = "/rv-repair/"
   weight = 2
 
   [[menu.main]]

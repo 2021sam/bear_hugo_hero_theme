@@ -1,0 +1,5 @@
+# data/globalheader.yaml
+
+image: "images/logo/bearCircle.png"      # Path under /static/, no leading slash
+image_alt: "BEAR Collision Logo"
+title: ""                     # Leave empty so it doesn’t render text
