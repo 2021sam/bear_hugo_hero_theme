@@ -3,11 +3,11 @@
 # https://jpanther.github.io/congo/docs/getting-started/
 
 # baseURL = "https://your_domain.com/"
-baseURL = 'http://localhost:1313/'
+# baseURL = 'http://localhost:1313/'
+baseURL = "https://cabear.com/hugo/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "hugo-arcana"
-
 
 defaultContentLanguage = "en"
 
@@ -32,8 +32,6 @@ summaryLength = 0
   [services.x]
     disableInlineCSS = true
 
-
-
 [menu]
   [[menu.main]]
   identifier = "welcome"
@@ -44,25 +42,25 @@ summaryLength = 0
   [[menu.main]]
   identifier = "rv-repair"
   name = "RV Repair"
-  url = "/rv-repair/"
+  url = "rv-repair/"
   weight = 2
 
   [[menu.main]]
   identifier = "truck-services"
   name = "Truck Repair"
-  url = "/truck-services/"
+  url = "truck-services/"
   weight = 3
 
   [[menu.main]]
   identifier = "gallery"
   name = "Gallery"
-  url = "/gallery/"
+  url = "gallery/"
   weight = 4
 
   [[menu.main]]
   identifier = "sandblasting"
   name = "Sandblasting"
-  url = "/media-sandblasting/"
+  url = "media-sandblasting/"
   weight = 5
 
   [[menu.main]]
@@ -74,7 +72,7 @@ summaryLength = 0
   [[menu.main]]
   identifier = "frame-repair"
   name = "Frame Repair"
-  url = "/frame-repair/"
+  url = "frame-repair/"
   weight = 7
 
   [[menu.main]]
@@ -101,15 +99,8 @@ summaryLength = 0
   url = "/contact/"
   weight = 11
 
-
-
 [build]
   writeStats = true
   useResourceCacheWhen = "always"
 
 [markup]
-  [markup.postCSS]
-    use = ["postcss"]
-    includePaths = ["assets/css"]
-  [markup.highlight]
-    noClasses = false

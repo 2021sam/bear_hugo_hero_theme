@@ -22,6 +22,33 @@
     <link rel="stylesheet" href="{{ "css/swiper.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/logo-flip.css" | relURL }}" />
 
+
+    <style>
+      nav,
+      .menu,
+      .main-menu,
+      .site-nav {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+      }
+    </style>
+    
+    <style>
+      @media (max-width: 768px) {
+        nav ul {
+          display: block !important;
+        }
+    
+        .menu-toggle,
+        .mobile-nav,
+        .mobile-toggle {
+          display: none !important;
+        }
+      }
+    </style>
+    
+
   </head>
 
   <body class="{{ .Type }} {{ .Section }} layout-{{ .Layout }}">
