@@ -22,7 +22,14 @@ This site includes a large homepage slider and multiple sliders across content p
 git clone https://github.com/your-username/bear_hugo_hero_theme.git
 cd bear_hugo_hero_theme
 hugo server
+hugo server -D --disableFastRender --noHTTPCache --bind 0.0.0.0
+```
 
+## 🛠️ Bluehost Server
+
+```bash
+hugo --baseURL="https://cabear.com/hugo/" --cleanDestinationDir
+```
 
 
 bear_hugo_hero_theme/
