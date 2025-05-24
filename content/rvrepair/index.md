@@ -1,13 +1,6 @@
 +++
-author = "admin"
-comments = false
-date = 2024-08-01T18:47:18Z
 draft = false
-slug = "rv-repair"
 title = "RV Repair"
-type = "page"
-url = "/rv-repair/"
-wordpress_id = 329
 layout = "swiper-showcase"
 data = "rv-service"
 +++
