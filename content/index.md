@@ -3,11 +3,11 @@ title = "Welcome To zyxe"
 author = "admin"
 date = 2025-04-29T16:23:24Z
 draft = false
-url = "/welcome/"
+url = "/"
 layout = "welcome"
 +++
 
-/Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/content/welcome/index.md
+/Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/content/_index.md
 
 Welcome to **BEAR Collision Center,** your premier partner in comprehensive
 collision and repair services since 1979. We offer expert services across a

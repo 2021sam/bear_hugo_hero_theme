@@ -36,17 +36,10 @@ summaryLength = 0
 
 [menu]
   [[menu.main]]
-  identifier = "home"
-  name = "Home"
-  url = "/"
-  weight = 1
-
-  [[menu.main]]
   identifier = "welcome"
   name = "Welcome"
-  url = "/welcome/"
+  url = "/"
   weight = 1
-
 
   [[menu.main]]
   identifier = "rv-repair"
