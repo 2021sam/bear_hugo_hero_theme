@@ -7,8 +7,6 @@ url = "/"
 layout = "welcome"
 +++
 
-/Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/content/_index.md
-
 Welcome to **BEAR Collision Center,** your premier partner in comprehensive
 collision and repair services since 1979. We offer expert services across a
 wide range of vehicles, including RVs, Class A trucks, and everything in
