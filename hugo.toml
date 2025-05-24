@@ -1,11 +1,11 @@
-baseURL = "https://cabear.com/hugo/"
+baseURL = "http://localhost:1313"
+# baseURL = "https://cabear.com/hugo/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "hugo-arcana"
 
 [menu]
   [[menu.main]]
-  identifier = "welcome"
   name = "Welcome"
   url = "/"
   weight = 1

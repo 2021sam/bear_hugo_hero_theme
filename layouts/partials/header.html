@@ -1,13 +1,17 @@
 <div id="header">
-    {{ if hugo.IsMultilingual }}
-        {{- partial "languages.html" . }}
-    {{- end -}}
-    <div id="logo-wrapper"><h1><a href="{{ .Site.BaseURL }}" id="logo">
-        {{- if .Site.Data.globalheader.image }}
-            <img src="{{ .Site.Data.globalheader.image | relURL }}" alt="{{ .Site.Data.globalheader.image_alt }}" />
-        {{- end }}
-        {{ with .Site.Data.globalheader.title }}{{ . | markdownify }}{{ else }}{{ .Site.Title }}{{ end }}
-    </a></h1></div>
+
+    <div class="header-branding">
+        <a href="{{ "/" | relURL }}" class="header-logo-link">
+          <img src="{{ .Site.Data.globalheader.image | relURL }}"
+               alt="{{ .Site.Data.globalheader.image_alt }}"
+               class="site-logo" />
+          {{- $t := .Site.Data.globalheader.title }}
+          {{- if and (isset .Site.Data.globalheader "title") (ne $t "") }}
+            <span class="site-title">{{ $t }}</span>
+          {{- end }}
+        </a>
+      </div>
+      
 
     <nav id="nav">
         <ul>

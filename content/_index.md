@@ -3,7 +3,6 @@ title = "Welcome To zyxe"
 author = "admin"
 date = 2025-04-29T16:23:24Z
 draft = false
-url = "/"
 layout = "welcome"
 +++
 
