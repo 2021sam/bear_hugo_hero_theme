@@ -1,7 +1,6 @@
 <!-- <div style="background: blue;">
   /Users/2021sam/apps/BEAR/hugo/05_19/hugo-swiper-gallery/layouts/partials/swiper/slideshow.html
 </div> -->
-
 {{ $ctx  := .ctx }}
 {{ $data := .data }}
 {{ $idx  := .index }}
@@ -13,18 +12,22 @@
 <section class="showcase-section showcase-{{ $idx }}">
   <div class="showcase-block" style="border: 2px solid #ccc; border-radius: 10px; padding: 1rem; margin: 1rem 0; background: #fff;">
 
-    <div class="swiper {{ $key }}">
-      <div class="swiper-wrapper">
-        {{ range $show.images }}
-          <div class="swiper-slide">
-            <img src="{{ . | relURL }}" alt="Slide from {{ $key }}">
-          </div>
-        {{ end }}
+    <!-- ① FULLSCREEN WRAPPER -->
+    <div class="swiper-fullscreen">
+      <div class="swiper {{ $key }}">
+        <div class="swiper-wrapper">
+          {{ range $show.images }}
+            <div class="swiper-slide">
+              <img src="{{ . | relURL }}" alt="Slide from {{ $key }}">
+            </div>
+          {{ end }}
+        </div>
+        <div class="swiper-pagination pagination-{{ $key }}"></div>
+        <div class="swiper-button-prev prev-{{ $key }}"></div>
+        <div class="swiper-button-next next-{{ $key }}"></div>
       </div>
-      <div class="swiper-pagination pagination-{{ $key }}"></div>
-      <div class="swiper-button-prev prev-{{ $key }}"></div>
-      <div class="swiper-button-next next-{{ $key }}"></div>
     </div>
+    <!-- end fullscreen wrapper -->
 
   </div>
 </section>

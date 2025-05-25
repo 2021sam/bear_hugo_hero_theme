@@ -1,31 +1,5 @@
 /* static/css/swiper-large.css */
 
-
-/* Full-bleed slideshow */
-.swiper-fullscreen {
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-
-  width: 100vw;
-  height: 80vh;            /* or 100vh */
-  overflow: hidden;
-  z-index: 1;              /* bring it above other content */
-}
-
-/* Then the internal swiper stretches as before */
-.swiper-fullscreen .swiper {
-  width: 100%;
-  height: 100%;
-}
-
-
-
-
-
-
 .swiper-fullscreen {
   width: 100vw;
   height: 80vh;           /* increase to 100vh for true full-screen */
@@ -58,7 +32,3 @@
 .swiper-fullscreen .swiper-pagination {
   bottom: 1rem;
 }
-
-
-
-
