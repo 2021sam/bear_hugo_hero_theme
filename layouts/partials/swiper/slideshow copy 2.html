@@ -13,15 +13,13 @@
 
     <!-- FULLSCREEN SLIDER OUTSIDE ANY PADDING CONTAINER -->
     <div class="swiper-fullscreen">
-      <div class="swiper-max {{ $key }}">
+      <div class="swiper {{ $key }}">
         <div class="swiper-wrapper">
           {{ range $show.images }}
-
-        <div 
-          class="swiper-slide"
-          style="background-image: url('{{ . | relURL }}')">
-        </div>
-
+            <div 
+              class="swiper-slide"
+              style="background-image: url('{{ . | relURL }}')"
+            ></div>
           {{ end }}
         </div>
         <div class="swiper-pagination pagination-{{ $key }}"></div>
@@ -32,3 +30,4 @@
 
   </section>
 {{ end }}
+

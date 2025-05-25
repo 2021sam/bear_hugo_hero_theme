@@ -8,12 +8,12 @@ data = "home"
 # aliases  = [ "/" ]
 +++
 
+{{< slideshow index="1" data="home" >}}
+
 Welcome to **BEAR Collision Center,** your premier partner in comprehensive
 collision and repair services since 1979. We offer expert services across a
 wide range of vehicles, including RVs, Class A trucks, and everything in
 between.
-
-{{< slideshow index="1" data="home" >}}
 
 {{< flipcard front="images/welcome/circle_RV.png" back="images/welcome/learnMore.png" title="RV Repair" link="/rv-repair/" >}}
 

@@ -9,19 +9,16 @@
 {{ $show := index $all $key }}
 
 {{ if $show }}
-  <section class="showcase-section showcase-{{ $idx }}">
-
-    <!-- FULLSCREEN SLIDER OUTSIDE ANY PADDING CONTAINER -->
+<section class="showcase-section showcase-{{ $idx }}">
+-  <div class="showcase-block">
+    <!-- 🆕 Fullscreen slideshow, no parent wrapper -->
     <div class="swiper-fullscreen">
-      <div class="swiper-max {{ $key }}">
+      <div class="swiper {{ $key }}">
         <div class="swiper-wrapper">
           {{ range $show.images }}
-
-        <div 
-          class="swiper-slide"
-          style="background-image: url('{{ . | relURL }}')">
-        </div>
-
+            <div class="swiper-slide">
+              <img src="{{ . | relURL }}" alt="">
+            </div>
           {{ end }}
         </div>
         <div class="swiper-pagination pagination-{{ $key }}"></div>
@@ -29,6 +26,6 @@
         <div class="swiper-button-next next-{{ $key }}"></div>
       </div>
     </div>
-
-  </section>
+-  </div>
+</section>
 {{ end }}
