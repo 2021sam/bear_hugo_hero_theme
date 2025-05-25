@@ -1,0 +1,27 @@
+/* Make the wrapper fill the viewport */
+.swiper-fullscreen {
+  width: 100vw;
+  height: 80vh;            /* adjust to taste (80% of viewport height) */
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Ensure the Swiper container fills its parent */
+.swiper-fullscreen .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Each slide also fills */
+.swiper-fullscreen .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Full-screen images cover */
+.swiper-fullscreen .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
