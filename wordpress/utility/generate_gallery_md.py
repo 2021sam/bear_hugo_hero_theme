@@ -3,11 +3,21 @@ import re
 
 # ====== Configuration ======
 # page_name = "rv-service"  # Set to match your Hugo folder
-page_name = "welcome"  # Set to match your Hugo folder
+# page_name = "welcome"  # Set to match your Hugo folder
+# base_dir = os.path.join("static", "images", page_name)
+# output_md = "welcome.md"
+# title = "Welcome Page"
+# layout = "welcome"
+
+
+
+page_name = "truck-service"  # Set to match your Hugo folder
 base_dir = os.path.join("static", "images", page_name)
-output_md = "welcome.md"
-title = "Welcome Page"
-layout = "welcome"
+output_md = "truck-service.md"
+title = "Truck Service"
+layout = "truck-repair"
+
+
 
 # ====== Build swiperImagesX for each slider group ======
 slider_groups = []
@@ -18,7 +28,7 @@ for folder in sorted(os.listdir(base_dir)):
         folder_path = os.path.join(base_dir, folder)
         if os.path.isdir(folder_path):
             images = sorted([
-                f"/images/{page_name}/{folder}/{img}"
+                f"images/{page_name}/{folder}/{img}"
                 for img in os.listdir(folder_path)
                 if img.lower().endswith(('.png', '.jpg', '.jpeg', '.webp', '.gif'))
             ])
