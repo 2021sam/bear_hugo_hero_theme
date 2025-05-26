@@ -20,10 +20,10 @@ pickups, vans and cars.
 
 {{< showcase-left index="1" data="truck-service" >}}
 
-{{< showcase-left index="2" data="truck-service" >}}
+{{< showcase-right index="2" data="truck-service" >}}
 
 {{< showcase-left index="3" data="truck-service" >}}
 
-{{< showcase-left index="4" data="truck-service" >}}
+{{< showcase-right index="4" data="truck-service" >}}
 
 {{< showcase-left index="5" data="truck-service" >}}

@@ -1,0 +1,44 @@
+{{ $ctx  := .ctx }}
+{{ $data := .data }}
+{{ $idx  := .index }}
+{{ $key  := printf "swiper_images_%d" $idx }}
+{{ $all  := index site.Data.swipers $data }}
+{{ $show := index $all $key }}
+
+{{ if $show }}
+<section class="showcase-section showcase-{{ $idx }}">
+  <div class="showcase-block" style="display: flex; flex-wrap: wrap; align-items: center; border: 2px solid #ccc; border-radius: 10px; padding: 1rem; margin: 1rem 0; background: #fff;">
+
+    <!-- Text First (Left) -->
+    <div class="info-box-text" style="flex: 1 1 50%; padding: 1rem;">
+      <h2>{{ $show.header }}</h2>
+
+      {{ $desc := $show.description }}
+      {{ if eq (printf "%T" $desc) "[]interface {}" }}
+        <ul>
+          {{ range $desc }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      {{ else }}
+        <p>{{ $desc }}</p>
+      {{ end }}
+    </div>
+
+    <!-- Swiper Second (Right) -->
+    <div class="swiper {{ $key }}" style="flex: 1 1 50%; padding: 1rem;">
+      <div class="swiper-wrapper">
+        {{ range $show.images }}
+          <div class="swiper-slide">
+            <img src="{{ . | relURL }}" alt="Slide from {{ $key }}" style="max-width: 100%; height: auto;">
+          </div>
+        {{ end }}
+      </div>
+      <div class="swiper-pagination pagination-{{ $key }}"></div>
+      <div class="swiper-button-prev prev-{{ $key }}"></div>
+      <div class="swiper-button-next next-{{ $key }}"></div>
+    </div>
+
+  </div>
+</section>
+{{ end }}
