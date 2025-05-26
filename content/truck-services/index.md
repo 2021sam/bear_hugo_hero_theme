@@ -18,40 +18,12 @@ pickups, vans and cars.
 
 ## Services include:
 
-## Class A Truck and Bus Service
-
-  * Collision repairs
-  * Frame repairs
-  * Composites, aluminum and steel repairs
-  * Painting and re-imaging
-
-
 {{< showcase-left index="1" data="truck-service" >}}
 
+{{< showcase-left index="2" data="truck-service" >}}
 
+{{< showcase-left index="3" data="truck-service" >}}
 
+{{< showcase-left index="4" data="truck-service" >}}
 
-## Medium Duty Trucks and Truck Bodies
-
-  * Repair damaged service bodies
-  * Repair damaged dry freight bodies
-  * Repair reefer bodies
-  * Repair high cube bodies
-  * Lift-gate repairs
-
-## Pickups, Vans and Cars
-
-  * Collision repairs
-  * Repair high roof vans
-
-## Heavy Duty Construction Equipment
-
-  * Re-imaging
-  * Abrasive surface preparation of complex surfaces
-
-## Security System
-
-  * Service Truck body BEAR locking bars
-  * Alarms
-  * Audio systems
-
+{{< showcase-left index="5" data="truck-service" >}}
