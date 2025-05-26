@@ -2,7 +2,6 @@
 draft = false
 title = "RV Repair"
 layout = "swiper-showcase"
-data = "rv-service"
 +++
 
 ### Your Premier Destination for RV Repairs and Services

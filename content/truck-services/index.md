@@ -1,14 +1,9 @@
----
-author: admin
-comments: false
-date: 2024-07-06 00:15:50+00:00
-draft: false
-slug: truck-services
-title: Truck Repair
-type: page
-url: /truck-services/
-wordpress_id: 18
----
++++
+title = "Truck Repair"
+layout = "truck"
+data = "truck-service"
++++
+
 
 **BEAR Collison Center** provides comprehensive repair solutions for all types
 of trucks and heavy-duty construction equipment. Our auto body shop offers a
@@ -30,6 +25,12 @@ pickups, vans and cars.
   * Frame repairs
   * Composites, aluminum and steel repairs
   * Painting and re-imaging
+
+
+{{< showcase index="1" data="truck-service" >}}
+
+
+
 
 ## Medium Duty Trucks and Truck Bodies
 
