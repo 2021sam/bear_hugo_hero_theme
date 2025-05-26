@@ -1,6 +1,10 @@
 swiper_images_1:
   header: Class A Truck and Bus Service
-  description: Collision repairs, Frame repairs, ,Composites, aluminum and steel repairs, Painting and re-imaging
+  description:
+   - Collision repairs
+   - Frame repairs
+   - Composites, aluminum and steel repairs
+   - Painting and re-imaging
   images:
   - images/truck-service/slider_1/painting-the-bus.jpg
   - images/truck-service/slider_1/MG_0284.jpg
@@ -22,7 +26,12 @@ swiper_images_1:
   - images/truck-service/slider_1/IMG_8257-1024x682.jpg
 swiper_images_2:
   header: Medium Duty Trucks and Truck Bodies
-  description: Repair damaged service bodies, Repair damaged dry freight bodies, Repair reefer bodies, Repair high cube bodies, Lift-gate repairs
+  description:
+  - Repair damaged service bodies
+  - Repair damaged dry freight bodies
+  - Repair reefer bodies
+  - Repair high cube bodies
+  - Lift-gate repairs
   images:
   - images/truck-service/slider_2/IMG_3474-272x182-1.jpg
   - images/truck-service/slider_2/IMG_3704-300x262-1.jpg
@@ -35,8 +44,10 @@ swiper_images_2:
   - images/truck-service/slider_2/IMG_0218.jpg
   - images/truck-service/slider_2/IMG_6171-1-1024x665.jpg
 swiper_images_3:
-  header: TODO Header 3
-  description: TODO Description 3
+  header: Pickups, Vans and Cars
+  description:
+  - Collision repairs
+  - Repair high roof vans
   images:
   - images/truck-service/slider_3/B10.jpg
   - images/truck-service/slider_3/IMG_2008-1024x673.jpg
@@ -55,7 +66,9 @@ swiper_images_3:
   - images/truck-service/slider_3/IMG_3638-2-1-1024x767.jpg
 swiper_images_4:
   header: Heavy Duty Construction Equipment
-  description: Re-imaging, Abrasive surface preparation of complex surfaces
+  description:
+  - Re-imaging
+  - Abrasive surface preparation of complex surfaces
   images:
   - images/truck-service/slider_4/goodfellow-tank-1024x727.jpg
   - images/truck-service/slider_4/crain2.jpg
@@ -67,7 +80,10 @@ swiper_images_4:
   - images/truck-service/slider_4/Sandblasting_end-dumps-1.jpg
 swiper_images_5:
   header: Security System
-  description: Service Truck body BEAR locking bars, Alarms, Audio systems
+  description:
+  - Service Truck body BEAR locking bars
+  - Audio systems
+  - Alarms
   images:
   - images/truck-service/slider_5/alarm-1024x729.jpg
   - images/truck-service/slider_5/audio-1024x666.jpg

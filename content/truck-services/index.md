@@ -26,7 +26,7 @@ pickups, vans and cars.
   * Painting and re-imaging
 
 
-{{< showcase_2 index="1" data="truck-service" >}}
+{{< showcase-left index="1" data="truck-service" >}}
 
 
 

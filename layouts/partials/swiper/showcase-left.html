@@ -30,7 +30,19 @@
 
     <div class="info-box-text" style="flex: 1 1 45%;">
       <h2>{{ (index (index site.Data.swipers .data) (printf "swiper_images_%d" .index)).header }}</h2>
-      <p>{{ (index (index site.Data.swipers .data) (printf "swiper_images_%d" .index)).description }}</p>
+
+      {{ $desc := (index (index site.Data.swipers .data) (printf "swiper_images_%d" .index)).description }}
+      {{ if eq (printf "%T" $desc) "[]interface {}" }}
+        <ul>
+          {{ range $desc }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      {{ else }}
+        <p>{{ $desc }}</p>
+      {{ end }}
+      
+
     </div>
 
   </div>
