@@ -1,7 +1,6 @@
 +++
 title = "Truck Repair"
 layout = "truck"
-data = "truck-service"
 +++
 
 
@@ -27,7 +26,7 @@ pickups, vans and cars.
   * Painting and re-imaging
 
 
-{{< showcase index="1" data="truck-service" >}}
+{{< showcase_2 index="1" data="truck-service" >}}
 
 
 
