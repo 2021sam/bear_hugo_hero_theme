@@ -35,3 +35,6 @@ After all parts are removed or thoroughly protected, media blasting strips the s
 </ul>
 
 {{< /info_card_gallery >}}
+
+
+{{< slideshow index="1" data="media-sandblasting" >}}
