@@ -36,3 +36,19 @@ surface preparation specification.
 
   
 
+------=-=-===================
+{{< info_card_gallery
+    title="Large-Scale Media Blasting with Quick Turnaround and Environmental Compliance"
+    img1="/images/media-sandblasting/gallery_2/sand_blasting.png"
+>}}
+
+Our large booth is perfect for large-scale vehicles and equipment. We also media blast construction frames, metal supports, steps, and railings. A variety of coatings can be applied quickly—before surface rust can begin—to meet your specific needs. **BEAR** follows SSPC surface preparation specifications.
+
+- Two media recyclers  
+- Dust collectors  
+- Large capacity: 55' deep, 25' wide, and 20' high  
+- **BEAR** is State and EPA-compliant  
+- Captures 99% of used sand and dust to prevent environmental spread  
+- Modern facility enables competitive pricing and fast turnaround  
+
+{{< /info_card_gallery >}}
