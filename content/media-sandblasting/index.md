@@ -17,38 +17,21 @@ After all parts are removed or thoroughly protected, media blasting strips the s
 {{< /info_card_gallery >}}
 
 
-![](https://cabear.com/wp-content/uploads/2024/08/sand_blasting.png)
 
-Our large booth is perfect for large scale vehicles and equipment. We also
-media blast construction frames, metal supports, steps and railings. We
-provide a variety of coatings to meet your specific needs. Coatings can be
-applied quickly before surface rust can begin. **BEAR** adheres to SSPC
-surface preparation specification.
-
-  * Two media recyclers
-  * Dust collectors
-  * Large capacity of 55' deep 25' wide and 20' high
-  * **BEAR** is state and Environmental Protection Agency (EPA) compliant
-  * Collects 99% of the used sand and dust particles from spreading throughout the atmosphere
-  * This new modern facility allows competitive pricing and quick turn around
-
-  
-
-  
-
-------=-=-===================
 {{< info_card_gallery
     title="Large-Scale Media Blasting with Quick Turnaround and Environmental Compliance"
     img1="/images/media-sandblasting/gallery_2/sand_blasting.png"
 >}}
 
-Our large booth is perfect for large-scale vehicles and equipment. We also media blast construction frames, metal supports, steps, and railings. A variety of coatings can be applied quickly—before surface rust can begin—to meet your specific needs. **BEAR** follows SSPC surface preparation specifications.
+<p>Our large booth is perfect for large-scale vehicles and equipment. We also media blast construction frames, metal supports, steps, and railings. A variety of coatings can be applied quickly—before surface rust can begin—to meet your specific needs. <strong>BEAR</strong> follows SSPC surface preparation specifications.</p>
 
-- Two media recyclers  
-- Dust collectors  
-- Large capacity: 55' deep, 25' wide, and 20' high  
-- **BEAR** is State and EPA-compliant  
-- Captures 99% of used sand and dust to prevent environmental spread  
-- Modern facility enables competitive pricing and fast turnaround  
+<ul>
+  <li>Two media recyclers</li>
+  <li>Dust collectors</li>
+  <li>Large capacity: 55' deep, 25' wide, and 20' high</li>
+  <li><strong>BEAR</strong> is State and EPA-compliant</li>
+  <li>Captures 99% of used sand and dust to prevent environmental spread</li>
+  <li>Modern facility enables competitive pricing and fast turnaround</li>
+</ul>
 
 {{< /info_card_gallery >}}
