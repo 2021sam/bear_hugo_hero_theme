@@ -1,4 +1,4 @@
-# /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/wordpress/utility/image_group_extractor.py
+# /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/wordpress/utility/slideshow_extractor_truck-services.py
 
 import os
 import shutil
@@ -8,22 +8,20 @@ from bs4 import BeautifulSoup
 
 # ========== Configuration ==========
 # html_file = "rv_service.html"         # Path to your local HTML file
-html_file = os.path.join(os.path.dirname(__file__), "..", "rv-service.html")
+html_file = os.path.join(os.path.dirname(__file__), "..", "html", "truck-services.html")
 html_file = os.path.abspath(html_file)  # resolves ".." to absolute path
 
-url_page = "rv-service"               # Used for directory: static/{url_page}/slider_#
+url_page = "truck-service"               # Used for directory: static/{url_page}/slider_#
 # base_save_path = os.path.join("static", url_page)
 
 
 base_save_path = os.path.join("static", "images", url_page)
 
-start_group = 1                       # Skip first N-1 groups
+start_group = 2                       # Skip first N-1 groups
 
 # Images that mark the start of a new group (also to be excluded)
 start_sequence = [
-    'src="https://cabear.com/wp-content/uploads/2024/07/cabear-e1720298696709.png"',
-    'src="https://cabear.com/wp-content/uploads/2024/08/bearpawCircle-1.png"',
-    'src="https://cabear.com/wp-content/uploads/2024/08/bearCircle.png"',
+    'class="kb-gallery-ul'
 ]
 
 # ========== Functions ==========
@@ -44,33 +42,62 @@ def load_html_file(path):
     with open(path, 'r', encoding='utf-8') as f:
         return BeautifulSoup(f, 'html.parser')
 
+# def extract_image_groups(soup, start_sequence):
+#     """Group images by markers from start_sequence, excluding those markers."""
+#     all_imgs = soup.find_all('img')
+#     img_sets = []
+#     current_set = []
+
+#     for img in all_imgs:
+#         tag_str = str(img)
+#         img_url = img.get('src', '')
+#         if any(start in tag_str for start in start_sequence):
+#             if current_set:
+#                 img_sets.append(current_set)
+#             current_set = []
+#         else:
+#             if img_url:
+#                 current_set.append(img_url)
+
+#     if current_set:
+#         img_sets.append(current_set)
+
+#     return img_sets
+
+
 def extract_image_groups(soup, start_sequence):
-    """Group images by markers from start_sequence, excluding those markers."""
-    all_imgs = soup.find_all('img')
+    """
+    Group images that follow div markers.
+    """
     img_sets = []
     current_set = []
 
-    for img in all_imgs:
-        tag_str = str(img)
-        img_url = img.get('src', '')
-        if any(start in tag_str for start in start_sequence):
+    # Flatten the HTML into tags only
+    all_elements = soup.find_all(['div', 'img'])
+
+    for tag in all_elements:
+        if tag.name == 'div' and any(start in str(tag) for start in start_sequence):
             if current_set:
                 img_sets.append(current_set)
-            current_set = []
-        else:
-            if img_url:
-                current_set.append(img_url)
+                current_set = []
+        elif tag.name == 'img':
+            src = tag.get('src', '')
+            if src:
+                current_set.append(src)
 
     if current_set:
         img_sets.append(current_set)
 
     return img_sets
 
+
+
+
 def download_images(image_groups, base_path, start_index=1):
     """Download images into slider_N folders starting from the given index."""
     image_groups = image_groups[start_index - 1:]
 
-    for i, group in enumerate(image_groups, start=start_index):
+    for i, group in enumerate(image_groups, start=1):
         group_folder = os.path.join(base_path, f'slider_{i}')
         os.makedirs(group_folder, exist_ok=True)
         print(f"\nSaving Group {i} ({len(group)} images) to: {group_folder}")
