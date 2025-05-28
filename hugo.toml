@@ -2,7 +2,8 @@ baseURL = "http://localhost:1313/"
 # baseURL = "https://cabear.com/hugo/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = "hugo-arcana"
+# theme = "hugo-arcana"
+theme = "ananke"
 
 [menu]
   [[menu.main]]

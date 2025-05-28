@@ -1,6 +1,0 @@
-[submodule "themes/congo"]
-	path = themes/congo
-	url = git@github.com:jpanther/congo.git
-[submodule "themes/hugo-arcana"]
-	path = themes/hugo-arcana
-	url = https://github.com/half-duplex/hugo-arcana.git

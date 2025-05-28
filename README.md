@@ -20,6 +20,8 @@ This site includes a large homepage slider and multiple sliders across content p
 
 ```bash
 git clone https://github.com/your-username/bear_hugo_hero_theme.git
+
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 git submodule add https://github.com/half-duplex/hugo-arcana.git themes/hugo-arcana
 
 cd bear_hugo_hero_theme

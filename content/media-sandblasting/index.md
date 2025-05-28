@@ -1,14 +1,23 @@
----
-author: admin
-comments: false
-date: 2024-07-06 00:38:26+00:00
-draft: false
-slug: media-sandblasting
-title: Media Sandblasting
-type: page
-url: /media-sandblasting/
-wordpress_id: 25
----
++++
+title = "Media"
+layout = "media"
++++
+
+{{< info_card_gallery
+    title="By using an automatic media recycle system, BEAR is able to offer a quick turn around."
+    img1="/images/sandblast.jpg"
+    img2="/images/tank.jpg"
+    img3="/images/facility.jpg"
+>}}
+
+After all parts are removed or thoroughly protected, media blasting strips the surface to bare metal, so that the new coat of paint adheres smoothly to a new clean surface. This process removes the rust to make equipment last longer and look great.
+
+{{< /info_card_gallery >}}
+
+
+
+
+
 
 ## BEAR Collision Service Center's Custom Built  
 Clemco® Abrasive Blast Media Recovery System  
