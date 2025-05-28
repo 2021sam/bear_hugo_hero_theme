@@ -17,7 +17,7 @@ url_page = "media-sandblasting"               # Used for directory: static/{url_
 
 base_save_path = os.path.join("static", "images", url_page)
 
-start_group = 1                       # Skip first N-1 groups
+start_group = 3                       # Skip first N-1 groups
 
 # Images that mark the start of a new group (also to be excluded)
 start_sequence = [

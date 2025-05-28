@@ -11,11 +11,18 @@ import re
 
 
 
-page_name = "truck-service"  # Set to match your Hugo folder
+# page_name = "truck-service"  # Set to match your Hugo folder
+# base_dir = os.path.join("static", "images", page_name)
+# output_md = "truck-service.md"
+# title = "Truck Service"
+# layout = "truck-repair"
+
+
+page_name = "media-sandblasting"  # Set to match your Hugo folder
 base_dir = os.path.join("static", "images", page_name)
-output_md = "truck-service.md"
-title = "Truck Service"
-layout = "truck-repair"
+output_md = "media-sandblasting.md"
+title = "Media Sandblasting"
+layout = "media"
 
 
 
