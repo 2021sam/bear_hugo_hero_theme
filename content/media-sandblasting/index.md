@@ -5,15 +5,14 @@ layout = "media"
 
 {{< info_card_gallery
     title="By using an automatic media recycle system, BEAR is able to offer a quick turn around."
-    img1="/images/sandblast.jpg"
-    img2="/images/tank.jpg"
-    img3="/images/facility.jpg"
+    img1="/images/media-sandblasting/gallery_1/1-1024x768.jpg"
+    img2="/images/media-sandblasting/gallery_1/sand_blasting_small-1-1024x727.jpg"
+    img3="/images/media-sandblasting/gallery_1/sandblasting-car-parts.jpg"
 >}}
 
 After all parts are removed or thoroughly protected, media blasting strips the surface to bare metal, so that the new coat of paint adheres smoothly to a new clean surface. This process removes the rust to make equipment last longer and look great.
 
 {{< /info_card_gallery >}}
-
 
 
 

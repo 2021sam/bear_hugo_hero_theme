@@ -3,11 +3,19 @@ import re
 import yaml
 
 # ====== Configuration ======
-page_name = "truck-service"  # Set to match your Hugo folder
+# page_name = "truck-service"  # Set to match your Hugo folder
+# base_dir = os.path.join("static", "images", page_name)
+# output_yaml = "truck-service.yaml"  # Output file
+# default_header = "Header goes here"
+# default_description = "Description goes here"
+
+page_name = "media-sandblasting"  # Set to match your Hugo folder
 base_dir = os.path.join("static", "images", page_name)
-output_yaml = "truck-service.yaml"  # Output file
+output_yaml = "media-sandblasting.yaml"  # Output file
 default_header = "Header goes here"
 default_description = "Description goes here"
+
+
 
 # ====== Build swiper_images_X for each slider group ======
 slider_data = {}
