@@ -16,8 +16,8 @@
   <meta name="twitter:title" content="Insurance Partnerships">
   <meta name="twitter:description" content="BEAR is the Optimal Choice for Insurance Claims in Auto Body Repair, and This is Why:
 Quality of Workmanship
-The BEAR team pays meticulous attention to detail, uses high-quality materials, and adherence to industry standards and manufacturer specifications in every repair job. This ensures that the repairs are not only aesthetically pleasing but also durable and safe.
-With BEAR you can rest assured that speed is not prioritized over thoroughness, which can result in subpar repairs that might not last or meet safety standards. Our skilled technicians carefully restore vehicles to their pre-accident condition, ensuring structural integrity and visual appeal. This includes precise paint matching, proper frame alignment, and using the best materials available​.">
+&#43; Quality of Workmanship The BEAR team pays meticulous attention to detail, uses high-quality materials, and adherence to industry standards and manufacturer specifications in every repair job. This ensures that the repairs are not only aesthetically pleasing but also durable and safe.
+With BEAR you can rest assured that speed is not prioritized over thoroughness, which can result in subpar repairs that might not last or meet safety standards. Our skilled technicians carefully restore vehicles to their pre-accident condition, ensuring structural integrity and visual appeal. This includes precise paint matching, proper frame alignment, and using the best materials available​. Training Certifications">
 
     <link
       rel="stylesheet"
@@ -61,7 +61,7 @@ With BEAR you can rest assured that speed is not prioritized over thoroughness, 
 
   </head>
 
-  <body class="page  layout-">
+  <body class="page  layout-insurance">
     <div id="wrapper">
 
       <div id="header">
@@ -85,7 +85,7 @@ With BEAR you can rest assured that speed is not prioritized over thoroughness, 
                 <li class="">
                     <a href="/truck-services/">Truck Repair</a>
                 <li class="">
-                    <a href="/gallery/">Gallery</a>
+                    <a href="/insurance-partnership/">Insurance</a>
                 <li class="">
                     <a href="/media-sandblasting/">Sandblasting</a>
                 <li class="">
@@ -109,18 +109,17 @@ With BEAR you can rest assured that speed is not prioritized over thoroughness, 
 
       <main id="main">
         
-    <header>
-        <h2>Insurance Partnerships</h2>
-        <p></p>
-        <time>Aug 5, 2024</time>
-        
-        <ul class="tags">
-</ul>
 
-    </header><h2 id="bear-is-the-optimal-choice-for-insurance-claims-in-auto-body-repair-and">BEAR is the Optimal Choice for Insurance Claims in Auto Body Repair, and</h2>
+
+ <h2 id="bear-is-the-optimal-choice-for-insurance-claims-in-auto-body-repair-and">BEAR is the Optimal Choice for Insurance Claims in Auto Body Repair, and</h2>
 <p>This is Why:</p>
 <p>Quality of Workmanship</p>
-<p>The <strong>BEAR</strong> team pays meticulous attention to detail, uses high-quality
+<div class="collapsible-container">
+    <div class="collapsible" onclick="this.classList.toggle('active')">
+      <span class="toggle-icon">+</span> Quality of Workmanship
+    </div>
+    <div class="collapsible-content">
+      The <strong>BEAR</strong> team pays meticulous attention to detail, uses high-quality
 materials, and adherence to industry standards and manufacturer specifications
 in every repair job. This ensures that the repairs are not only aesthetically
 pleasing but also durable and safe.<br>
@@ -129,7 +128,59 @@ thoroughness, which can result in subpar repairs that might not last or meet
 safety standards. Our skilled technicians carefully restore vehicles to their
 pre-accident condition, ensuring structural integrity and visual appeal. This
 includes precise paint matching, proper frame alignment, and using the best
-materials available​.</p>
+materials available​.
+    </div>
+  </div>
+  
+  <style>
+  .collapsible-container .collapsible {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .collapsible-container .toggle-icon {
+    font-weight: bold;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .collapsible-container .collapsible-content {
+    padding: 10px;
+    display: none;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fafafa;
+  }
+  
+  .collapsible-container .collapsible.active + .collapsible-content {
+    display: block;
+  }
+  
+  .collapsible-container .collapsible.active .toggle-icon {
+    content: "−";
+  }
+  </style>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const collapsibles = document.querySelectorAll('.collapsible');
+    collapsibles.forEach(function (el) {
+      el.addEventListener('click', function () {
+        const icon = el.querySelector('.toggle-icon');
+        icon.textContent = el.classList.contains('active') ? '−' : '+';
+      });
+    });
+  });
+  </script>
+  
 <p>Training Certifications</p>
 <p><strong>BEAR</strong> is BAR Licensed and I-CAR (Inter-Industry Conference on Auto
 Collision Repair) certified, which means their technicians have met rigorous
@@ -216,6 +267,115 @@ handle that at another shop he decided to help me out and take care of it
 himself. This RV is my super happy place and it was nice that Michael and the
 Team at Bear treated it like was their own happy place.&rdquo; - Heather W. <a href="https://www.yelp.com/biz/bear-collision-and-service-center-hayward-5">Yelp
 </a></p>
+
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+
+    console.log("🛠 Swiper Init: DOM Ready");
+
+    
+    
+
+    console.log("🛠 Using data from: truck-service.yaml");
+    console.log("🛠 Loaded keys:");
+    
+      console.log(" - swiper_images_1");
+    
+      console.log(" - swiper_images_2");
+    
+      console.log(" - swiper_images_3");
+    
+      console.log(" - swiper_images_4");
+    
+      console.log(" - swiper_images_5");
+    
+
+    
+      
+        new Swiper(".swiper_images_1", {
+          loop: true,
+          pagination: {
+            el: ".pagination-swiper_images_1",
+            clickable: true
+          },
+          navigation: {
+            nextEl: ".next-swiper_images_1",
+            prevEl: ".prev-swiper_images_1"
+          },
+          slidesPerView: 1
+        });
+      
+    
+      
+        new Swiper(".swiper_images_2", {
+          loop: true,
+          pagination: {
+            el: ".pagination-swiper_images_2",
+            clickable: true
+          },
+          navigation: {
+            nextEl: ".next-swiper_images_2",
+            prevEl: ".prev-swiper_images_2"
+          },
+          slidesPerView: 1
+        });
+      
+    
+      
+        new Swiper(".swiper_images_3", {
+          loop: true,
+          pagination: {
+            el: ".pagination-swiper_images_3",
+            clickable: true
+          },
+          navigation: {
+            nextEl: ".next-swiper_images_3",
+            prevEl: ".prev-swiper_images_3"
+          },
+          slidesPerView: 1
+        });
+      
+    
+      
+        new Swiper(".swiper_images_4", {
+          loop: true,
+          pagination: {
+            el: ".pagination-swiper_images_4",
+            clickable: true
+          },
+          navigation: {
+            nextEl: ".next-swiper_images_4",
+            prevEl: ".prev-swiper_images_4"
+          },
+          slidesPerView: 1
+        });
+      
+    
+      
+        new Swiper(".swiper_images_5", {
+          loop: true,
+          pagination: {
+            el: ".pagination-swiper_images_5",
+            clickable: true
+          },
+          navigation: {
+            nextEl: ".next-swiper_images_5",
+            prevEl: ".prev-swiper_images_5"
+          },
+          slidesPerView: 1
+        });
+      
+    
+
+  });
+</script>
+
 
 
       </main>

@@ -1,20 +1,18 @@
----
-author: admin
-comments: false
-date: 2024-08-05 01:56:18+00:00
-draft: false
-slug: insurance-partnership
-title: Insurance Partnerships
-type: page
-url: /insurance-partnership/
-wordpress_id: 795
----
++++
+title = "Insurance Partnerships"
+layout = "insurance"
++++
 
 ## BEAR is the Optimal Choice for Insurance Claims in Auto Body Repair, and
 This is Why:
 
 Quality of Workmanship
 
+
+
+
+
+{{< collapse title="Quality of Workmanship" >}}
 The **BEAR** team pays meticulous attention to detail, uses high-quality
 materials, and adherence to industry standards and manufacturer specifications
 in every repair job. This ensures that the repairs are not only aesthetically
@@ -24,7 +22,15 @@ thoroughness, which can result in subpar repairs that might not last or meet
 safety standards. Our skilled technicians carefully restore vehicles to their
 pre-accident condition, ensuring structural integrity and visual appeal. This
 includes precise paint matching, proper frame alignment, and using the best
-materials available​.  
+materials available​.
+{{< /collapse >}}
+
+
+
+
+
+
+
 
 Training Certifications
 

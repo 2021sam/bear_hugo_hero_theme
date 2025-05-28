@@ -1,0 +1,58 @@
+<div class="collapsible-container">
+    <div class="collapsible" onclick="this.classList.toggle('active')">
+      <span class="toggle-icon">+</span> {{ .Get "title" }}
+    </div>
+    <div class="collapsible-content">
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
+  
+  <style>
+  .collapsible-container .collapsible {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .collapsible-container .toggle-icon {
+    font-weight: bold;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .collapsible-container .collapsible-content {
+    padding: 10px;
+    display: none;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fafafa;
+  }
+  
+  .collapsible-container .collapsible.active + .collapsible-content {
+    display: block;
+  }
+  
+  .collapsible-container .collapsible.active .toggle-icon {
+    content: "−";
+  }
+  </style>
+  
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const collapsibles = document.querySelectorAll('.collapsible');
+    collapsibles.forEach(function (el) {
+      el.addEventListener('click', function () {
+        const icon = el.querySelector('.toggle-icon');
+        icon.textContent = el.classList.contains('active') ? '−' : '+';
+      });
+    });
+  });
+  </script>
+  

@@ -23,15 +23,15 @@ theme = "hugo-arcana"
   weight = 3
 
   [[menu.main]]
-  identifier = "gallery"
-  name = "Gallery"
-  url = "/gallery/"
-  weight = 4
-
-  [[menu.main]]
   identifier = "sandblasting"
   name = "Sandblasting"
   url = "/media-sandblasting/"
+  weight = 5
+
+  [[menu.main]]
+  identifier = "insurance"
+  name = "Insurance"
+  url = "/insurance-partnership/"
   weight = 5
 
   [[menu.main]]
