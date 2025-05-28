@@ -21,9 +21,6 @@
     <loc>http://localhost:1313/testimonial/</loc>
     <lastmod>2024-12-17T05:50:16+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/insurance-partnership/</loc>
-    <lastmod>2024-08-05T01:56:18+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/contact-us/</loc>
     <lastmod>2024-07-06T01:33:47+00:00</lastmod>
   </url><url>
@@ -118,6 +115,8 @@
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/sample-page/</loc>
+  </url><url>
+    <loc>http://localhost:1313/insurance-partnership/</loc>
   </url><url>
     <loc>http://localhost:1313/media-sandblasting/</loc>
   </url><url>

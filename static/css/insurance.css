@@ -1,0 +1,40 @@
+/* /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/static/css/insurance.css */
+
+.custom-background {
+    background: url('/images/insurance/background/road-blue-sky.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
+    margin: 2rem 0;
+  }
+  
+  .collapse-wrapper {
+    margin-bottom: 1rem;
+  }
+  
+  .collapsible {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .toggle-icon {
+    margin-right: 10px;
+  }
+  
+  .collapsible-content {
+    display: none;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    color: white;
+  }
+  
+  .collapsible.active + .collapsible-content {
+    display: block;
+  }
+  
