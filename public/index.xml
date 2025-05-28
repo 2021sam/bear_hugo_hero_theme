@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Apr 2025 16:23:24 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Posts</title>
+      <link>http://localhost:1313/posts/_index.de/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/_index.de/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Posts</title>
+      <link>http://localhost:1313/posts/_index.es/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/_index.es/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Welcome To zyxe</title>
+      <link>http://localhost:1313/home/</link>
+      <pubDate>Tue, 29 Apr 2025 16:23:24 +0000</pubDate>
+      <guid>http://localhost:1313/home/</guid>
+      <description>&lt;section class=&#34;showcase-section showcase-1&#34;&gt;&#xA;&#xA;    &#xA;    &lt;div class=&#34;swiper-fullscreen&#34;&gt;&#xA;      &lt;div class=&#34;swiper-max swiper_images_1&#34;&gt;&#xA;        &lt;div class=&#34;swiper-wrapper&#34;&gt;&#xA;          &#xA;&#xA;        &lt;div &#xA;          class=&#34;swiper-slide&#34;&#xA;          style=&#34;background-image: url(&#39;/images/welcome/slider_1/RV-Motorhome-Collision-Repair-1024x680.jpg&#39;)&#34;&gt;&#xA;        &lt;/div&gt;&#xA;&#xA;          &#xA;&#xA;        &lt;div &#xA;          class=&#34;swiper-slide&#34;&#xA;          style=&#34;background-image: url(&#39;/images/welcome/slider_1/Tractor-Trailer-Collision-Repair-1024x640.jpg&#39;)&#34;&gt;&#xA;        &lt;/div&gt;&#xA;&#xA;          &#xA;&#xA;        &lt;div &#xA;          class=&#34;swiper-slide&#34;&#xA;          style=&#34;background-image: url(&#39;/images/welcome/slider_1/camaro-ss.jpg&#39;)&#34;&gt;&#xA;        &lt;/div&gt;&#xA;&#xA;          &#xA;        &lt;/div&gt;&#xA;        &lt;div class=&#34;swiper-pagination pagination-swiper_images_1&#34;&gt;&lt;/div&gt;&#xA;        &lt;div class=&#34;swiper-button-prev prev-swiper_images_1&#34;&gt;&lt;/div&gt;&#xA;        &lt;div class=&#34;swiper-button-next next-swiper_images_1&#34;&gt;&lt;/div&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;  &lt;/section&gt;&#xA;&#xA;&#xA;&#xA;&lt;p&gt;Welcome to &lt;strong&gt;BEAR Collision Center,&lt;/strong&gt; your premier partner in comprehensive&#xA;collision and repair services since 1979. We offer expert services across a&#xA;wide range of vehicles, including RVs, Class A trucks, and everything in&#xA;between.&lt;/p&gt;&#xA;&lt;a href=&#34;http://localhost:1313/rv-repair/&#34; class=&#34;flipcard-link&#34;&gt;&#xA;  &lt;div class=&#34;flipcard-container&#34;&gt;&#xA;    &lt;div class=&#34;flipcard-inner&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/circle_RV.png&#34; alt=&#34;Front&#34; class=&#34;flipcard-front&#34; /&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/learnMore.png&#34; alt=&#34;Back&#34; class=&#34;flipcard-back&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;flipcard-title&#34;&gt;RV Repair&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;a href=&#34;http://localhost:1313/truck-repair/&#34; class=&#34;flipcard-link&#34;&gt;&#xA;  &lt;div class=&#34;flipcard-container&#34;&gt;&#xA;    &lt;div class=&#34;flipcard-inner&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/circle_largeTruck.png&#34; alt=&#34;Front&#34; class=&#34;flipcard-front&#34; /&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/learnMore.png&#34; alt=&#34;Back&#34; class=&#34;flipcard-back&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;flipcard-title&#34;&gt;Truck Repair&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;a href=&#34;http://localhost:1313/car-repair/&#34; class=&#34;flipcard-link&#34;&gt;&#xA;  &lt;div class=&#34;flipcard-container&#34;&gt;&#xA;    &lt;div class=&#34;flipcard-inner&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/circle_car.png&#34; alt=&#34;Front&#34; class=&#34;flipcard-front&#34; /&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/learnMore.png&#34; alt=&#34;Back&#34; class=&#34;flipcard-back&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;flipcard-title&#34;&gt;Car Repair&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;p&gt;Our state-of-the-art facility is equipped to handle complex repairs on&#xA;composites, aluminum, and steel, ensuring every vehicle receives the utmost&#xA;care and precision. Whether your vehicle needs frame pulling, rust removal,&#xA;sandblasting or welding our team is ready to to get the job done quickly and&#xA;professionally.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome To zyxe</title>
+      <link>http://localhost:1313/welcome/</link>
+      <pubDate>Tue, 29 Apr 2025 16:23:24 +0000</pubDate>
+      <guid>http://localhost:1313/welcome/</guid>
+      <description>&lt;p&gt;Welcome to &lt;strong&gt;BEAR Collision Center,&lt;/strong&gt; your premier partner in comprehensive&#xA;collision and repair services since 1979. We offer expert services across a&#xA;wide range of vehicles, including RVs, Class A trucks, and everything in&#xA;between.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &lt;section class=&#34;showcase-section showcase-1&#34;&gt;&#xA;&#xA;    &#xA;    &lt;div class=&#34;swiper-fullscreen&#34;&gt;&#xA;      &lt;div class=&#34;swiper-max swiper_images_1&#34;&gt;&#xA;        &lt;div class=&#34;swiper-wrapper&#34;&gt;&#xA;          &#xA;&#xA;        &lt;div &#xA;          class=&#34;swiper-slide&#34;&#xA;          style=&#34;background-image: url(&#39;/images/welcome/slider_1/RV-Motorhome-Collision-Repair-1024x680.jpg&#39;)&#34;&gt;&#xA;        &lt;/div&gt;&#xA;&#xA;          &#xA;&#xA;        &lt;div &#xA;          class=&#34;swiper-slide&#34;&#xA;          style=&#34;background-image: url(&#39;/images/welcome/slider_1/Tractor-Trailer-Collision-Repair-1024x640.jpg&#39;)&#34;&gt;&#xA;        &lt;/div&gt;&#xA;&#xA;          &#xA;&#xA;        &lt;div &#xA;          class=&#34;swiper-slide&#34;&#xA;          style=&#34;background-image: url(&#39;/images/welcome/slider_1/camaro-ss.jpg&#39;)&#34;&gt;&#xA;        &lt;/div&gt;&#xA;&#xA;          &#xA;        &lt;/div&gt;&#xA;        &lt;div class=&#34;swiper-pagination pagination-swiper_images_1&#34;&gt;&lt;/div&gt;&#xA;        &lt;div class=&#34;swiper-button-prev prev-swiper_images_1&#34;&gt;&lt;/div&gt;&#xA;        &lt;div class=&#34;swiper-button-next next-swiper_images_1&#34;&gt;&lt;/div&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;  &lt;/section&gt;&#xA;&#xA;&#xA;&#xA;&lt;a href=&#34;http://localhost:1313/rv-repair/&#34; class=&#34;flipcard-link&#34;&gt;&#xA;  &lt;div class=&#34;flipcard-container&#34;&gt;&#xA;    &lt;div class=&#34;flipcard-inner&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/circle_RV.png&#34; alt=&#34;Front&#34; class=&#34;flipcard-front&#34; /&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/learnMore.png&#34; alt=&#34;Back&#34; class=&#34;flipcard-back&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;flipcard-title&#34;&gt;RV Repair&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;a href=&#34;http://localhost:1313/truck-repair/&#34; class=&#34;flipcard-link&#34;&gt;&#xA;  &lt;div class=&#34;flipcard-container&#34;&gt;&#xA;    &lt;div class=&#34;flipcard-inner&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/circle_largeTruck.png&#34; alt=&#34;Front&#34; class=&#34;flipcard-front&#34; /&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/learnMore.png&#34; alt=&#34;Back&#34; class=&#34;flipcard-back&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;flipcard-title&#34;&gt;Truck Repair&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;a href=&#34;http://localhost:1313/car-repair/&#34; class=&#34;flipcard-link&#34;&gt;&#xA;  &lt;div class=&#34;flipcard-container&#34;&gt;&#xA;    &lt;div class=&#34;flipcard-inner&#34;&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/circle_car.png&#34; alt=&#34;Front&#34; class=&#34;flipcard-front&#34; /&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/images/welcome/learnMore.png&#34; alt=&#34;Back&#34; class=&#34;flipcard-back&#34; /&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;flipcard-title&#34;&gt;Car Repair&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&lt;p&gt;Our state-of-the-art facility is equipped to handle complex repairs on&#xA;composites, aluminum, and steel, ensuring every vehicle receives the utmost&#xA;care and precision. Whether your vehicle needs frame pulling, rust removal,&#xA;sandblasting or welding our team is ready to to get the job done quickly and&#xA;professionally.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testimonial</title>
+      <link>http://localhost:1313/testimonial/</link>
+      <pubDate>Tue, 17 Dec 2024 05:50:16 +0000</pubDate>
+      <guid>http://localhost:1313/testimonial/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://cabear.com/wp-content/uploads/2024/12/image-5.png&#34; alt=&#34;User Profile&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;John Doe&lt;/p&gt;&#xA;&lt;p&gt;|&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cabear.com/wp-content/uploads/2024/12/image-3.png&#34; alt=&#34;5 Stars&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yelp | Jan 1, 2024&lt;/p&gt;&#xA;&lt;p&gt;&amp;mdash;|&amp;mdash;&lt;/p&gt;&#xA;&lt;p&gt;John Doe is a highly recommended professional with a reputation for&#xA;exceptional service and reliability. He is known for his expertise in&#xA;delivering top-notch solutions and maintaining strong client relationships.&#xA;John is committed to providing outstanding results and ensuring customer&#xA;satisfaction in every project he undertakes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Insurance Partnerships</title>
+      <link>http://localhost:1313/insurance-partnership/</link>
+      <pubDate>Mon, 05 Aug 2024 01:56:18 +0000</pubDate>
+      <guid>http://localhost:1313/insurance-partnership/</guid>
+      <description>&lt;h2 id=&#34;bear-is-the-optimal-choice-for-insurance-claims-in-auto-body-repair-and&#34;&gt;BEAR is the Optimal Choice for Insurance Claims in Auto Body Repair, and&lt;/h2&gt;&#xA;&lt;p&gt;This is Why:&lt;/p&gt;&#xA;&lt;p&gt;Quality of Workmanship&lt;/p&gt;&#xA;&lt;p&gt;The &lt;strong&gt;BEAR&lt;/strong&gt; team pays meticulous attention to detail, uses high-quality&#xA;materials, and adherence to industry standards and manufacturer specifications&#xA;in every repair job. This ensures that the repairs are not only aesthetically&#xA;pleasing but also durable and safe.&lt;br&gt;&#xA;With &lt;strong&gt;BEAR&lt;/strong&gt; you can rest assured that speed is not prioritized over&#xA;thoroughness, which can result in subpar repairs that might not last or meet&#xA;safety standards. Our skilled technicians carefully restore vehicles to their&#xA;pre-accident condition, ensuring structural integrity and visual appeal. This&#xA;includes precise paint matching, proper frame alignment, and using the best&#xA;materials available​.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact Us</title>
+      <link>http://localhost:1313/contact-us/</link>
+      <pubDate>Sat, 06 Jul 2024 01:33:47 +0000</pubDate>
+      <guid>http://localhost:1313/contact-us/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Address&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;3393 Enterprise Ave.&lt;br&gt;&#xA;Hayward, CA 94545&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Phone&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;510-783-9050&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hours&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Monday - Friday : 8am - 5pm&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Email&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/about-us/</link>
+      <pubDate>Fri, 05 Jul 2024 23:53:11 +0000</pubDate>
+      <guid>http://localhost:1313/about-us/</guid>
+      <description>&lt;h6 id=&#34;since-1979&#34;&gt;Since 1979&lt;/h6&gt;&#xA;&lt;h2 id=&#34;bear-rv-auto-and-truck-collision-center-is-dedicated-to-keeping-our&#34;&gt;Bear RV, Auto and Truck Collision Center is Dedicated to keeping our&lt;/h2&gt;&#xA;&lt;p&gt;Customers Satisfied&lt;/p&gt;&#xA;&lt;p&gt;With that as our focus, we&amp;rsquo;ve developed reliable systems that help us move&#xA;each vehicle in and out of the shop as quickly as we can, while keeping the&#xA;quality up so that we know that one you roll out, we only see you back when&#xA;you need us, not because we missed something.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello world!</title>
+      <link>http://localhost:1313/2024/07/05/hello-world/</link>
+      <pubDate>Fri, 05 Jul 2024 23:06:39 +0000</pubDate>
+      <guid>http://localhost:1313/2024/07/05/hello-world/</guid>
+      <description>&lt;p&gt;Welcome to WordPress. This is your first post. Edit or delete it, then start&#xA;writing!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Fri, 05 Jul 2024 23:06:39 +0000</pubDate>
+      <guid>http://localhost:1313/</guid>
+      <description>&lt;h2 id=&#34;who-we-are&#34;&gt;Who we are&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Suggested text:&lt;/strong&gt; Our website address is: &lt;a href=&#34;https://cabear.com&#34;&gt;https://cabear.com&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Suggested text:&lt;/strong&gt; When visitors leave comments on the site we collect the&#xA;data shown in the comments form, and also the visitor&amp;rsquo;s IP address and browser&#xA;user agent string to help spam detection.&lt;/p&gt;&#xA;&lt;p&gt;An anonymized string created from your email address (also called a hash) may&#xA;be provided to the Gravatar service to see if you are using it. The Gravatar&#xA;service privacy policy is available here: &lt;a href=&#34;https://automattic.com/privacy/&#34;&gt;https://automattic.com/privacy/&lt;/a&gt;.&#xA;After approval of your comment, your profile picture is visible to the public&#xA;in the context of your comment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Der sechste Post</title>
+      <link>http://localhost:1313/posts/sixth.de/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sixth.de/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Sexta Cosa</title>
+      <link>http://localhost:1313/posts/sixth.es/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sixth.es/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Sixth Thing</title>
+      <link>http://localhost:1313/posts/sixth/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sixth/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Der fünfte Post</title>
+      <link>http://localhost:1313/posts/fifth.de/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fifth.de/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Quinta Cosa</title>
+      <link>http://localhost:1313/posts/fifth.es/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fifth.es/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Fifth Thing</title>
+      <link>http://localhost:1313/posts/fifth/</link>
+      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fifth/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Der vierte Post</title>
+      <link>http://localhost:1313/posts/fourth.de/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fourth.de/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Cuarta Cosa</title>
+      <link>http://localhost:1313/posts/fourth.es/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fourth.es/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Fourth Thing</title>
+      <link>http://localhost:1313/posts/fourth/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fourth/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Der dritte Post</title>
+      <link>http://localhost:1313/posts/third.de/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/third.de/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Tercera Cosa</title>
+      <link>http://localhost:1313/posts/third.es/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/third.es/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Third Thing</title>
+      <link>http://localhost:1313/posts/third/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/third/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Der zweite Post</title>
+      <link>http://localhost:1313/posts/second.de/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/second.de/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Segunda Cosa</title>
+      <link>http://localhost:1313/posts/second.es/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/second.es/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Second Thing</title>
+      <link>http://localhost:1313/posts/second/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/second/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Der erste Post</title>
+      <link>http://localhost:1313/posts/first.de/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first.de/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Primera Cosa</title>
+      <link>http://localhost:1313/posts/first.es/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first.es/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The First Thing</title>
+      <link>http://localhost:1313/posts/first/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first/</guid>
+      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/sample-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sample-page/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;wordpress_id-2&#34;&gt;author: admin&#xA;comments: false&#xA;date: 2024-07-05 23:06:39+00:00&#xA;draft: false&#xA;slug: sample-page&#xA;title: Welcome To BEAR&#xA;type: page&#xA;url: /&#xA;wordpress_id: 2&lt;/h2&gt;&#xA;&lt;p&gt;Welcome sssssssss to &lt;strong&gt;BEAR Collision Center,&lt;/strong&gt; your premier partner in comprehensive&#xA;collision and repair services since 1979. We offer expert services across a&#xA;wide range of vehicles, including RVs, Class A trucks, and everything in&#xA;between.&lt;/p&gt;&#xA;&lt;p&gt;[![](https://cabear.com/wp-&#xA;content/uploads/2024/07/circle_RV.png)![](https://cabear.com/wp-&#xA;content/uploads/2024/07/learnMore.png)&lt;/p&gt;&#xA;&lt;h2 id=&#34;rv-repair&#34;&gt;RV Repair&lt;/h2&gt;&#xA;&lt;p&gt;](&lt;a href=&#34;https://cabear.com/rv-repair/&#34;&gt;https://cabear.com/rv-repair/&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;[![](https://cabear.com/wp-&#xA;content/uploads/2024/07/circle_largeTruck.png)![](https://cabear.com/wp-&#xA;content/uploads/2024/07/learnMore.png)&lt;/p&gt;&#xA;&lt;h2 id=&#34;truck-repair&#34;&gt;Truck Repair&lt;/h2&gt;&#xA;&lt;p&gt;](&lt;a href=&#34;https://cabear.com/truck-services/&#34;&gt;https://cabear.com/truck-services/&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cabear.com/wp-content/uploads/2024/07/circle_car.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Media</title>
+      <link>http://localhost:1313/media-sandblasting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/media-sandblasting/</guid>
+      <description>&lt;h2 id=&#34;bear-collision-service-centers-custom-built-clemco-abrasive-blast-media-recovery-system-is-the-largest-in-the-bay-area&#34;&gt;BEAR Collision Service Center&amp;rsquo;s Custom Built Clemco® Abrasive Blast Media Recovery System is the Largest in the Bay Area.&lt;/h2&gt;&#xA;&lt;div class=&#34;info-card-gallery&#34; style=&#34;display: flex; flex-wrap: wrap; gap: 2rem; background: #f9fbfd; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 20px rgba(0,0,0,0.05);&#34;&gt;&#xA;  &lt;div class=&#34;text&#34; style=&#34;flex: 1 1 300px; font-size: 1.25rem; line-height: 1.6;&#34;&gt;&#xA;&#xA;    &#xA;    &lt;a href=&#34;http://localhost:1313/&#34; style=&#34;text-decoration: none; color: inherit; display: block;&#34;&gt;&#xA;      &lt;div style=&#34;border: 1px solid #ccc; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background: #fff;&#34;&gt;&#xA;        &#xA;        &lt;div style=&#34;padding: 1rem;&#34;&gt;&#xA;          &lt;h3 style=&#34;font-size: 1.25rem; margin: 0 0 0.5rem;&#34;&gt;An automatic media recycle system allows BEAR to complete jobs faster, reduce costs, and deliver a rapid turnaround.&lt;/h3&gt;&#xA;          &lt;p style=&#34;font-size: 1rem; color: #555;&#34;&gt;&#xA;&#xA;After all parts are removed or thoroughly protected, media blasting strips the surface to bare metal, so that the new coat of paint adheres smoothly to a new clean surface. This process removes the rust to make equipment last longer and look great.&#xA;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RV Repair</title>
+      <link>http://localhost:1313/rv-repair/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/rv-repair/</guid>
+      <description>&lt;h3 id=&#34;your-premier-destination-for-rv-repairs-and-services&#34;&gt;Your Premier Destination for RV Repairs and Services&lt;/h3&gt;&#xA;&lt;p&gt;At &lt;strong&gt;BEAR Collision Center,&lt;/strong&gt; we specialize in providing comprehensive RV&#xA;services tailored to meet the unique needs of both individual RV owners and&#xA;insurance companies. Located conveniently in Hayward, we offer a full spectrum&#xA;of expert services to keep your RV in optimal condition and ensure your peace&#xA;of mind on the road.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;section class=&#34;showcase-section showcase-1&#34;&gt;&#xA;  &lt;div class=&#34;showcase-block&#34; style=&#34;border: 2px solid #ccc; border-radius: 10px; padding: 1rem; margin: 1rem 0; background: #fff;&#34;&gt;&#xA;    &#xA;    &lt;div class=&#34;info-box&#34;&gt;&#xA;      &lt;div class=&#34;info-box-media&#34;&gt;&#xA;        &lt;div class=&#34;image-flip-container&#34;&gt;&#xA;          &lt;div class=&#34;image-front&#34;&gt;&#xA;&#xA;            &lt;img src=&#34;http://localhost:1313/images/logo/bearpawCircle-1.png&#34; alt=&#34;Front logo&#34; /&gt;&#xA;&#xA;          &lt;/div&gt;&#xA;          &lt;div class=&#34;image-back&#34;&gt;&#xA;            &#xA;&#xA;            &lt;img src=&#34;http://localhost:1313/images/logo/bearCircle.png&#34; alt=&#34;Back logo&#34;  /&gt;&#xA;&#xA;          &lt;/div&gt;&#xA;        &lt;/div&gt;&#xA;      &lt;/div&gt;&#xA;      &lt;div class=&#34;info-box-text&#34;&gt;&#xA;        &lt;h2&gt;Body Damage&lt;/h2&gt;&#xA;        &lt;p&gt;From minor bumps to major accidents, our skilled technicians restore your RV to its pristine condition. This includes aluminum, Composites and steel repairs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Truck Repair</title>
+      <link>http://localhost:1313/truck-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/truck-services/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;BEAR Collison Center&lt;/strong&gt; provides comprehensive repair solutions for all types&#xA;of trucks and heavy-duty construction equipment. Our auto body shop offers a&#xA;full suite of services tailored to meet the needs of truckers and fleet&#xA;operators.&lt;/p&gt;&#xA;&lt;p&gt;At our facility, we understand the critical importance of minimizing downtime&#xA;and ensuring that your vehicles remain in optimal condition. Our expert&#xA;technicians are trained to handle a variety of repairs including collision and&#xA;frame repairs, as well as specialized work on composites, aluminum, and steel.&#xA;We are equipped to service Class A trucks, medium duty trucks, truck bodies,&#xA;pickups, vans and cars.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

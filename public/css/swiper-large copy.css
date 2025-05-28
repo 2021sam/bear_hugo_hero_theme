@@ -1,0 +1,34 @@
+/* static/css/swiper-large.css */
+
+.swiper-fullscreen {
+  width: 100vw;
+  height: 80vh;           /* increase to 100vh for true full-screen */
+  margin: 0 auto;
+  position: relative;
+}
+
+.swiper-fullscreen .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-fullscreen .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-fullscreen .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-fullscreen .swiper-button-next,
+.swiper-fullscreen .swiper-button-prev {
+  --swiper-navigation-size: 3rem;
+}
+
+.swiper-fullscreen .swiper-pagination {
+  bottom: 1rem;
+}

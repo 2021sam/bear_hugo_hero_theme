@@ -1,0 +1,43 @@
+/* ✅ Swiper container with fixed height */
+.swiper {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;              /* ✅ Set fixed height here */
+  margin: 2rem auto;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  position: relative;
+}
+
+/* ✅ Wrapper behaves like a row of slides */
+.swiper-wrapper {
+  display: flex;
+}
+
+/* ✅ Each slide */
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;               /* ✅ Match container height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+/* ✅ Image inside slide */
+.swiper-slide img {
+  width: 100%;
+  height: 100%;               /* ✅ Fill slide vertically */
+  object-fit: cover;          /* ✅ Crop instead of stretch */
+  display: block;
+  border-radius: 8px;
+}
+
+/* ✅ Optional: Mobile override */
+@media (max-width: 600px) {
+  .swiper {
+    height: 250px;
+  }
+}
