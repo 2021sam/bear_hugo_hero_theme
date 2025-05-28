@@ -1,8 +1,8 @@
 node_modules
 package-lock.json
 package.json
-public/
 resources/
+public/
 .hugo_build.lock
 .DS_Store
 # Ignore downloaded image sliders
