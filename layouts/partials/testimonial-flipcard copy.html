@@ -1,0 +1,30 @@
+<!-- /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/layouts/partials/testimonial-flipcard.html -->
+
+<a href="{{ .Get "link" | absURL }}" class="testimonial-flipcard-link">
+  <div class="testimonial-flipcard-container">
+    <div class="testimonial-flipcard-inner">
+
+      <!-- Front -->
+      <div class="testimonial-flipcard-front">
+        <div class="testimonial-quote">
+          <span class="quote-icon">“</span>
+          <p class="quote-text">{{ .Get "quote" | markdownify }}</p>
+        </div>
+        <div class="testimonial-author">
+          <p class="author-name">{{ .Get "name" }}</p>
+          <p class="author-title">{{ .Get "title" }}</p>
+          <p class="author-company">{{ .Get "company" }}</p>
+        </div>
+      </div>
+
+      <!-- Back -->    
+      <div class="testimonial-flipcard-back" style="background:{{ .Get "background" | default "#f8f8f8" }}; color:white; text-align:center;">
+        <img src="{{ .Get "image" | relURL }}" alt="{{ .Get "imageAlt" }}" class="testimonial-image" />
+        {{ with .Get "imageCaption" }}
+          <p class="testimonial-image-caption">{{ . }}</p>
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+</a>

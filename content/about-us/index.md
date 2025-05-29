@@ -3,6 +3,9 @@ title = "About Us"
 layout = "about"
 +++
 
+/Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/content/about-us/index.md
+
+<!-- Intro block or spacer -->
 {{< testimonial-flipcard
   quote="They are usually the first people we think of... “Can **BEAR** do that for us?” – is usually muttered if I’m going to have to spend money with an outside vendor."
   name="Alan Beals"
@@ -14,7 +17,6 @@ layout = "about"
   imageCaption="Fleet vehicle restored by BEAR"
   background="#1a1a1a"
 >}}
-
 
 
 
