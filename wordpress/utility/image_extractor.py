@@ -6,9 +6,13 @@ import requests
 from bs4 import BeautifulSoup
 
 # ========== Configuration ==========
-url_page = "welcome"
+# url_page = "welcome"
+# base_save_path = os.path.join("static", "images", url_page)
+# html_file = os.path.join(os.path.dirname(__file__), "..", "html", "welcome.html")
+
+url_page = "about"
 base_save_path = os.path.join("static", "images", url_page)
-html_file = os.path.join(os.path.dirname(__file__), "..", "html", "welcome.html")
+html_file = os.path.join(os.path.dirname(__file__), "..", "html", "about.html")
 
 
 # ========== Functions ==========

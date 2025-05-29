@@ -1,14 +1,25 @@
----
-author: admin
-comments: false
-date: 2024-07-05 23:53:11+00:00
-draft: false
-slug: about-us
-title: About Us
-type: page
-url: /about-us/
-wordpress_id: 14
----
++++
+title = "About Us"
+layout = "about"
++++
+
+{{< testimonial-flipcard
+  quote="They are usually the first people we think of... “Can **BEAR** do that for us?” – is usually muttered if I’m going to have to spend money with an outside vendor."
+  name="Alan Beals"
+  title="Regional Manager"
+  company="Cresco Equipment Rentals"
+  link="https://example.com/testimonials/bear"
+  image="/images/about/cresco-equipment-rentals-white.png"
+  imageAlt="Repaired company truck"
+  imageCaption="Fleet vehicle restored by BEAR"
+  background="#1a1a1a"
+>}}
+
+
+
+
+
+
 
 ###### Since 1979
 

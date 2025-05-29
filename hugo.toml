@@ -34,6 +34,14 @@ theme = "hugo-arcana"
   url = "/insurance-partnership/"
   weight = 5
 
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About Us"
+  url = "/about-us/"
+  weight = 5
+
+
   [[menu.main]]
   identifier = "welding"
   name = "Welding"
