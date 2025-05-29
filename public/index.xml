@@ -65,6 +65,13 @@
       <description>&lt;p&gt;Welcome to WordPress. This is your first post. Edit or delete it, then start&#xA;writing!&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/</link>
+      <pubDate>Fri, 05 Jul 2024 23:06:39 +0000</pubDate>
+      <guid>http://localhost:1313/</guid>
+      <description>&lt;h2 id=&#34;who-we-are&#34;&gt;Who we are&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Suggested text:&lt;/strong&gt; Our website address is: &lt;a href=&#34;https://cabear.com&#34;&gt;https://cabear.com&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Suggested text:&lt;/strong&gt; When visitors leave comments on the site we collect the&#xA;data shown in the comments form, and also the visitor&amp;rsquo;s IP address and browser&#xA;user agent string to help spam detection.&lt;/p&gt;&#xA;&lt;p&gt;An anonymized string created from your email address (also called a hash) may&#xA;be provided to the Gravatar service to see if you are using it. The Gravatar&#xA;service privacy policy is available here: &lt;a href=&#34;https://automattic.com/privacy/&#34;&gt;https://automattic.com/privacy/&lt;/a&gt;.&#xA;After approval of your comment, your profile picture is visible to the public&#xA;in the context of your comment.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Der sechste Post</title>
       <link>http://localhost:1313/posts/sixth.de/</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
@@ -202,7 +209,7 @@
       <link>http://localhost:1313/insurance-partnership/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/insurance-partnership/</guid>
-      <description>&lt;h2 id=&#34;bear-is-the-optimal-choice-for-insurance-claims-in-auto-body-repair-and&#34;&gt;BEAR is the Optimal Choice for Insurance Claims in Auto Body Repair, and&lt;/h2&gt;&#xA;&lt;p&gt;This is Why:&lt;/p&gt;&#xA;&lt;p&gt;Quality of Workmanship&lt;/p&gt;&#xA;&lt;p&gt;Training Certifications&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;BEAR&lt;/strong&gt; is BAR Licensed and I-CAR (Inter-Industry Conference on Auto&#xA;Collision Repair) certified, which means their technicians have met rigorous&#xA;industry standards for skills and knowledge. Additionally, our technicians are&#xA;trained by PPG, a leading provider of automotive coatings, ensuring precise&#xA;and durable paint jobs. Furthermore, BEAR is OSHA, EPA and DTSC compliant,&#xA;reflecting their commitment to maintaining a safe and healthy work&#xA;environment. These certifications and compliance measures ensure reliable,&#xA;high-quality repairs, making &lt;strong&gt;BEAR&lt;/strong&gt; a trustworthy partner for insurance&#xA;companies.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;bear-is-the-optimal-choice-for-insurance-claims-in-auto-body-repair-and&#34;&gt;BEAR is the Optimal Choice for Insurance Claims in Auto Body Repair, and&lt;/h2&gt;&#xA;&lt;p&gt;This is Why:&lt;/p&gt;&#xA;&lt;p&gt;Quality of Workmanship&lt;/p&gt;&#xA;&lt;div class=&#34;collapsible&#34;&gt;&#xA;    &lt;span class=&#34;toggle-icon&#34;&gt;+&lt;/span&gt; Quality of Workmanship&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;collapsible-content&#34;&gt;&#xA;    The &lt;strong&gt;BEAR&lt;/strong&gt; team pays meticulous attention to detail, uses high-quality&#xA;materials, and adherence to industry standards and manufacturer specifications&#xA;in every repair job. This ensures that the repairs are not only aesthetically&#xA;pleasing but also durable and safe.&lt;br&gt;&#xA;With &lt;strong&gt;BEAR&lt;/strong&gt; you can rest assured that speed is not prioritized over&#xA;thoroughness, which can result in subpar repairs that might not last or meet&#xA;safety standards. Our skilled technicians carefully restore vehicles to their&#xA;pre-accident condition, ensuring structural integrity and visual appeal. This&#xA;includes precise paint matching, proper frame alignment, and using the best&#xA;materials available​.&#xA;&lt;/div&gt;&#xA;  &#xA;&lt;p&gt;Training Certifications&lt;/p&gt;</description>
     </item>
     <item>
       <title>Media</title>

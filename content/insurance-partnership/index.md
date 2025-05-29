@@ -12,6 +12,26 @@ Quality of Workmanship
 
 
 
+{{< collapse title="Quality of Workmanship" >}}
+The **BEAR** team pays meticulous attention to detail, uses high-quality
+materials, and adherence to industry standards and manufacturer specifications
+in every repair job. This ensures that the repairs are not only aesthetically
+pleasing but also durable and safe.  
+With **BEAR** you can rest assured that speed is not prioritized over
+thoroughness, which can result in subpar repairs that might not last or meet
+safety standards. Our skilled technicians carefully restore vehicles to their
+pre-accident condition, ensuring structural integrity and visual appeal. This
+includes precise paint matching, proper frame alignment, and using the best
+materials available​.
+{{< /collapse >}}
+
+
+
+
+
+
+
+
 Training Certifications
 
 
