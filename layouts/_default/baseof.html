@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="{{ "css/logo-flip.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/site-logo.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/insurance.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "css/banner-title.css" | relURL }}" />
 
     <style>
       nav,
@@ -49,7 +50,6 @@
         }
       }
     </style>
-    
 
   </head>
 
@@ -57,6 +57,8 @@
     <div id="wrapper">
 
       {{ partial "header.html" . }}
+      {{ partial "banner-title.html" .Title }}
+
 
       <main id="main">
         {{ block "main" . }}{{ end }}

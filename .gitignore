@@ -3,7 +3,6 @@ package-lock.json
 package.json
 resources/
 public/
-/public/
 .hugo_build.lock
 .DS_Store
 # Ignore downloaded image sliders
