@@ -3,13 +3,7 @@ title = "Insurance Partnerships"
 layout = "insurance"
 +++
 
-## BEAR is the Optimal Choice for Insurance Claims in Auto Body Repair, and
-This is Why:
-
-Quality of Workmanship
-
-
-
+## BEAR is the Optimal Choice for Insurance Claims in Auto Body Repair, and This is Why:
 
 
 {{< collapse title="Quality of Workmanship" >}}
@@ -25,17 +19,7 @@ includes precise paint matching, proper frame alignment, and using the best
 materials available​.
 {{< /collapse >}}
 
-
-
-
-
-
-
-
-Training Certifications
-
-
-
+{{< collapse title="Training Certifications" >}}
 **BEAR** is BAR Licensed and I-CAR (Inter-Industry Conference on Auto
 Collision Repair) certified, which means their technicians have met rigorous
 industry standards for skills and knowledge. Additionally, our technicians are
@@ -45,9 +29,9 @@ reflecting their commitment to maintaining a safe and healthy work
 environment. These certifications and compliance measures ensure reliable,
 high-quality repairs, making **BEAR** a trustworthy partner for insurance
 companies.  
+{{< /collapse >}}
 
-Warranty on Repairs
-
+{{< collapse title="Warranty on Repairs" >}}
 **Warranty on Workmanship** : this covers any defects in the work performed,
 such as issues with body panel alignment, paint application, or other repair
 processes. If any problems arise from the initial repair work, **BEAR** will
@@ -57,9 +41,9 @@ the paint to an existing sound surface as long as the vehicle is maintained
 according to the manufacturer's recommendations.  
 **Parts Warranty** : OEM and after market parts manufacturer's warranty.  
 ** Some Exclusions and Conditions may apply
+{{< /collapse >}}
 
-Facility and Equipment
-
+{{< collapse title="Facility and Equipment" >}}
 **BEAR Collision Center** has invested in a well-equipped facility that meets
 the highest standards of the industry. Our frame machines ensuring precise
 alignment and structural integrity of vehicles. Our sand blasting booth allows
@@ -67,17 +51,17 @@ for meticulous surface preparation, enhancing the longevity and quality of
 repairs. Additionally, our large painting and drying booths are designed to
 provide a controlled environment for flawless finishes, reducing the risk of
 contaminants and ensuring a perfect paint job every time.
+{{< /collapse >}}
 
-Insurance and Legal Compliance
-
+{{< collapse title="Insurance and Legal Compliance" >}}
 **BEAR** complies to the legal and insurance needs for the state of
 California, including: workers compensation, Commercial property insurance,
 Legal Auto Body business license, Occupational Safety and Health
 Administration (OSHA), Department of Toxic Substance Control (DTSC) and
 Environmental Protection Agency (EPA) compliant.
+{{< /collapse >}}
 
-Estimating Accuracy
-
+{{< collapse title="Estimating Accuracy" >}}
 **BEAR Collision Center** writes accurate estimates for insurance companies by
 utilizing Mitchell Estimating Software, a leading tool in the industry. This
 software is designed to create precise estimates quickly and efficiently,
@@ -85,9 +69,9 @@ integrating features such as VIN scanning, photo integration, and OEM repair
 procedures. These capabilities reduce estimating errors and streamline the
 appraisal process, ensuring that estimates are both comprehensive and
 accurate.
+{{< /collapse >}}
 
-Turn Around Time
-
+{{< collapse title="Turn Around Time" >}}
 **BEAR** **Collision Center** has a quick turnaround time due to several key
 factors. Their Clemco sandblasting booth allows for efficient and thorough
 surface preparation, speeding up the repair process. With over 45 years of
@@ -102,15 +86,15 @@ ensuring repairs are never stalled due to unavailable components. This
 combination of experience, facilities, equipment, and processes ensures that
 BEAR Collision Repair can deliver high-quality repairs quickly and
 efficiently.
+{{< /collapse >}}
 
-Use of OEM parts
-
+{{< collapse title="Use of OEM parts" >}}
 BEAR uses OEM parts when available unless otherwise directed. If the OEM part
 is not available it uses the highest quality after market parts. **BEAR
 Collision Center** is a Dometic authorized dealer.
+{{< /collapse >}}
 
-Customer Service
-
+{{< collapse title="Customer Service" >}}
 **At BEAR Collision Center,** we are committed to providing excellent customer
 service. Our team prioritizes clear communication, ensuring that clients are
 fully informed at every step of the repair process. Professionalism is at the
@@ -120,9 +104,10 @@ concerns promptly to deliver a seamless experience. By combining these
 elements, BEAR Collision Center not only meets but exceeds the expectations of
 both our customers and insurance partners, fostering trust and long-term
 relationships.
+{{< /collapse >}}
 
-Reputation and Reviews
 
+{{< collapse title="Reputation and Reviews" >}}
 **BEAR Collision Center** has earned a excellent reputation in the local
 community for its excellent service and quality repairs. Customers
 consistently praise the friendly and professional staff, highlighting their
@@ -139,3 +124,4 @@ handle that at another shop he decided to help me out and take care of it
 himself. This RV is my super happy place and it was nice that Michael and the
 Team at Bear treated it like was their own happy place." - Heather W. [Yelp
 ](https://www.yelp.com/biz/bear-collision-and-service-center-hayward-5)
+{{< /collapse >}}
