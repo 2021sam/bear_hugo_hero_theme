@@ -33,6 +33,8 @@ time.
   image=""
   imageAlt=""
   imageCaption=""
+  frontTextColor="white"
+  frontBackground="#007BFF"
   background="#1a1a1a"
 >}}
 
@@ -45,6 +47,8 @@ time.
   image="/images/about/cresco-equipment-rentals-white.png"
   imageAlt="Repaired company truck"
   imageCaption="Fleet vehicle restored by BEAR"
+  frontTextColor="white"
+  frontBackground="#007BFF"
   background="#1a1a1a"
 >}}
 
@@ -57,6 +61,8 @@ time.
   image="/images/about/cintas.jpg"
   imageAlt=""
   imageCaption=""
+  frontTextColor="white"
+  frontBackground="#007BFF"
   background="#1a1a1a"
 >}}
 
@@ -69,6 +75,8 @@ time.
   image=""
   imageAlt=""
   imageCaption=""
+  frontTextColor="white"
+  frontBackground="#007BFF"
   background="#1a1a1a"
 >}}
 
@@ -81,5 +89,7 @@ time.
   image=""
   imageAlt=""
   imageCaption=""
+  frontTextColor="white"
+  frontBackground="#007BFF"
   background="#1a1a1a"
 >}}
