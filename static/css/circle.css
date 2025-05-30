@@ -1,0 +1,8 @@
+.circle-image {
+    width: 200px; /* or any size */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #333; /* Adjust color/size */
+  }
+  
