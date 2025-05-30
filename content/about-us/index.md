@@ -5,8 +5,7 @@ layout = "about"
 
 /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/content/about-us/index.md
 
-
-###### Since 1979
+###### <span style="color: blue;">Since 1979</span>
 
 ## Bear RV, Auto and Truck Collision Center is Dedicated to keeping our Customers Satisfied
 

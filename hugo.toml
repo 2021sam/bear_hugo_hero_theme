@@ -77,3 +77,9 @@ theme = "hugo-arcana"
   name = "Contact"
   url = "/contact/"
   weight = 11
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
