@@ -1,0 +1,29 @@
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.contact-label {
+  background: #2f70b7;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  align-self: center;
+}
+
+.contact-content {
+  padding: 0.5rem 0;
+}
+
+.email-button {
+  display: inline-block;
+  background: #c62828;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}

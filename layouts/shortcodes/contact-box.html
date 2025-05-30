@@ -1,0 +1,46 @@
+<!-- /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/layouts/shortcodes/contact-box.html -->
+
+<!-- layouts/shortcodes/contact-box.html -->
+<div class="contact-map">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.2469543266583!2d-122.11173168468582!3d37.62889947978196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f8f76a4050f6b%3A0x5e48b88aa0899a9f!2s3393%20Enterprise%20Ave%2C%20Hayward%2C%20CA%2094545%2C%20USA!5e0!3m2!1sen!2sus!4v1717010000000!5m2!1sen!2sus"
+    width="100%"
+    height="500"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+
+<div class="contact-page">
+    <div class="contact-map">
+      {{ .Get "map_embed" | safeHTML }}
+    </div>
+  
+    <div class="contact-section">
+      <div class="contact-label">Address</div>
+      <p>{{ .Get "address" | markdownify }}</p>
+    </div>
+  
+    <div class="contact-section">
+      <div class="contact-label">Phone</div>
+      <p>{{ .Get "phone" }}</p>
+    </div>
+  
+    <div class="contact-section">
+      <div class="contact-label">Hours</div>
+      <p>{{ .Get "hours" }}</p>
+    </div>
+  
+    <div class="contact-section">
+      <div class="contact-label">Email</div>
+      <p>
+        <a href="mailto:{{ .Get "email" }}" class="email-button" style="background: {{ .Get "email_button_bg" | default "#c62828" }}">
+          {{ .Get "email_button_text" }}
+        </a>
+      </p>
+    </div>
+  </div>
+  
