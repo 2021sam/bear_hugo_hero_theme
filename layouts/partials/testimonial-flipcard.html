@@ -1,10 +1,10 @@
-<!-- /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/layouts/partials/testimonial-flipcard.html -->
+<!-- /layouts/partials/testimonial-flipcard.html -->
 
-<a href="{{ .Get "link" | absURL }}" class="testimonial-flipcard-link">
+<a href="{{ .Get "link" | absURL }}" class="testimonial-flipcard-link" style="text-decoration: none;">
   <div class="testimonial-flipcard-container">
     <div class="testimonial-flipcard-inner">
 
-      <!-- Front -->
+      <!-- Front Side -->
       <div class="testimonial-flipcard-front">
         <div class="testimonial-quote">
           <span class="quote-icon">“</span>
@@ -12,13 +12,14 @@
         </div>
         <div class="testimonial-author">
           <p class="author-name">{{ .Get "name" }}</p>
-          <p class="author-title">{{ .Get "title" }}</p>
-          <p class="author-company">{{ .Get "company" }}</p>
+          {{ with .Get "title" }}<p class="author-title">{{ . }}</p>{{ end }}
+          {{ with .Get "company" }}<p class="author-company">{{ . }}</p>{{ end }}
         </div>
       </div>
 
-      <!-- Back -->    
-      <div class="testimonial-flipcard-back" style="background:{{ .Get "background" | default "#f8f8f8" }}; color:white; text-align:center;">
+      <!-- Back Side -->
+      <div class="testimonial-flipcard-back"
+           style="background: {{ .Get "background" | default "#1a1a1a" }}; color: white; text-align: center;">
         <img src="{{ .Get "image" | relURL }}" alt="{{ .Get "imageAlt" }}" class="testimonial-image" />
         {{ with .Get "imageCaption" }}
           <p class="testimonial-image-caption">{{ . }}</p>

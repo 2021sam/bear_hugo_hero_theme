@@ -1,41 +1,55 @@
 .testimonial-flipcard-container {
-    perspective: 1000px;
-    width: 100%;
-    max-width: 400px;
-  }
-  .testimonial-flipcard-inner {
-    position: relative;
-    width: 100%;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  .testimonial-flipcard-container:hover .testimonial-flipcard-inner {
-    transform: rotateY(180deg);
-  }
-  .testimonial-flipcard-front,
-  .testimonial-flipcard-back {
-    position: absolute;
-    width: 100%;
-    backface-visibility: hidden;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    background: #2867b2;
-    color: white;
-  }
-  .testimonial-flipcard-back {
-    transform: rotateY(180deg);
-    text-align: center;
-    background: #fff;
-    color: #000;
-  }
-  .testimonial-image {
-    max-width: 100%;
-    border-radius: 0.5rem;
-  }
-  .testimonial-image-caption {
-    font-size: 0.875rem;
-    margin-top: 0.5rem;
-    color: #555;
-  }
-  
+  perspective: 1000px;
+  width: 300px;
+  height: 300px;
+  margin: 1rem auto;
+}
+
+.testimonial-flipcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.testimonial-flipcard-container:hover .testimonial-flipcard-inner {
+  transform: rotateY(180deg);
+}
+
+.testimonial-flipcard-front,
+.testimonial-flipcard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-flipcard-front {
+  background: #fff;
+  padding: 1rem;
+  z-index: 2;
+}
+
+.testimonial-flipcard-back {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-image {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.testimonial-image-caption {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: #ddd;
+}

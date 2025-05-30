@@ -7,7 +7,7 @@ layout = "about"
 
 <!-- Intro block or spacer -->
 {{< testimonial-flipcard
-  quote="They are usually the first people we think of... “Can **BEAR** do that for us?” – is usually muttered if I’m going to have to spend money with an outside vendor."
+  quote="They are usually the first people we think of when we need to send something outside our shops. &quot;Can **BEAR** do that for us?&quot; – is usually muttered if I'm going to have to spend money with an outside vendor."
   name="Alan Beals"
   title="Regional Manager"
   company="Cresco Equipment Rentals"
