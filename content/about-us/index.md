@@ -32,9 +32,9 @@ time.
   image=""
   imageAlt=""
   imageCaption=""
-  frontTextColor="white"
+  frontTextColor="blue"
   frontBackground="#007BFF"
-  background="#1a1a1a"
+  background="grey"
 >}}
 
 {{< testimonial-flipcard
