@@ -10,6 +10,6 @@ layout = "contact"
   phone="510-783-9050"
   hours="Monday – Friday: 8am – 5pm"
   email="michael@cabear.com"
-  email_button_text="Email: Michael@cabear.com"
-  email_button_bg="#004c91"
+  button_text="Email: Michael@cabear.com"
+  button_class="button-green"
 >}}

@@ -33,9 +33,11 @@
     <div class="contact-label">Email</div>
     <div class="contact-content">
       <p>
-        <a href="mailto:{{ .Get "email" }}" class="email-button" style="background: {{ .Get "email_button_bg" | default "#c62828" }}">
-          {{ .Get "email_button_text" }}
+
+        <a href="mailto:{{ .Get "email" }}" class="button {{ .Get "button_class" | default "button-red" }}">
+          {{ .Get "button_text" }}
         </a>
+
       </p>
     </div>
   </div>

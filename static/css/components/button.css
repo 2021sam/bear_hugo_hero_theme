@@ -1,0 +1,17 @@
+/* /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/static/css/components/button.css */
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.button-red {
+    background: #c62828;
+    color: white;
+}
+.button-green {
+    background: green;
+    color: white;
+}
