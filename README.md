@@ -27,6 +27,7 @@ git submodule add https://github.com/half-duplex/hugo-arcana.git themes/hugo-arc
 cd bear_hugo_hero_theme
 hugo server
 hugo server -D --disableFastRender --noHTTPCache --bind 0.0.0.0
+hugo server -D --noHTTPCache --bind 0.0.0.0 --port 1313 --baseURL http://10.0.0.88:1313
 ```
 
 ## 🛠️ Bluehost Server
