@@ -5,7 +5,6 @@ baseURL = "http://localhost:1313/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "hugo-arcana"
-# theme = "ananke"
 
 [menu]
   [[menu.main]]
@@ -71,12 +70,6 @@ theme = "hugo-arcana"
   weight = 8
 
   [[menu.main]]
-  identifier = "vehicle-decals"
-  name = "Vehicle Decals"
-  url = "/vehicle-decals/"
-  weight = 9
-
-  [[menu.main]]
   identifier = "stencil-painting"
   name = "Stencil Painting"
   url = "/stencil-painting/"
@@ -87,3 +80,7 @@ theme = "hugo-arcana"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+
+[outputs]
+home = ["HTML"]
