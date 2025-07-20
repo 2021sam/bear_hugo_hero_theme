@@ -64,7 +64,7 @@ customization are limitless.
 {{< flipcard front="images/welcome/stencilPainting.png" back="images/welcome/learnMore.png" title="Stencil Painting" link="/stencil-painting" >}}
  
 
-**BEAR Collision Cente** r is an ideal partner for insurance-related work,
+**BEAR Collision Center** is an ideal partner for insurance-related work,
 recognizing the importance of efficiency and quality within the insurance
 sector. Whether addressing collision repairs, frame straightening, or
 intricate surface preparations, our commitment to excellence is evident in
