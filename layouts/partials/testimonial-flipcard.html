@@ -27,6 +27,7 @@
         {{ with .Get "imageCaption" }}
           <p class="testimonial-image-caption">{{ . }}</p>
         {{ end }}
+        <p class="testimonial-back-author">{{ .Get "name" }}</p> <!-- 👈 Add this line -->
       </div>
 
     </div>

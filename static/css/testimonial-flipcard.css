@@ -9,6 +9,7 @@
 .testimonial-flipcard-container {
   perspective: 1000px;
   width: 100%;
+  height: 500px; /* 🔺 Add fixed height or min-height */
 }
 
 .testimonial-flipcard-inner {
@@ -104,4 +105,11 @@
   .testimonial-flipcard-back {
     min-height: 420px;
   }
+}
+
+.testimonial-back-author {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  color: white;
 }
