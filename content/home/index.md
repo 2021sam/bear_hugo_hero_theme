@@ -109,6 +109,33 @@ a new book by author S. Covey. We are so fortunate they are in the Bay Area. I
 smile when we learn someone has had work done by them. Their ideas for the
 right fix is superb.
 
+
+hello
+
+{{< testimonial-flipcard
+  name="Bonnie & Steve S."
+  title="May 20, 2024 - YELP"
+  quote=`Received the very best service ever. Manager: Michael Flores has skill sets that are 5 star. Owner: Sam Portillo started this business over 40 years ago.
+  His knowledge of RV repair and other machinery is astounding and critical.
+  Patricia, is extremely front window friendly. Makes the wait time fly by a
+  while taking so many phone calls. The people who work here practice the 'seven
+  habits of highly effective businesses'. They could serve as the role model for
+  a new book by author S. Covey. We are so fortunate they are in the Bay Area. I
+  smile when we learn someone has had work done by them. Their ideas for the
+  right fix is superb.`
+  company="BEAR Collision"
+  image="images/welcome/image.png"
+  imageAlt="Bonnie and Steve"
+  imageCaption="Five Stars"
+  link="https://www.yelp.com/biz/bear-collision-and-service-center-hayward-6"
+  frontBackground="#ffffff"
+  frontTextColor="#000000"
+  background="#004c91"
+>}}
+
+
+
+
 ![](images/welcome/image.png)
 
 **Xai Z.**
