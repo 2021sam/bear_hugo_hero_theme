@@ -6,6 +6,7 @@ draft = false
 layout = "welcome"
 data = "home"
 # aliases  = [ "/" ]
+# url: /
 +++
 
 {{< slideshow index="1" data="home" >}}

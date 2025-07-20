@@ -50,13 +50,6 @@ theme = "hugo-arcana"
   weight = 11
 
 
-
-  [[menu.main]]
-  identifier = "welding"
-  name = "Welding"
-  url = "/welding/"
-  weight = 6
-
   [[menu.main]]
   identifier = "frame-repair"
   name = "Frame Repair"
@@ -80,7 +73,3 @@ theme = "hugo-arcana"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-
-[outputs]
-home = ["HTML"]

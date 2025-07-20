@@ -6,7 +6,7 @@ draft: true
 slug: privacy-policy
 title: Privacy Policy
 type: page
-url: /
+# url: /
 wordpress_id: 3
 ---
 
