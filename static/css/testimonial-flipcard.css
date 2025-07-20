@@ -35,11 +35,19 @@
   box-sizing: border-box;
   border-radius: 10px;
   overflow: hidden;
+
+
+  /* ✅ Essential fix for Firefox */
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+
 }
 
 .testimonial-flipcard-front {
   background: #ffffff;
   color: #333;
+  transform: rotateY(0deg);  /* Explicitly face forward */
   z-index: 2;
 }
 
@@ -47,6 +55,7 @@
   background: #1a1a1a;
   color: white;
   transform: rotateY(180deg);
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
