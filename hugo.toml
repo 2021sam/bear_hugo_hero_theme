@@ -27,7 +27,7 @@ theme = "hugo-arcana"
     [[menu.main]]
     parent = "rv"
     name = "RV Maintenance"
-    url = "/rv-motorhome-maintenance/"
+    url = "/rv-maintenance/"
     weight = 2
 
     [[menu.main]]

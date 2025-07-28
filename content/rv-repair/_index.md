@@ -1,8 +1,11 @@
 +++
-draft = false
 title = "RV Repair"
+url = "/rv-repair/"
 layout = "swiper-showcase"
+draft = false
 +++
+
+
 
 ### Your Premier Destination for RV Repairs and Services
 
@@ -16,15 +19,8 @@ of mind on the road.
 
 {{< showcase index="2" data="rv-service" >}}
 
-{{< showcase index="3" data="rv-service" >}}
-
-{{< showcase index="4" data="rv-service" >}}
-
-{{< showcase index="5" data="rv-service" >}}
-
 {{< showcase index="6" data="rv-service" >}}
 
-{{< showcase index="7" data="rv-service" >}}
 
 {{< showcase index="8" data="rv-service" >}}
 
