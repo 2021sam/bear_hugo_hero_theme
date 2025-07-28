@@ -1,4 +1,4 @@
 +++
 title = "Restoration"
-draft = false
+layout = "swiper-showcase"
 +++

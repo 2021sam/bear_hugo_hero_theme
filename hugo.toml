@@ -67,6 +67,10 @@ theme = "hugo-arcana"
     url = "/commercial-truck-repair/utility-truck-body-refinishing/"
     weight = 3
 
+
+
+
+
   # Trailer
   [[menu.main]]
   identifier = "trailer"
@@ -77,7 +81,7 @@ theme = "hugo-arcana"
     [[menu.main]]
     parent = "trailer"
     name = "Lift Gate Installation"
-    url = "/trailer-repair//lift-gate-installation/"
+    url = "/trailer-repair/lift-gate-installation/"
     weight = 1
 
   # Vehicles
@@ -145,29 +149,6 @@ theme = "hugo-arcana"
 
 
 
-[[menu.main]]
-identifier = "utility"
-name = "Specialty Utility Bodies"
-url = "/specialty-utility-bodies/"
-weight = 6
-
-  [[menu.main]]
-  parent = "utility"
-  name = "Disposal Truck Refinishing"
-  url = "/specialty-utility-bodies/disposal-truck-refinishing/"
-  weight = 1
-
-  [[menu.main]]
-  parent = "utility"
-  name = "Concrete Pump Truck Refinishing"
-  url = "/specialty-utility-bodies/concrete-pump-truck-refinishing/"
-  weight = 2
-
-  [[menu.main]]
-  parent = "utility"
-  name = "Fleet Sandblasting & Priming"
-  url = "/specialty-utility-bodies/fleet-sandblasting/"
-  weight = 3
 
 
 

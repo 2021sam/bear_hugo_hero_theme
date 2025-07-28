@@ -5,3 +5,6 @@ description = "Repair services for utility truck bodies, including concrete pump
 +++
 
 Aluminum or steel, we repair or fabricate custom truck bodies, doors, steps, and bumpers to OEM or upgraded standards.
+
+
+{{< showcase-right index="4" data="truck-service" >}}

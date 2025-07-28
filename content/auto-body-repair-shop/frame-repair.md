@@ -1,11 +1,9 @@
 +++
-title = "Frame Repair"
-menu = { main = { parent = "vehicles", weight = 1 } }
+title = "Auto Frame Repair"
+layout = "swiper-showcase"
 +++
 
 
-
-## Frame Repair
 
 **BEAR** prides itself on delivering top-quality refinishing services for
 vehicles using expert PPG coatings. Our PPG-trained technicians possess deep

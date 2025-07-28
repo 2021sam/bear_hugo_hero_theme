@@ -1,4 +1,7 @@
 +++
 title = "Fabrication Repair"
-draft = false
+layout = "swiper-showcase"
 +++
+
+
+{{< showcase index="10" data="rv-service" >}}
