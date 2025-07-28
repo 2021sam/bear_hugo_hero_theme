@@ -42,29 +42,29 @@ theme = "hugo-arcana"
     url = "/rv-repair/motorhome-collision-repair/"
     weight = 4
 
-  # Heavy Truck
+  # Commercial Truck
   [[menu.main]]
-  identifier = "heavy-truck"
-  name = "Heavy Truck"
-  url = "/truck-repair/"
+  identifier = "commercial-truck-repair"
+  name = "Commercial Truck Repair"
+  url = "/commercial-truck-repair/"
   weight = 3
 
     [[menu.main]]
-    parent = "heavy-truck"
+    parent = "commercial-truck-repair"
     name = "Truck Collision Repair"
-    url = "/truck-repair/truck-collision-repair/"
+    url = "/commercial-truck-repair/truck-collision-repair/"
     weight = 1
 
     [[menu.main]]
-    parent = "heavy-truck"
-    name = "Heavy Equipment Refinishing"
-    url = "/truck-repair/heavy-duty-construction-equipment-refinishing/"
+    parent = "commercial-truck-repair"
+    name = "Utility Body Repair"
+    url = "/commercial-truck-repair/utility-body-repair/"
     weight = 2
 
     [[menu.main]]
-    parent = "heavy-truck"
-    name = "Truck Body Repair"
-    url = "/truck-repair/truck-body-repair/"
+    parent = "commercial-truck-repair"
+    name = "Utility Body Refinishing"
+    url = "/commercial-truck-repair/utility-body-refinishing/"
     weight = 3
 
   # Trailer

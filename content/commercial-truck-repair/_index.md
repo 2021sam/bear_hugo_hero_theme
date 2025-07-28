@@ -1,7 +1,12 @@
 +++
-title = "Truck Repair"
+title = "Commercial Truck Repair"
 layout = "truck"
+description = "Collision repair, utility body repair, and refinishing for commercial trucks in Hayward and the Bay Area."
 +++
+
+commercial-truck-body-shop
+semi-truck-repair
+h1e1av1y-duty-truck-repair
 
 
 **BEAR Collison Center** provides comprehensive repair solutions for all types
