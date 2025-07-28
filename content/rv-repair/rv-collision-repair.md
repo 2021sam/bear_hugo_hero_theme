@@ -1,7 +1,7 @@
 +++
 title = "RV Collision Repair"
 layout = "swiper-showcase"
-url = "/rv-collision-repair/"
+url = "/rv-repair/rv-collision-repair/"
 draft = false
 +++
 

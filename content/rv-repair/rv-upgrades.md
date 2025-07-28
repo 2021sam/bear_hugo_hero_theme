@@ -1,7 +1,7 @@
 +++
 title = "RV Upgrades"
 layout = "swiper-showcase"
-url = "/rv-upgrades/"
+menu = { main = { parent = "rv", weight = 1 } }
 draft = false
 +++
 
