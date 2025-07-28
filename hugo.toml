@@ -1,73 +1,191 @@
-# /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/hugo.toml
-
 baseURL = "http://localhost:1313/"
-# baseURL = "https://cabear.com/hugo/"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "hugo-arcana"
 
 [menu]
+
+  # Welcome
   [[menu.main]]
   name = "Welcome"
-  url = "/home/"
+  url = "/"
   weight = 1
 
+  # RV
   [[menu.main]]
-  name = "RV Repair"
+  identifier = "rv"
+  name = "RV"
   url = "/rv-repair/"
   weight = 2
 
+    [[menu.main]]
+    parent = "rv"
+    name = "RV Upgrades"
+    url = "/rv-upgrades/"
+    weight = 1
+
+    [[menu.main]]
+    parent = "rv"
+    name = "RV Maintenance"
+    url = "/rv-motorhome-maintenance/"
+    weight = 2
+
+    [[menu.main]]
+    parent = "rv"
+    name = "RV Collision Repair"
+    url = "/rv-collision-repair/"
+    weight = 3
+
+    [[menu.main]]
+    parent = "rv"
+    name = "Motorhome Collision Repair"
+    url = "/motorhome-collision-repair/"
+    weight = 4
+
+  # Heavy Truck
   [[menu.main]]
-  identifier = "truck-services"
-  name = "Truck Repair"
-  url = "/truck-services/"
+  identifier = "heavy-truck"
+  name = "Heavy Truck"
+  url = "/truck-repair/"
   weight = 3
 
+    [[menu.main]]
+    parent = "heavy-truck"
+    name = "Truck Collision Repair"
+    url = "/truck-collision-repair/"
+    weight = 1
+
+    [[menu.main]]
+    parent = "heavy-truck"
+    name = "Heavy Equipment Refinishing"
+    url = "/heavy-duty-construction-equipment-refinishing/"
+    weight = 2
+
+    [[menu.main]]
+    parent = "heavy-truck"
+    name = "Truck Body Repair"
+    url = "/truck-body-repair/"
+    weight = 3
+
+  # Trailer
   [[menu.main]]
-  identifier = "sandblasting"
-  name = "Sandblasting"
-  url = "/media-sandblasting/"
+  identifier = "trailer"
+  name = "Trailer"
+  url = "/trailer-repair/"
+  weight = 4
+
+    [[menu.main]]
+    parent = "trailer"
+    name = "Lift Gate Installation"
+    url = "/lift-gate-installation/"
+    weight = 1
+
+  # Vehicles
+  [[menu.main]]
+  identifier = "vehicles"
+  name = "Vehicles"
+  url = "/auto-body-repair-shop/"
   weight = 5
 
+    [[menu.main]]
+    parent = "vehicles"
+    name = "Frame Repair"
+    url = "/frame-repair/"
+    weight = 1
+
+    [[menu.main]]
+    parent = "vehicles"
+    name = "Restoration"
+    url = "/restoration/"
+    weight = 2
+
+  # Quality Services
+  [[menu.main]]
+  identifier = "quality"
+  name = "Quality Services"
+  url = "/rust-removal-repair/"
+  weight = 6
+
+    [[menu.main]]
+    parent = "quality"
+    name = "Fabrication Repair"
+    url = "/fabrication-repair/"
+    weight = 1
+
+    [[menu.main]]
+    parent = "quality"
+    name = "Media Sandblasting"
+    url = "/media-sandblasting/"
+    weight = 2
+
+  # Insurance
   [[menu.main]]
   identifier = "insurance"
   name = "Insurance"
-  url = "/insurance-partnership/"
-  weight = 5
-
-
-  [[menu.main]]
-  identifier = "about"
-  name = "About Us"
-  url = "/about-us/"
-  weight = 5
-
-
-  [[menu.main]]
-  identifier = "contact"
-  name = "Contact Us"
-  url = "/contact-us/"
-  weight = 11
-
-
-  [[menu.main]]
-  identifier = "frame-repair"
-  name = "Frame Repair"
-  url = "/frame-repair/"
+  url = "/insurance-partnerships/"
   weight = 7
 
+    [[menu.main]]
+    parent = "insurance"
+    name = "GEICO Repair"
+    url = "/geico-insurance-repair/"
+    weight = 1
+
+    [[menu.main]]
+    parent = "insurance"
+    name = "Progressive Repair"
+    url = "/progressive-insurance-repair/"
+    weight = 2
+
+    [[menu.main]]
+    parent = "insurance"
+    name = "State Farm Repair"
+    url = "/statefarm-insurance-repair/"
+    weight = 3
+
+
+
+[[menu.main]]
+identifier = "utility"
+name = "Specialty Utility Bodies"
+url = "/specialty-utility-bodies/"
+weight = 6
+
   [[menu.main]]
-  identifier = "painting"
-  name = "Painting"
-  url = "/painting/"
+  parent = "utility"
+  name = "Disposal Truck Refinishing"
+  url = "/disposal-truck-refinishing/"
+  weight = 1
+
+  [[menu.main]]
+  parent = "utility"
+  name = "Concrete Pump Truck Refinishing"
+  url = "/concrete-pump-truck-refinishing/"
+  weight = 2
+
+  [[menu.main]]
+  parent = "utility"
+  name = "Fleet Sandblasting & Priming"
+  url = "/fleet-sandblasting/"
+  weight = 3
+
+
+
+
+
+
+
+  # About
+  [[menu.main]]
+  name = "About Us"
+  url = "/about-us/"
   weight = 8
 
+  # Contact
   [[menu.main]]
-  identifier = "stencil-painting"
-  name = "Stencil Painting"
-  url = "/stencil-painting/"
-  weight = 10
-
+  name = "Contact Us"
+  url = "/contact-us/"
+  weight = 9
 
 [markup]
   [markup.goldmark]
