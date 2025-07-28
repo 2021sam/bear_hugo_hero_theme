@@ -122,32 +122,33 @@ theme = "hugo-arcana"
     url = "/media-sandblasting/"
     weight = 2
 
-  # Insurance
+
+
+
+# Insurance
+[[menu.main]]
+identifier = "insurance"
+name = "Insurance"
+url = "/insurance/"
+weight = 7
+
   [[menu.main]]
-  identifier = "insurance"
-  name = "Insurance"
-  url = "/insurance-partnerships/"
-  weight = 7
+  parent = "insurance"
+  name = "GEICO Repair"
+  url = "/insurance/geico-insurance-repair/"
+  weight = 1
 
-    [[menu.main]]
-    parent = "insurance"
-    name = "GEICO Repair"
-    url = "/geico-insurance-repair/"
-    weight = 1
+  [[menu.main]]
+  parent = "insurance"
+  name = "Progressive Repair"
+  url = "/insurance/progressive-insurance-repair/"
+  weight = 2
 
-    [[menu.main]]
-    parent = "insurance"
-    name = "Progressive Repair"
-    url = "/progressive-insurance-repair/"
-    weight = 2
-
-    [[menu.main]]
-    parent = "insurance"
-    name = "State Farm Repair"
-    url = "/statefarm-insurance-repair/"
-    weight = 3
-
-
+  [[menu.main]]
+  parent = "insurance"
+  name = "State Farm Repair"
+  url = "/insurance/statefarm-insurance-repair/"
+  weight = 3
 
 
 
