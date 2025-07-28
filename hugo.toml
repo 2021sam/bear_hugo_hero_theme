@@ -57,14 +57,14 @@ theme = "hugo-arcana"
 
     [[menu.main]]
     parent = "commercial-truck-repair"
-    name = "Utility Body Repair"
-    url = "/commercial-truck-repair/utility-body-repair/"
+    name = "Utility Truck Body Repair"
+    url = "/commercial-truck-repair/utility-truck-body-repair/"
     weight = 2
 
     [[menu.main]]
     parent = "commercial-truck-repair"
-    name = "Utility Body Refinishing"
-    url = "/commercial-truck-repair/utility-body-refinishing/"
+    name = "Utility Truck Body Refinishing"
+    url = "/commercial-truck-repair/utility-truck-body-refinishing/"
     weight = 3
 
   # Trailer
