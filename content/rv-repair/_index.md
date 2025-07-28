@@ -21,16 +21,11 @@ of mind on the road.
 
 {{< showcase index="6" data="rv-service" >}}
 
-
 {{< showcase index="8" data="rv-service" >}}
 
 {{< showcase index="9" data="rv-service" >}}
 
-{{< showcase index="10" data="rv-service" >}}
-
 {{< showcase index="11" data="rv-service" >}}
-
-{{< showcase index="12" data="rv-service" >}}
 
 {{< showcase index="13" data="rv-service" >}}
 
