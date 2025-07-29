@@ -18,8 +18,8 @@
   </div>
 
   <div class="images" style="flex: 1 1 300px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
-    {{ with .Get "img1" }}<img src="{{ . }}" style="width: 100%; border-radius: 0.5rem;" />{{ end }}
-    {{ with .Get "img2" }}<img src="{{ . }}" style="width: 100%; border-radius: 0.5rem;" />{{ end }}
-    {{ with .Get "img3" }}<img src="{{ . }}" style="grid-column: span 2; width: 100%; border-radius: 0.5rem;" />{{ end }}
+    {{ with .Get "img1" }}<img src="{{ . | relURL }}" style="width: 100%; border-radius: 0.5rem;" />{{ end }}
+    {{ with .Get "img2" }}<img src="{{ . | relURL }}" style="width: 100%; border-radius: 0.5rem;" />{{ end }}
+    {{ with .Get "img3" }}<img src="{{ . | relURL }}" style="grid-column: span 2; width: 100%; border-radius: 0.5rem;" />{{ end }}
   </div>
 </div>
