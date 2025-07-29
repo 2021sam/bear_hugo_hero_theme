@@ -2,15 +2,15 @@
 .kt-info-media-animate-flip .kadence-info-box-image-inner-intrisic {
     perspective: 1000px;
     position: relative;
-    width: 149px;
-    height: 154px;
+    width: 150px;
+    height: 150px;
   }
   
   .kt-info-box-image,
   .kt-info-box-image-flip {
     position: absolute;
-    width: 149px;
-    height: 154px;
+    width: 150px;
+    height: 150px;
     backface-visibility: hidden;
     transition: transform 0.6s;
   }
@@ -34,6 +34,7 @@
   
   .flipcard-container {
     width: 150px;
+    height: 150px; /* ✅ Add height to match width */
     perspective: 1000px;
     border: 1px solid #ccc;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
@@ -46,7 +47,7 @@
   .flipcard-inner {
     position: relative;
     width: 100%;
-    height: 154px;
+    height: 100%;
     transition: transform 0.6s;
     transform-style: preserve-3d;
   }

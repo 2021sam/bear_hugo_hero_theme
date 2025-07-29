@@ -16,7 +16,7 @@ theme = "hugo-arcana"
   # RV
   [[menu.main]]
   identifier = "rv"
-  name = "RV"
+  name = "RV Repair"
   url = "/rv-repair/"
   weight = 2
 
