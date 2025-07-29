@@ -6,7 +6,7 @@ public/
 .hugo_build.lock
 .DS_Store
 # Ignore downloaded image sliders
-static/images/rv-service/
+# static/images/rv-service/
 wordpress/static
 /utility/static/
 utility/static/
