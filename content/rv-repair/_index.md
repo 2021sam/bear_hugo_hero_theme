@@ -13,14 +13,9 @@ insurance companies. Located conveniently in Hayward, we offer a full spectrum
 of expert services to keep your RV in optimal condition and ensure your peace
 of mind on the road.
 
-
-{{< showcase index="2" data="rv-service" >}}
-
 {{< showcase index="6" data="rv-service" >}}
 
 {{< showcase index="8" data="rv-service" >}}
-
-{{< showcase index="13" data="rv-service" >}}
 
 
 #### Why Choose Us?
