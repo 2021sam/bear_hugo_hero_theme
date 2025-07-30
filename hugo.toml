@@ -23,7 +23,7 @@ theme = "hugo-arcana"
     [[menu.main]]
     parent = "rv"
     name = "RV Upgrades"
-    url = "rv-repair/rv-upgrades/"
+    url = "/rv-repair/rv-upgrades/"
     weight = 1
 
     [[menu.main]]
