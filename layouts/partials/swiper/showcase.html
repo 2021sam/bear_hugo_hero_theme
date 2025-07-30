@@ -16,38 +16,36 @@
     <div class="info-box">
       <div class="info-box-media">
         <div class="image-flip-container">
-          <div class="image-front">
-
-            <img src="{{ "images/logo/bearpawCircle-1.png" | relURL }}" alt="Front logo" />
-
-          </div>
-          <div class="image-back">
-            
-
-            <img src="{{ "images/logo/bearCircle.png"     | relURL }}" alt="Back logo"  />
-
+          <div class="flip-inner">
+            <div class="image-front">
+              <img src="{{ "images/logo/bearpawCircle-1.png" | relURL }}" alt="Front logo" />
+            </div>
+            <div class="image-back">
+              <img src="{{ "images/logo/bearCircle.png" | relURL }}" alt="Back logo" />
+            </div>
           </div>
         </div>
-      </div>
+      </div> <!-- closes info-box-media -->
+
       <div class="info-box-text">
         <h2>{{ $show.header }}</h2>
         <p>{{ $show.description }}</p>
       </div>
-    </div>
+    </div> <!-- closes info-box -->
 
     <div class="swiper {{ $key }}">
       <div class="swiper-wrapper">
         {{ range $show.images }}
-          <div class="swiper-slide">
-            <img src="{{ . | relURL }}" alt="Slide from {{ $key }}">
-          </div>
+        <div class="swiper-slide">
+          <img src="{{ . | relURL }}" alt="Slide from {{ $key }}">
+        </div>
         {{ end }}
       </div>
       <div class="swiper-pagination pagination-{{ $key }}"></div>
       <div class="swiper-button-prev prev-{{ $key }}"></div>
       <div class="swiper-button-next next-{{ $key }}"></div>
-    </div>
+    </div> <!-- closes swiper -->
 
-  </div>
+  </div> <!-- closes showcase-block -->
 </section>
 {{ end }}
