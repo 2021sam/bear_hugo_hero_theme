@@ -1,7 +1,6 @@
 +++
 title = "Motorhome Collision Repair"
-menu = { main = { parent = "rv-repair", weight = 4 } }
-url = "/rv-repair/motorhome-collision-repair/"
+layout = "swiper-showcase"
 +++
 
 Details about RV collision repairs, fiberglass, side panels, insurance coordination, etc.
