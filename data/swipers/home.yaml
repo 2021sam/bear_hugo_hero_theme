@@ -5,3 +5,25 @@ swiper_images_1:
     - "images/welcome/slider_1/RV-Motorhome-Collision-Repair-1024x680.jpg"
     - "images/welcome/slider_1/Tractor-Trailer-Collision-Repair-1024x640.jpg"
     - "images/welcome/slider_1/camaro-ss.jpg"
+
+
+
+swiper_images_9:
+  header: "Insurance Claim Specialist"
+  description: "We are a preferred repair center with major insurance companies, handling claims efficiently to minimize downtime for your RV."
+  images:
+    - "images/rv-service/slider_9/BarLicensed2.png"
+    - "images/rv-service/slider_9/IcarCerfied.png"
+    - "images/rv-service/slider_9/dometic_authorized_dealer.png"
+    - "images/rv-service/slider_9/insurance-agent-working-site-car-accident-claim-process-people-car-insurance-claim-1024x684.jpg"
+    - "images/rv-service/slider_9/mitchell-estimating-software.png"
+    - "images/rv-service/slider_9/ppgCertified.png"
+
+swiper_images_11:
+  header: "Large Facility"
+  description: "Equipped to accommodate even the largest buses and RVs, ensuring ample space for comprehensive repairs."
+  images:
+    - "images/rv-service/slider_11/1-768x576-1.jpg"
+    - "images/rv-service/slider_11/IMG_1868-2-1024x682.jpg"
+    - "images/rv-service/slider_11/IMG_6480-1024x682.jpg"
+    - "images/rv-service/slider_11/sand_blasting_small-1024x727.jpg"

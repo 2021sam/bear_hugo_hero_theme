@@ -44,6 +44,14 @@ theme = "hugo-arcana"
     url = "/rv-repair/motorhome-collision-repair/"
     weight = 4
 
+
+    [[menu.main]]
+    parent = "rv"
+    name = "RV Painting"
+    url = "/rv-repair/rv-painting/"
+    weight = 5
+
+
   # Commercial Truck
   [[menu.main]]
   identifier = "commercial-truck-repair"

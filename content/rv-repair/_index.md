@@ -5,8 +5,6 @@ layout = "swiper-showcase"
 draft = false
 +++
 
-
-
 ### Your Premier Destination for RV Repairs and Services
 
 At **BEAR Collision Center,** we specialize in providing comprehensive RV
@@ -21,10 +19,6 @@ of mind on the road.
 {{< showcase index="6" data="rv-service" >}}
 
 {{< showcase index="8" data="rv-service" >}}
-
-{{< showcase index="9" data="rv-service" >}}
-
-{{< showcase index="11" data="rv-service" >}}
 
 {{< showcase index="13" data="rv-service" >}}
 
