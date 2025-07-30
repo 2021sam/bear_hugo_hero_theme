@@ -16,8 +16,9 @@ swiper_images_1:
 
 
 swiper_images_2:
-  header: "Refinishing"
-  description: "Expert PPG refinishing team will restore your paint to it’s original beauty, or create a new look altogether."
+  header: "RV Painting & Refinishing – Travel Trailers, Campers & Motorhomes"
+  description: >
+    Refresh your RV’s appearance and protect your investment with professional painting and decal replacement for travel trailers, campers, fifth wheels, and motorhomes. BEAR offers full‑body paint, touch‑ups, decal installation, gel‑coat correction, and clear‑coat UV protection using premium materials and precise color matching.
   images:
     - "images/rv-service/slider_2/IMG_0002-24-1.jpg"
     - "images/rv-service/slider_2/IMG_0527-1024x682.jpg"
@@ -31,6 +32,7 @@ swiper_images_3:
   description: "Expert repairs to ensure your RV’s structural integrity and safety including replacement, repairs and re-sealing."
   images:
     - "images/rv-service/slider_3/roofRepair.jpg"
+
 
 swiper_images_4:
   header: "Plumbing Repairs"
@@ -126,3 +128,11 @@ swiper_images_13:
   description: "Our gated and locked facility provides a secure environment for your RV."
   images:
     - "images/rv-service/slider_13/shop_front-1024x682.jpg"
+
+swiper_images_14:
+  header: "RV Collision Repair Experts – Travel Trailers, Fifth Wheels & Campers"
+  description: >
+    From rear-end accidents to major frame rebuilds, BEAR specializes in full-service RV collision repair. Our certified technicians restore aluminum siding, fiberglass exteriors, and chassis structures to factory standards—working directly with your insurance provider for a hassle-free process.
+  images:
+    - "images/rv-service/slider_14/travel-trailer-collision.png"
+    - "images/rv-service/slider_14/travel-trailer-rollover.jpg"
