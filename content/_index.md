@@ -1,8 +1,7 @@
 +++
-title = "Welcome To zyxe"
+title = "Welcome To BEAR"
 author = "admin"
 date = 2025-04-29T16:23:24Z
-draft = false
 layout = "welcome"
 data = "home"
 # aliases  = [ "/" ]
