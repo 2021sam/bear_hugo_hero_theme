@@ -144,27 +144,9 @@ weight = 7
 
   [[menu.main]]
   parent = "insurance"
-  name = "GEICO Repair"
-  url = "/insurance/geico-insurance-repair/"
+  name = "Direct Repair Program"
+  url = "/insurance/direct-repair-program/"
   weight = 1
-
-  [[menu.main]]
-  parent = "insurance"
-  name = "Progressive Repair"
-  url = "/insurance/progressive-insurance-repair/"
-  weight = 2
-
-  [[menu.main]]
-  parent = "insurance"
-  name = "State Farm Repair"
-  url = "/insurance/statefarm-insurance-repair/"
-  weight = 3
-
-
-
-
-
-
 
 
   # About
