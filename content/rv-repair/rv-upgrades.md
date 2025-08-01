@@ -1,6 +1,6 @@
 +++
 title = "RV Upgrades"
-layout = "swiper-showcase"
+layout = "swiper-showcase-wrap"
 +++
 
 Slide-outs, solar systems, LED lighting, modernizations, etc.

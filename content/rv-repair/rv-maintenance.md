@@ -1,6 +1,6 @@
 +++
 title = "RV Maintenance"
-layout = "swiper-showcase"
+layout = "swiper-showcase-wrap"
 +++
 
 Scheduled maintenance, roof resealing, tank inspections, brakes, etc.

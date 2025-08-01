@@ -1,6 +1,6 @@
 +++
 title = "RV Painting"
-layout = "swiper-showcase"
+layout = "swiper-showcase-wrap"
 description = "RV painting and refinishing services including full-body paint, clear coat, decal replacement, and color-matched refinishing for motorhomes, travel trailers, campers, and fifth wheels."
 draft = false
 +++

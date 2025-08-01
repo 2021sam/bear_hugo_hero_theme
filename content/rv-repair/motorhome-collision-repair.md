@@ -1,6 +1,6 @@
 +++
 title = "Motorhome Collision Repair"
-layout = "swiper-showcase"
+layout = "swiper-showcase-wrap"
 +++
 
 # 🛠️ Motorhome Collision Repair — Class A, B, and C RVs

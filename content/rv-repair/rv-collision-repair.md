@@ -1,6 +1,6 @@
 +++
 title = "RV Collision Repair"
-layout = "swiper-showcase"
+layout = "swiper-showcase-wrap"
 +++
 
 # 🛠️ RV Collision Repair for Travel Trailers, Campers & Fifth Wheels
