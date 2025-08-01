@@ -16,11 +16,13 @@ collision and repair services since 1979. We offer expert services across a
 wide range of vehicles, including RVs, Class A trucks, and everything in
 between.
 
-{{< flipcard front="images/welcome/circle_RV.png" back="images/welcome/learnMore.png" title="RV Repair" link="/rv-repair/" >}}
+<div class="flipcard-grid">
+  {{< flipcard front="images/welcome/circle_RV.png" back="images/welcome/learnMore.png" title="RV Repair" link="/rv-repair/" >}}
 
-{{< flipcard front="images/welcome/circle_largeTruck.png" back="images/welcome/learnMore.png" title="Truck Repair" link="/commercial-truck-repair/" >}}
+  {{< flipcard front="images/welcome/circle_largeTruck.png" back="images/welcome/learnMore.png" title="Truck Repair" link="/commercial-truck-repair/" >}}
 
-{{< flipcard front="images/welcome/circle_car.png" back="images/welcome/learnMore.png" title="Car Repair" link="/car-repair/" >}}
+  {{< flipcard front="images/welcome/circle_car.png" back="images/welcome/learnMore.png" title="Car Repair" link="/car-repair/" >}}
+</div>
 
 
 Our state-of-the-art facility is equipped to handle complex repairs on
@@ -29,20 +31,20 @@ care and precision. Whether your vehicle needs frame pulling, rust removal,
 sandblasting or welding our team is ready to to get the job done quickly and
 professionally.
 
-{{< flipcard front="images/welcome/sandblasting-Icon.png" back="images/welcome/learnMore.png" title="Sandblasting" link="/media-sandblasting/" >}}
+<div class="flipcard-grid">
+  {{< flipcard front="images/welcome/sandblasting-Icon.png" back="images/welcome/learnMore.png" title="Sandblasting" link="/media-sandblasting/" >}}
 
-{{< flipcard front="images/welcome/WELDING.png" back="images/welcome/learnMore.png" title="Welding" link="/welding/" >}}
+  {{< flipcard front="images/welcome/WELDING.png" back="images/welcome/learnMore.png" title="Welding" link="/welding/" >}}
 
-{{< flipcard front="images/welcome/frameRepair.png" back="images/welcome/learnMore.png" title="Frame Repair" link="/frame-repair/" >}}
+  {{< flipcard front="images/welcome/frameRepair.png" back="images/welcome/learnMore.png" title="Frame Repair" link="/frame-repair/" >}}
 
+  {{< flipcard front="images/welcome/painting.png" back="images/welcome/learnMore.png" title="Painting" link="/painting/" >}}
 
+  {{< flipcard front="images/welcome/decals-1.png" back="images/welcome/learnMore.png" title="Vehicle Decals" link="/vinyl-decals/" >}}
 
-{{< flipcard front="images/welcome/painting.png" back="images/welcome/learnMore.png" title="Painting" link="/painting/" >}}
+  {{< flipcard front="images/welcome/stencilPainting.png" back="images/welcome/learnMore.png" title="Stencil Painting" link="/stencil-painting" >}}
+</div> 
 
-{{< flipcard front="images/welcome/decals-1.png" back="images/welcome/learnMore.png" title="Vehicle Decals" link="/vinyl-decals/" >}}
-
-{{< flipcard front="images/welcome/stencilPainting.png" back="images/welcome/learnMore.png" title="Stencil Painting" link="/stencil-painting" >}}
- 
 
 **BEAR Collision Center** is an ideal partner for insurance-related work,
 recognizing the importance of efficiency and quality within the insurance
@@ -62,12 +64,13 @@ Partner with us and experience the difference. Contact BEAR Collision Service
 today to learn how we can support your RV, truck or car insurance needs and
 exceed your expectations.
 
-{{< flipcard front="images/welcome/icar.png" back="images/welcome/learnMore.png" title="I-Car Certified" link="https://www.i-car.com/" >}}
+<div class="flipcard-grid">
+  {{< flipcard front="images/welcome/icar.png" back="images/welcome/learnMore.png" title="I-Car Certified" link="https://www.i-car.com/" >}}
 
-{{< flipcard front="images/welcome/BarLicensed2-1.png" back="images/welcome/learnMore.png" title="BAR Licensed" link="/vinyl-decals/" >}}
+  {{< flipcard front="images/welcome/BarLicensed2-1.png" back="images/welcome/learnMore.png" title="BAR Licensed" link="/vinyl-decals/" >}}
 
-{{< flipcard front="images/welcome/mitchell.png" back="images/welcome/learnMore.png" title="Mitchell Estimating" link="https://www.mitchell.com/solutions/auto-physical-damage/repair-management/repaircenter" >}}
-
+  {{< flipcard front="images/welcome/mitchell.png" back="images/welcome/learnMore.png" title="Mitchell Estimating" link="https://www.mitchell.com/solutions/auto-physical-damage/repair-management/repaircenter" >}}
+</div>
 
 
 {{< showcase index="11" data="rv-service" >}}

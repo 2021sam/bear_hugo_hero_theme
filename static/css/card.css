@@ -1,8 +1,10 @@
+/* static/css/card.css */
+
 .flipcard-link {
   text-decoration: none;
 }
 
-.flipcard-container {
+/* .flipcard-container {
   width: 150px;
   perspective: 1000px;
   border: 1px solid #ccc;
@@ -11,9 +13,27 @@
   margin: 10px;
   display: inline-block;
   background: white;
-  border-radius: 20px; /* Add this line for rounded corners */
-  overflow: hidden;    /* Ensures child images respect border radius */
+  border-radius: 20px;
+  overflow: hidden;
+} */
+
+
+.flipcard-container {
+  display: flex;               /* Replace inline-block */
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  perspective: 1000px;
+  border: 1px solid #ccc;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin: 0;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
 }
+
+
 
 .flipcard-inner {
   position: relative;
@@ -44,4 +64,67 @@
   margin-top: 10px;
   font-weight: bold;
   color: #333;
+}
+
+
+
+
+/* 
+.flipcard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+/* .flipcard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+
+/* .flipcard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, max-content));
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+} */
+
+
+.flipcard-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  padding: 2rem 1rem;
+}
+
+
+
+@media (min-width: 768px) {
+  .flipcard-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .flipcard-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+
+
+.flipcard-grid + .flipcard-grid {
+  margin-top: 2rem;
 }
