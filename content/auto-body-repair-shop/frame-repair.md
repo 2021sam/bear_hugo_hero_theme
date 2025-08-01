@@ -1,6 +1,6 @@
 +++
 title = "Auto Frame Repair"
-layout = "swiper-showcase"
+layout = "swiper-showcase-wrap"
 +++
 
 
