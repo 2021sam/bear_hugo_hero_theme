@@ -1,7 +1,8 @@
 +++
 title = "Fabrication Repair"
-layout = "swiper-showcase"
+layout = "swiper-showcase-wrap"
+data = "rv-service"
 +++
 
 
-{{< showcase index="10" data="rv-service" >}}
+{{< showcase index="10" >}}
