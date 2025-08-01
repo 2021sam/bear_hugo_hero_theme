@@ -105,7 +105,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  gap: 20px;
+  gap: 100px;  /* ← spacing between cards */
   padding: 2rem 1rem;
 }
 
