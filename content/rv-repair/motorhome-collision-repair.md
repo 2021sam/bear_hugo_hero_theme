@@ -1,6 +1,7 @@
 +++
 title = "Motorhome Collision Repair"
 layout = "swiper-showcase-wrap"
+data = "rv-service"
 +++
 
 # 🛠️ Motorhome Collision Repair — Class A, B, and C RVs
@@ -36,7 +37,7 @@ Our certified technicians follow factory methods for structural repair and use t
 
 ---
 
-{{< showcase index="1" data="rv-service" >}}
+{{< showcase index="1" >}}
 
 
 ## Designed for Motorhomes — Equipped for Quality

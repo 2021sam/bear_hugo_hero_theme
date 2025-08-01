@@ -1,8 +1,8 @@
 +++
 title = "RV Painting"
 layout = "swiper-showcase-wrap"
+data = "rv-service"
 description = "RV painting and refinishing services including full-body paint, clear coat, decal replacement, and color-matched refinishing for motorhomes, travel trailers, campers, and fifth wheels."
-draft = false
 +++
 
 ### RV Painting & Refinishing Services for Travel Trailers, Campers, Fifth Wheels & Motorhomes
@@ -24,7 +24,7 @@ At **BEAR Collision Center**, we specialize in full‑body painting and refinish
   Hand‑washing, decontamination, and paint correction to ensure a smooth base before applying coatings.
 
 
-{{< showcase index="2" data="rv-service" >}}
+{{< showcase index="2" >}}
 
 
 ## Why Choose BEAR for RV Painting?

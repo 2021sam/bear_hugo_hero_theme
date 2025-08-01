@@ -2,6 +2,7 @@
 title = "RV Repair"
 url = "/rv-repair/"
 layout = "swiper-showcase-wrap"
+data = "rv-service"
 +++
 
 ### Your Premier Destination for RV Repairs and Services
@@ -13,11 +14,11 @@ of expert services to keep your RV in optimal condition and ensure your peace
 of mind on the road.
 
 
-{{< showcase index="4" data="rv-service" >}}
+{{< showcase index="4" >}}
 
-{{< showcase index="6" data="rv-service" >}}
+{{< showcase index="6" >}}
 
-{{< showcase index="8" data="rv-service" >}}
+{{< showcase index="8" >}}
 
 
 #### Why Choose Us?

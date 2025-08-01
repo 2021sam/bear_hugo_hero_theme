@@ -1,9 +1,9 @@
 +++
 title = "RV Upgrades"
 layout = "swiper-showcase-wrap"
+data = "rv-service"
 +++
 
 Slide-outs, solar systems, LED lighting, modernizations, etc.
 
-
-{{< showcase index="7" data="rv-service" >}}
+{{< showcase index="7" >}}

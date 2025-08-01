@@ -1,6 +1,7 @@
 +++
 title = "RV Collision Repair"
 layout = "swiper-showcase-wrap"
+data = "rv-service"
 +++
 
 # 🛠️ RV Collision Repair for Travel Trailers, Campers & Fifth Wheels
@@ -28,7 +29,7 @@ Our shop is designed for full-size RVs, trailers, and Class A motorhomes. We del
 ---
 
 
-{{< showcase index="14" data="rv-service" >}}
+{{< showcase index="14" >}}
 
 
 

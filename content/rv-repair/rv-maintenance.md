@@ -1,6 +1,7 @@
 +++
 title = "RV Maintenance"
 layout = "swiper-showcase-wrap"
+data = "rv-service"
 +++
 
 Scheduled maintenance, roof resealing, tank inspections, brakes, etc.
@@ -76,8 +77,8 @@ Protect your RV from California’s unpredictable weather.
 
 ---
 
-{{< showcase index="14" data="rv-service" >}}
+{{< showcase index="14" >}}
 
-{{< showcase index="5" data="rv-service" >}}
+{{< showcase index="5" >}}
 
-{{< showcase index="12" data="rv-service" >}}
+{{< showcase index="12" >}}
