@@ -77,22 +77,19 @@ theme = "hugo-arcana"
     url = "/commercial-truck-repair/utility-truck-body-refinishing/"
     weight = 3
 
-
-
-
-
-  # Trailer
-  [[menu.main]]
-  identifier = "trailer"
-  name = "Trailer"
-  url = "/trailer-repair/"
-  weight = 4
+    [[menu.main]]
+    parent = "commercial-truck-repair"
+    identifier = "trailer-repair"
+    name = "Trailer Repair"
+    url = "/commercial-truck-repair/trailer-repair/"
+    weight = 4
 
     [[menu.main]]
-    parent = "trailer"
+    parent = "trailer-repair"
     name = "Lift Gate Installation"
-    url = "/trailer-repair/lift-gate-installation/"
+    url = "/commercial-truck-repair/trailer-repair/lift-gate-installation/"
     weight = 1
+
 
   # Vehicles
   [[menu.main]]
