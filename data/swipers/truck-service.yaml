@@ -24,6 +24,7 @@ swiper_images_1:
   - images/truck-service/slider_1/IMG_5514-1024x682.jpg
   - images/truck-service/slider_1/IMG_8191-1024x682.jpg
   - images/truck-service/slider_1/IMG_8257-1024x682.jpg
+
 swiper_images_2:
   header: Medium Duty Trucks and Truck Bodies
   description:
@@ -43,6 +44,7 @@ swiper_images_2:
   - images/truck-service/slider_2/IMG_9810.jpg
   - images/truck-service/slider_2/IMG_0218.jpg
   - images/truck-service/slider_2/IMG_6171-1-1024x665.jpg
+
 swiper_images_3:
   header: Pickups, Vans and Cars
   description:
@@ -64,6 +66,7 @@ swiper_images_3:
   - images/truck-service/slider_3/IMG_0830.jpg
   - images/truck-service/slider_3/IMG_3439-1-1024x682.jpg
   - images/truck-service/slider_3/IMG_3638-2-1-1024x767.jpg
+
 swiper_images_4:
   header: Heavy Duty Construction Equipment
   description:
@@ -78,6 +81,7 @@ swiper_images_4:
   - images/truck-service/slider_4/IMG_3630-1-918x1024.jpg
   - images/truck-service/slider_4/IMG_9890.jpg
   - images/truck-service/slider_4/Sandblasting_end-dumps-1.jpg
+
 swiper_images_5:
   header: Security System
   description:
@@ -89,3 +93,21 @@ swiper_images_5:
   - images/truck-service/slider_5/audio-1024x666.jpg
   - images/truck-service/slider_5/birdeyeLogoRed.png
   - images/truck-service/slider_5/bearCircleBLACK-1.png
+
+
+swiper_images_6:
+  header: Class A Truck and Bus Service
+  description:
+   - Collision repairs
+   - Frame repairs
+   - Composites, aluminum and steel repairs
+   - Painting and re-imaging
+  images:
+  - images/truck-service/slider_1/IMG_3428-1024x683.jpg
+  - images/truck-service/slider_1/MG_0186-1024x841.jpg
+  - images/truck-service/slider_1/1.jpg
+  - images/truck-service/slider_1/2-1.jpg
+  - images/truck-service/slider_1/3.jpg
+  - images/truck-service/slider_1/IMG_3505large-1-1024x768.jpg
+  - images/truck-service/slider_1/IMG_8191-1024x682.jpg
+  - images/truck-service/slider_1/IMG_8257-1024x682.jpg
