@@ -1,6 +1,7 @@
 +++
 title = "Media"
-layout = "media"
+# layout = "media"
+layout = "swiper-showcase-wrap"
 +++
 
 ## BEAR Collision Service Center's Custom Built Clemco® Abrasive Blast Media Recovery System is the Largest in the Bay Area.
