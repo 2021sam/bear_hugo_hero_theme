@@ -1,4 +1,5 @@
 +++
 title = "Trailer Repair"
-draft = false
+layout = "swiper-showcase-wrap"
+data = "rv-service"
 +++

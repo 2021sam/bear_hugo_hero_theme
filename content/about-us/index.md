@@ -1,9 +1,10 @@
 +++
 title = "About Us"
-layout = "about"
+layout = "swiper-showcase-wrap"
+data = ""
 +++
 
-/Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/content/about-us/index.md
+<!-- /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/content/about-us/index.md -->
 
 ###### <span style="color: blue;">Since 1979</span>
 

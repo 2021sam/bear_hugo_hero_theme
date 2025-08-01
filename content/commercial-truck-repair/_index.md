@@ -1,7 +1,8 @@
 +++
 title = "Commercial Truck Repair"
-layout = "truck"
 description = "Collision repair, utility body repair, and refinishing for commercial trucks in Hayward and the Bay Area."
+layout = "swiper-showcase-wrap"
+data = "truck-service"
 +++
 
 commercial-truck-body-shop
@@ -23,6 +24,6 @@ pickups, vans and cars.
 
 ## Services include:
 
-{{< showcase-left index="1" data="truck-service" >}}
+{{< showcase-left index="1" >}}
 
-{{< showcase-right index="2" data="truck-service" >}}
+{{< showcase-right index="2" >}}

@@ -1,6 +1,7 @@
 +++
 title = "Contact"
-layout = "contact"
+layout = "swiper-showcase-wrap"
+data = ""
 +++
 
 
@@ -11,5 +12,5 @@ layout = "contact"
   hours="Monday – Friday: 8am – 5pm"
   email="michael@cabear.com"
   button_text="Email: Michael@cabear.com"
-  button_class="button-green"
+  button_class="button-red"
 >}}
