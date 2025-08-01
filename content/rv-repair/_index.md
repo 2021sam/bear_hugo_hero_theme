@@ -1,7 +1,7 @@
 +++
 title = "RV Repair"
 url = "/rv-repair/"
-layout = "swiper-showcase"
+layout = "swiper-showcase-wrap"
 +++
 
 ### Your Premier Destination for RV Repairs and Services

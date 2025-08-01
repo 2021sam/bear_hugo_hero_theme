@@ -1,0 +1,21 @@
+/* section.css */
+
+/* Default section layout with margins */
+.section-default,
+.section-wrap,
+.content-wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Flush layout: full-width content, no padding */
+.section-flush,
+.flush {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

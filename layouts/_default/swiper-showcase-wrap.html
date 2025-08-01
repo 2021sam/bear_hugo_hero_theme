@@ -1,0 +1,6 @@
+{{ define "main" }}
+  <div class="section-wrap">
+    {{ .Content }}
+    {{ partial "swiper/init.html" (dict "data" "rv-service") }}
+  </div>
+{{ end }}
