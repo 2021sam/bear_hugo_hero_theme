@@ -9,7 +9,11 @@ data = "home"
 # url: /
 +++
 
-{{< slideshow index="1" data="home" >}}
+{{< slideshow index="1" >}}
+
+{{< showcase index="11" >}}
+
+
 
 Welcome to **BEAR Collision Center,** your premier partner in comprehensive
 collision and repair services since 1979. We offer expert services across a

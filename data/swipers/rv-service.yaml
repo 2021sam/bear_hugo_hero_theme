@@ -106,6 +106,7 @@ swiper_images_10:
     - "images/rv-service/slider_10/IMG_9860-969x1024.jpg"
     - "images/rv-service/slider_10/fabrication-1024x682.jpg"
 
+# copied to home
 swiper_images_11:
   header: "Large Facility"
   description: "Equipped to accommodate even the largest buses and RVs, ensuring ample space for comprehensive repairs."
