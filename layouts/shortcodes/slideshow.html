@@ -1,6 +1,6 @@
 {{/* layouts/shortcodes/showcase.html */}}
 
 {{ $index := .Get "index" | int }}
-{{ $data := .Get "data" | default "gallery" }}
+{{ $data := .Get "data" | default .Page.Params.data | default "gallery" }}
 
 {{ partial "swiper/slideshow.html" (dict "ctx" .Page "data" $data "index" $index) }}

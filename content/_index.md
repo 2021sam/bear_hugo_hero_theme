@@ -3,17 +3,13 @@
 title = "Welcome To BEAR"
 author = "admin"
 date = 2025-04-29T16:23:24Z
-layout = "welcome"
+layout = "swiper-showcase-wrap"
 data = "home"
 # aliases  = [ "/" ]
 # url: /
 +++
 
 {{< slideshow index="1" >}}
-
-{{< showcase index="11" >}}
-
-
 
 Welcome to **BEAR Collision Center,** your premier partner in comprehensive
 collision and repair services since 1979. We offer expert services across a

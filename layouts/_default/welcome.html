@@ -3,6 +3,6 @@
 <div class="section-wrap">
  {{ .Content }}
 
- {{ partial "swiper/init.html" (dict "data" "home") }}
+ {{ partial "swiper/init.html" (dict "data" .Params.data) }}
 </div>
 {{ end }}
