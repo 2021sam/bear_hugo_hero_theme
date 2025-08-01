@@ -1,6 +1,6 @@
 +++
 title = "Your Trusted Direct Repair Program (DRP) Partner"
-layout = "swiper-showcase"
+layout = "swiper-showcase-wrap"
 +++
 
 As an approved **Direct Repair Facility**, **BEAR Collision Center** works directly with major insurance providers like GEICO, Progressive, and State Farm to expedite high-quality repairs for policyholders.
