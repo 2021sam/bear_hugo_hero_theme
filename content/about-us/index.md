@@ -22,7 +22,7 @@ We pride ourselves on delivering the best service because we know that our
 reputation and your safety are riding on how well we perform each and every
 time.
 
-{{< circleimage src="/images/about/exquisite-automotive-refinishing.jpg" alt="Circle image" >}}
+{{< circleimage src="images/about/exquisite-automotive-refinishing.jpg" alt="Circle image" >}}
 
 {{< testimonial-flipcard
   quote="**BEAR** has provided all facets of service to us from body work; paint; metal fabrication and mechanical. They have always been on time and gone over and above to service their customers."
