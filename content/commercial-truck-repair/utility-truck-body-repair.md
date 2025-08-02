@@ -1,38 +1,47 @@
 +++
 title = "Utility Truck Body Repair"
-description = "Repair services for utility truck bodies, including concrete pump trucks, garbage trucks, and mixer trucks."
+description = "Expert repair services for utility truck bodies, including concrete pump trucks, garbage trucks, vacuum trucks, and custom rear-body configurations."
 layout = "swiper-showcase-wrap"
 data = "truck-service"
 +++
 
-Aluminum or steel, we repair or fabricate custom truck bodies, doors, steps, and bumpers to OEM or upgraded standards.
+**BEAR Collision Center**  provides structural repair and fabrication services for a wide range of utility trucks — including concrete pumpers, garbage trucks, vacuum trucks, and custom service bodies.
 
+We work with steel, aluminum, and composite bodies — restoring or modifying tailgates, toolboxes, ladder racks, and custom enclosures to meet OEM or upgraded requirements.
 
 {{< showcase-right index="4" data="truck-service" >}}
 
+---
 
+## 🛠 Utility Truck Body Repair Services
 
+### 🚧 Concrete Pump Truck Repair
 
-**`content/commercial-truck-repair/utility-truck-body-repair.md`**
+We service boom and line pump trucks with cracked welds, damaged outriggers, rusted decks, or misaligned subframes. Services include steel reinforcement, deck restoration, and cabinet housing repair for reliable field performance.
 
-description = "Expert repair for utility truck bodies including concrete pump trucks, garbage trucks, and specialty rear bodies."
+### ♻️ Garbage & Refuse Truck Door Rebuilds
 
-We provide precision repair services for a variety of utility trucks — including garbage trucks, concrete pump trucks, and other specialized commercial vehicles. Our technicians restore structural integrity, improve functionality, and extend service life for custom rear bodies and equipment enclosures.
+Rear-load, front-load, and automated side-load disposal trucks take abuse from repeated cycles. We repair and rebuild door frames, hydraulic panels, seal channels, and hinge points to extend service life.
 
-## Utility Truck Repair Services
+### 🔧 Vacuum, Water, and Fuel Truck Bodies
 
-### Concrete Pump Truck Repair
+We service vacuum trucks, water sprayers, and fuel delivery bodies with compromised panels, corroded steps, damaged hatches, or mounting frame issues. We restore operational integrity with welded or modular part replacement.
 
-We service boom pump and line pump trucks with cracked welds, damaged outriggers, or compromised support structures. Repairs include steel reinforcement, deck restoration, and system housing alignment.
+### 🧰 Custom Rear-Body Modifications
 
-### Disposal Truck Door Rebuilds
+From ladder racks and access panels to auxiliary toolboxes and hydraulic add-ons, we fabricate and retrofit rear-body structures in steel or aluminum to fit your exact use case. Perfect for telecom, electrical, concrete, and sanitation fleets.
 
-Rear-load, side-load, and front-load garbage truck doors often suffer impact damage or hydraulic wear. We rebuild or replace doors, seals, hinges, and packing mechanisms for reliable service.
+### 🔩 Fleet Sandblasting & Surface Prep
 
-### Fleet Sandblasting & Prep
+We offer abrasive blasting and prep services for utility fleet restoration, repainting, and corrosion control. Ideal for DOT-inspected equipment or end-of-lease refurbishing.
 
-To ensure long-term durability and professional finish, we offer abrasive blasting for rust removal, paint stripping, and surface prep. This is ideal for fleet restoration or DOT inspections.
+---
 
-### Custom Rear-Body Modifications
+## Vehicles Commonly Serviced
 
-Need to add a ladder rack, tool enclosure, or hydraulic access panel? We fabricate and retrofit aluminum or steel rear-body elements to match your vehicle’s operational needs.
+- Concrete pump trucks  
+- Garbage and refuse trucks  
+- Vacuum trucks  
+- Water and fuel tankers  
+- Utility service trucks (Class 6–8)  
+- Municipal maintenance vehicles  
