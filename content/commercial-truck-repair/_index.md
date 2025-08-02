@@ -75,8 +75,7 @@ Below, we’ve grouped supported vehicle types by functional category for clarit
 - Refrigerated trucks (reefers)
 
 ---
-:rotating_light:
-### 🟢 Utility & Emergency Vehicles
+### 🚨 Utility & Emergency Vehicles
 *(Subset of Class 4–8)*  
 - Fire trucks / ladder apparatus  
 - Ambulances (Type I, II)  
