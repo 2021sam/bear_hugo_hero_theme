@@ -1,0 +1,50 @@
+# File: data/truck-types.yaml
+title: "Types of Commercial & Utility Trucks We Service"
+truck_classes:
+  - class: "Utility & Service Trucks"
+    types:
+      - Utility Service Trucks (Electric, Gas, Telecom)
+      - Boom Trucks / Crane Trucks / Cherry Pickers
+      - Fuel Trucks / Tanker Trucks
+      - Water Trucks
+      - Vacuum Trucks (Septic, Sewer, Hydro Vac)
+      - Maintenance Trucks (City, Park Services)
+  - class: "Emergency & Government Vehicles"
+    types:
+      - Fire Trucks
+      - Ambulances
+      - Police Mobile Units
+      - Rescue Vehicles
+  - class: "Construction & Heavy Duty Trucks"
+    types:
+      - Dump Trucks
+      - Cement Mixers / Concrete Trucks
+      - Flatbed Trucks
+      - Lowboy Trailers (Heavy Equipment Haul)
+      - Logging Trucks
+  - class: "Freight & Delivery Trucks"
+    types:
+      - Box Trucks / Straight Trucks
+      - Dry Vans
+      - Refrigerated Trucks (Reefers)
+      - Step Vans
+      - Liftgate Trailers
+  - class: "Municipal & Waste Trucks"
+    types:
+      - Garbage / Refuse Trucks
+      - Street Sweepers
+      - Recycling Trucks
+      - Leaf Collection Vehicles
+  - class: "Towing & Recovery Vehicles"
+    types:
+      - Tow Trucks / Wreckers
+      - Rollback Trucks
+      - Heavy-Duty Recovery Trucks
+  - class: "Specialty & Miscellaneous"
+    types:
+      - Enclosed Utility Trailers
+      - Gooseneck Trailers
+      - Mobile Workshop Trucks
+      - Food Trucks / Catering Vans
+      - Animal Transport Trucks
+      - Armored Trucks
