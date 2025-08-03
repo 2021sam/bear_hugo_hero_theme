@@ -30,7 +30,7 @@ time.
   title="Transit Sales Manager"
   company="El Dorado Bus Sales"
   link=""
-  image=""
+  image="/images/about/dan-Eldorado-bus-sales.png"
   imageAlt=""
   imageCaption=""
   frontTextColor="blue"
