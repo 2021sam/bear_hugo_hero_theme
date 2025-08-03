@@ -72,7 +72,7 @@ time.
   title="Service Manager"
   company="Scully Transportation"
   link=""
-  image=""
+  image="/images/about/scully.png"
   imageAlt=""
   imageCaption=""
   frontTextColor="white"
