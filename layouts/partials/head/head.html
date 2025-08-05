@@ -1,3 +1,5 @@
+<!-- /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/layouts/partials/head/head.html -->
+
 {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" .Site.Params.enableSourceMaps) }}
 {{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass (dict "outputStyle" "compressed") }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
