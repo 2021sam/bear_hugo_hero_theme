@@ -31,33 +31,9 @@
     <link rel="stylesheet" href="{{ "css/components/button.css" | relURL }}" />
     <!-- layouts/partials/head.html or baseof.html -->
     <link rel="stylesheet" href="{{ "css/section.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/override.css" | relURL }}">
 
 
-
-    <style>
-      nav,
-      .menu,
-      .main-menu,
-      .site-nav {
-        display: block !important;
-        visibility: visible !important;
-        opacity: 1 !important;
-      }
-    </style>
-    
-    <style>
-      @media (max-width: 768px) {
-        nav ul {
-          display: block !important;
-        }
-    
-        .menu-toggle,
-        .mobile-nav,
-        .mobile-toggle {
-          display: none !important;
-        }
-      }
-    </style>
 
   </head>
 
@@ -66,6 +42,7 @@
 
       {{ partial "header.html" . }}
       {{ partial "banner-title.html" .Title }}
+      <!-- {{ partial "debug-window.html" . }} -->
 
 
       <main id="main">

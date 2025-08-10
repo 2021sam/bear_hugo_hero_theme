@@ -1,0 +1,56 @@
+/* ---- Always show header + logo ---- */
+#header,
+#header .logo,
+.site-logo {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* ---- Always show your nav ---- */
+nav.site-menu {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative;           /* ensure it can sit above panels */
+  z-index: 1001;
+}
+
+/* horizontal, wraps on tight widths */
+nav.site-menu > ul {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 12px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+/* dropdowns on hover (desktop-like) */
+nav.site-menu li { position: relative; }
+nav.site-menu li > ul {
+  display: none;
+  position: absolute;
+  top: 100%; left: 0;
+  min-width: 180px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,.1);
+  z-index: 2000;
+}
+nav.site-menu li:hover > ul { display: block; }
+
+/* ---- Neutralize Arcana's mobile panel if present ---- */
+/* HTML5UP/Arcana often uses #navPanel + .navPanelToggle */
+#navPanel,
+.navPanelToggle { display: none !important; }
+
+/* If the theme’s header puts anything over the nav, lift the header */
+#header { position: relative; z-index: 1100; }
+
+/* Optional: make links compact on narrower screens */
+@media (max-width: 480px) {
+  nav.site-menu > ul { gap: 8px !important; }
+  nav.site-menu a { padding: 8px 10px !important; }
+}

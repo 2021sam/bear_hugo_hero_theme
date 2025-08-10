@@ -1,0 +1,49 @@
+/* Always show logo/header and menu, let it wrap when space is tight */
+#header .logo,
+.site-logo {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+#nav,
+nav.site-menu {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 1000;
+}
+
+/* Horizontal menu that wraps on small widths */
+#nav > ul,
+nav.site-menu > ul {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 12px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+/* Keep dropdowns working on hover */
+#nav li > ul,
+nav.site-menu li > ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0,0,0,.1);
+  z-index: 9999;
+}
+#nav li:hover > ul,
+nav.site-menu li:hover > ul { display: block; }
+
+/* Slightly tighter on very small widths, but still visible */
+@media (max-width: 480px) {
+  #nav > ul,
+  nav.site-menu > ul { gap: 8px !important; }
+}
