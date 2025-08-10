@@ -1,50 +1,57 @@
-<!-- Debug viewport overlay -->
 <style>
-    #debug-window-size {
-      position: fixed;
-      bottom: 10px;
-      right: 10px;
-      z-index: 999999;
-      font: 12px/1.35 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif;
-      background: rgba(0,0,0,0.75);
-      color: #fff;
-      padding: 8px 10px;
-      border-radius: 6px;
-      box-shadow: 0 2px 8px rgba(0,0,0,.35);
-      pointer-events: none;
+  #debug-window-size {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999999;
+    font: 12px/1.35 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif;
+    background: rgba(0,0,0,0.75);
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 6px;
+    pointer-events: none;
+  }
+  #debug-window-size b { font-weight: 700; }
+</style>
+
+<div id="debug-window-size" role="status" aria-live="polite">
+  <div><b>W</b>: <span id="dbg-w">—</span> px</div>
+  <div><b>H</b>: <span id="dbg-h">—</span> px</div>
+  <div><b>dPR</b>: <span id="dbg-dpr">—</span></div>
+  <div><b>Ori</b>: <span id="dbg-ori">—</span></div>
+</div>
+
+<script>
+(function(){
+  // Only enable if URL contains ?debug=1 or #debug
+  const params = new URLSearchParams(window.location.search);
+  const hasDebug = params.get('debug') === '1' || window.location.hash.includes('debug');
+
+  if (!hasDebug) return; // exit without showing
+
+  const box = document.getElementById('debug-window-size');
+  box.style.display = 'block';
+
+  function getOrientation() {
+    if (screen?.orientation?.type) {
+      return /landscape/i.test(screen.orientation.type) ? 'landscape' : 'portrait';
     }
-    #debug-window-size b { font-weight: 700; }
-  </style>
-  
-  <div id="debug-window-size" role="status" aria-live="polite">
-    <div><b>W</b>: <span id="dbg-w">—</span> px</div>
-    <div><b>H</b>: <span id="dbg-h">—</span> px</div>
-    <div><b>dPR</b>: <span id="dbg-dpr">—</span></div>
-    <div><b>Ori</b>: <span id="dbg-ori">—</span></div>
-  </div>
-  
-  <script>
-  (function () {
-    function updateSize() {
-      const w = window.innerWidth;   // MDN: Window.innerWidth
-      const h = window.innerHeight;  // MDN: Window.innerHeight
-      const dpr = (window.devicePixelRatio || 1).toFixed(2);
-      const ori = (screen && screen.orientation && screen.orientation.type) ? screen.orientation.type : (w > h ? 'landscape' : 'portrait');
-  
-      document.getElementById('dbg-w').textContent = w;
-      document.getElementById('dbg-h').textContent = h;
-      document.getElementById('dbg-dpr').textContent = dpr;
-      document.getElementById('dbg-ori').textContent = ori;
-    }
-  
-    // Update on load and on resize/orientation changes
-    window.addEventListener('load', updateSize);
-    window.addEventListener('resize', updateSize);       // MDN: Window resize event
-    if ('orientation' in window) window.addEventListener('orientationchange', updateSize);
-    if (screen && screen.orientation) screen.orientation.addEventListener('change', updateSize);
-  
-    // First paint
-    updateSize();
-  })();
-  </script>
-  
+    return (innerWidth > innerHeight) ? 'landscape' : 'portrait';
+  }
+
+  function update() {
+    document.getElementById('dbg-w').textContent = innerWidth;
+    document.getElementById('dbg-h').textContent = innerHeight;
+    document.getElementById('dbg-dpr').textContent = (devicePixelRatio || 1).toFixed(2);
+    document.getElementById('dbg-ori').textContent = getOrientation();
+  }
+
+  window.addEventListener('load', update);
+  window.addEventListener('resize', update);
+  window.addEventListener('orientationchange', update);
+  screen?.orientation?.addEventListener?.('change', update);
+
+  update();
+})();
+</script>
