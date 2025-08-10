@@ -32,9 +32,6 @@
     <!-- layouts/partials/head.html or baseof.html -->
     <link rel="stylesheet" href="{{ "css/section.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/override.css" | relURL }}">
-
-
-
   </head>
 
   <body class="{{ .Type }} {{ .Section }} layout-{{ .Layout }}">
@@ -42,7 +39,7 @@
 
       {{ partial "header.html" . }}
       {{ partial "banner-title.html" .Title }}
-      <!-- {{ partial "debug-window.html" . }} -->
+      {{ partial "debug-window.html" . }}
 
 
       <main id="main">
