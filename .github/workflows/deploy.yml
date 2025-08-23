@@ -31,4 +31,4 @@ jobs:
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan cabear.com >> ~/.ssh/known_hosts
-          rsync -avz --delete public/ eogoaomy@cabear.com:~/public_html/hugo/
+          rsync -avz --delete public/ eogoaomy@cabear.com:~/public_html/
