@@ -23,7 +23,7 @@ jobs:
           extended: true
 
       - name: Build site
-        run: hugo --baseURL "https://cabear.com/hugo/"
+        run: hugo --baseURL "https://cabear.com/"
 
       - name: Deploy to Bluehost via SSH
         run: |
