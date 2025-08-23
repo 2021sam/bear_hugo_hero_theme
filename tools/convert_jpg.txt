@@ -1,0 +1,9 @@
+# convert each jpg → webp (keeps jpgs around if you want fallback later)
+for d in static/images/welcome/slider_1 static/images/welcome/slider_11 static/images/welcome/slider_13; do
+  (cd "$d" && for f in *.jpg; do magick "$f" -resize "1200x>" -quality 82 "${f%.*}.webp"; done)
+done
+
+
+for d in .; do
+  (cd "$d" && for f in *.jpg; do magick "$f" -resize "1200x>" -quality 82 "${f%.*}.webp"; done)
+done

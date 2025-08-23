@@ -1,0 +1,11 @@
+# install if you don't have pngquant & imagemagick
+brew install imagemagick pngquant
+
+# go into each slider folder
+cd static/images/welcome/slider_1
+
+# compress originals in place (lossy, but preserves alpha if needed)
+pngquant --force --quality=70-85 --ext .png *.png
+
+# also create webp versions for photos
+for f in *.png; do magick "$f" -resize "1200x>" -quality 82 "${f%.*}.webp"; done
