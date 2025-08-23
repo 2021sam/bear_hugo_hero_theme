@@ -1,28 +1,13 @@
-# Always serve index.html first
+# Serve the static index
 DirectoryIndex index.html
 
-# Force HTTPS and canonical host (choose one)
-
-# Option A — Non-www (https://cabear.com)
+# Enable rewrite engine
 RewriteEngine On
-RewriteCond %{HTTPS} !=on [OR]
+
+# Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Force non-www (comment these 2 lines out if you prefer www)
 RewriteCond %{HTTP_HOST} ^www\.cabear\.com$ [NC]
-RewriteRule ^(.*)$ https://cabear.com/$1 [L,R=301]
-
-# Option B — WWW (https://www.cabear.com)
-# RewriteEngine On
-# RewriteCond %{HTTPS} !=on [OR]
-# RewriteCond %{HTTP_HOST} ^cabear\.com$ [NC]
-# RewriteRule ^(.*)$ https://www.cabear\.com/$1 [L,R=301]
-
-# Optional: cache control for performance
-<IfModule mod_expires.c>
-  ExpiresActive On
-  ExpiresByType text/html "access plus 1h"
-  ExpiresByType text/css "access plus 7d"
-  ExpiresByType application/javascript "access plus 7d"
-  ExpiresByType image/png "access plus 30d"
-  ExpiresByType image/jpeg "access plus 30d"
-  ExpiresByType image/webp "access plus 30d"
-  ExpiresByType font/woff2 "access plus 30d"
-</IfModule>
+RewriteRule ^ https://cabear.com%{REQUEST_URI} [L,R=301]
