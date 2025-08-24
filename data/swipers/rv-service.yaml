@@ -93,7 +93,7 @@ swiper_images_9:
     - "images/rv-service/slider_9/BarLicensed2.png"
     - "images/rv-service/slider_9/IcarCerfied.png"
     - "images/rv-service/slider_9/dometic_authorized_dealer.png"
-    - "images/rv-service/slider_9/insurance-agent-working-site-car-accident-claim-process-people-car-insurance-claim-1024x684.jpg"
+    - "images/rv-service/slider_9/insurance-agent-working-site-car-accident-claim-process-people-car-insurance-claim-1024x684.webp"
     - "images/rv-service/slider_9/mitchell-estimating-software.png"
     - "images/rv-service/slider_9/ppgCertified.png"
 
@@ -111,10 +111,10 @@ swiper_images_11:
   header: "Large Facility"
   description: "Equipped to accommodate even the largest buses and RVs, ensuring ample space for comprehensive repairs."
   images:
-    - "images/rv-service/slider_11/1-768x576-1.jpg"
-    - "images/rv-service/slider_11/IMG_1868-2-1024x682.jpg"
-    - "images/rv-service/slider_11/IMG_6480-1024x682.jpg"
-    - "images/rv-service/slider_11/sand_blasting_small-1024x727.jpg"
+    - "images/rv-service/slider_11/1-768x576-1.webp"
+    - "images/rv-service/slider_11/IMG_1868-2-1024x682.webp"
+    - "images/rv-service/slider_11/IMG_6480-1024x682.webp"
+    - "images/rv-service/slider_11/sand_blasting_small-1024x727.webp"
 
 swiper_images_12:
   header: "Detailing and Cleaning"
@@ -128,7 +128,7 @@ swiper_images_13:
   header: "Secure Storage"
   description: "Our gated and locked facility provides a secure environment for your RV."
   images:
-    - "images/rv-service/slider_13/shop_front-1024x682.jpg"
+    - "images/rv-service/slider_13/shop_front-1024x682.webp"
 
 swiper_images_14:
   header: "RV Collision Repair Experts – Travel Trailers, Fifth Wheels & Campers"
