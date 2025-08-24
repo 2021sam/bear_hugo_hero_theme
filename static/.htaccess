@@ -4,6 +4,7 @@ DirectoryIndex index.html
 # Enable rewrite engine
 RewriteEngine On
 
+# -------------------------------------------------------------------
 # Force HTTPS
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
@@ -11,3 +12,48 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # Force non-www (comment these 2 lines out if you prefer www)
 RewriteCond %{HTTP_HOST} ^www\.cabear\.com$ [NC]
 RewriteRule ^ https://cabear.com%{REQUEST_URI} [L,R=301]
+# -------------------------------------------------------------------
+
+# -------------------------------------------------------------------
+# Caching Rules for Performance
+# -------------------------------------------------------------------
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # Images
+  ExpiresByType image/webp  "access plus 1 year"
+  ExpiresByType image/jpeg  "access plus 1 year"
+  ExpiresByType image/png   "access plus 1 year"
+  ExpiresByType image/gif   "access plus 1 year"
+  # Fonts
+  ExpiresByType font/woff2  "access plus 1 year"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+  # CSS + JS
+  ExpiresByType text/css    "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+<IfModule mod_headers.c>
+  # Cache images aggressively
+  <FilesMatch "\.(webp|jpe?g|png|gif)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  # Fonts
+  <FilesMatch "\.(woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  # CSS + JS (shorter)
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>
+
+# -------------------------------------------------------------------
+# Security Headers (optional but good practice)
+# -------------------------------------------------------------------
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
