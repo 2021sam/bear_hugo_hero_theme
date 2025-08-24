@@ -9,3 +9,8 @@ pngquant --force --quality=70-85 --ext .png *.png
 
 # also create webp versions for photos
 for f in *.png; do magick "$f" -resize "1200x>" -quality 82 "${f%.*}.webp"; done
+
+
+
+magick static/images/welcome/image.png -resize "800x>" -quality 82 \
+  static/images/welcome/image.webp

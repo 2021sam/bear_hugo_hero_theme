@@ -95,7 +95,7 @@ exceed your expectations.
   smile when we learn someone has had work done by them. Their ideas for the
   right fix is superb.`
   company="BEAR Collision"
-  image="images/welcome/image.png"
+  image="images/welcome/image.webp"
   imageAlt="Bonnie and Steve"
   imageCaption="Five Stars"
   link="https://www.yelp.com/biz/bear-collision-and-service-center-hayward-6"
@@ -111,7 +111,7 @@ exceed your expectations.
   quote=`We had an awesome experience here. I give big props to Johnathon! He was so tentative and very easy to work with! Our black tank valve/sealant broke completely, called a few places that only had appointments 2 weeks out. We called the day of and came in within the hour for diagnostics, waited for our parts to come in about 1 day. And 2 days later got it fixed. They even cleaned out our tank and everything!!
 FIVE STAR for sure !!`
   company="BEAR Collision"
-  image="images/welcome/image.png"
+  image="images/welcome/image.webp"
   imageAlt="Xai Z."
   imageCaption="Five Stars"
   link="https://www.yelp.com/user_details?userid=M4ih7k666PesCE8x6EYYbQ"
@@ -136,7 +136,7 @@ handled the paperwork and treated me like a life long client, which was
 greatly appreciated. I highly recommend BEAR, and they will be my 'go-to' shop
 moving forward.`
   company="BEAR Collision"
-  image="images/welcome/image.png"
+  image="images/welcome/image.webp"
   imageAlt="Rich C."
   imageCaption="Five Stars"
   link="https://www.yelp.com/user_details?userid=ZcxrNH0aTitSFbiywAbfjw"
@@ -155,7 +155,7 @@ I came to Bear Collision from a referral of my RV mechanic. I had some body dama
 
 Michael went above and beyond to help me with another small issue that they usually don't address but since I was having trouble getting appointments to handle that at another shop he decided to help me out and take care of it himself. This RV is my super happy place and it was nice that Michael and the Team at Bear treated it like was their own happy place.`
   company="BEAR Collision"
-  image="images/welcome/image.png"
+  image="images/welcome/image.webp"
   imageAlt="Heather W."
   imageCaption="Five Stars"
   link="https://www.yelp.com/user_details?userid=-ds5ncSRve5GTMjjYg2l4w"
