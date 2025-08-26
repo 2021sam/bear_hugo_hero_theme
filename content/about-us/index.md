@@ -15,6 +15,8 @@ each vehicle in and out of the shop as quickly as we can, while keeping the
 quality up so that we know that one you roll out, we only see you back when
 you need us, not because we missed something.
 
+[Locations Served](/locations-served/)
+
   
 The **BEAR** team includes expert technicians, welders, and painters with the
 inspiration and know-how to provide the highest quality work in the industry.
