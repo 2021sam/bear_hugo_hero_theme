@@ -1,47 +1,42 @@
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  integrity="sha256-o9N1j7kGStbK2bXkP2v9vyvye6Z9erjRzNKkY0JwYfQ="
-  crossorigin=""
-/>
 <style>
-  .coverage-map { width: 100%; height: 360px; border-radius: 12px; }
-  @media (min-width: 768px) { .coverage-map { height: 460px; } }
-</style>
-
-<div id="coverage-map-{{ .Get "id" | default "1" }}" class="coverage-map" aria-label="Service coverage map"></div>
-
-<script
-  defer
-  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-  integrity="sha256-o9N1j7kGStbK2bXkP2v9vyvye6Z9erjRzNKkY0JwYfQ="
-  crossorigin=""
-></script>
-<script defer>
+    /* Load Leaflet CSS even if we're in the body */
+    @import url('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
+    .coverage-map { width: 100%; height: 360px; border-radius: 12px; }
+    @media (min-width: 768px) { .coverage-map { height: 460px; } }
+  </style>
+  
+  <div id="coverage-map-{{ .Get "id" | default "1" }}" class="coverage-map" aria-label="Service coverage map"></div>
+  
+  <script>
   (function() {
-    const elId = "coverage-map-{{ .Get "id" | default "1" }}";
+    const elId  = "coverage-map-{{ .Get "id" | default "1" }}";
+    const lat   = parseFloat("{{ .Get "lat" | default "37.6335943" }}");
+    const lng   = parseFloat("{{ .Get "lng" | default "-122.1244158" }}");
+    const miles = parseFloat("{{ .Get "radius_miles" | default "50" }}");
+    const zoom  = parseInt("{{ .Get "zoom" | default "9" }}", 10);
+  
+    // Load Leaflet JS, then init the map
+    function loadLeaflet(cb) {
+      if (window.L) return cb();
+      var s = document.createElement('script');
+      s.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+      s.onload = cb;
+      document.head.appendChild(s);
+    }
+  
     function init() {
-      if (!window.L || !document.getElementById(elId)) {
-        return window.requestAnimationFrame(init);
-      }
-
-      // Params
-      const lat = parseFloat("{{ .Get "lat" | default "37.6335943" }}");
-      const lng = parseFloat("{{ .Get "lng" | default "-122.1244158" }}");
-      const miles = parseFloat("{{ .Get "radius_miles" | default "50" }}");
-      const zoom = parseInt("{{ .Get "zoom" | default "9" }}", 10);
-
-      const map = L.map(elId, { scrollWheelZoom: false }).setView([lat, lng], zoom);
+      var el = document.getElementById(elId);
+      if (!el) return;
+  
+      var map = L.map(el, { scrollWheelZoom: false }).setView([lat, lng], zoom);
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
         attribution: '&copy; OpenStreetMap'
       }).addTo(map);
-
-      // Shop marker
+  
       L.marker([lat, lng]).addTo(map).bindPopup("BEAR – 3393 Enterprise Ave, Hayward");
-
-      // Coverage circle
-      const meters = miles * 1609.344;
+  
+      var meters = miles * 1609.344;
       L.circle([lat, lng], {
         radius: meters,
         color: "#1d4ed8",
@@ -49,18 +44,9 @@
         fillOpacity: 0.12,
         weight: 2
       }).addTo(map);
-
-      // Optional: example key cities (edit/remove as you like)
-      const points = [
-        { n: "Oakland",      c: [37.8044, -122.2712] },
-        { n: "San Jose",     c: [37.3382, -121.8863] },
-        { n: "San Francisco",c: [37.7749, -122.4194] },
-        { n: "Walnut Creek", c: [37.9101, -122.0652] },
-        { n: "Livermore",    c: [37.6819, -121.7680] },
-        { n: "Redwood City", c: [37.4852, -122.2364] }
-      ];
-      points.forEach(p => L.circleMarker(p.c, { radius: 5 }).addTo(map).bindTooltip(p.n));
     }
-    init();
+  
+    loadLeaflet(init);
   })();
-</script>
+  </script>
+  

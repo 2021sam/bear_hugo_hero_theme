@@ -71,13 +71,9 @@ At **Bay Equipment And Repair (BEAR) RV & Truck Collision & Repair Center**, we'
 ## 🗺️ Map of Our Service Area
 
 <!-- Optional: Add this via a Hugo shortcode or in your layout template -->
-{{< coverage-map
-    id="bay-coverage"
-    lat="37.6335943"
-    lng="-122.1244158"
-    radius_miles="100"
-    zoom="9"
->}}
+
+{{< coverage-map id="bay-coverage" lat="37.6335943" lng="-122.1244158" radius_miles="100" zoom="9" >}}
+
 
 > _You can embed a Google Map showing your service radius here using a Hugo shortcode or iframe in your layout._
 
