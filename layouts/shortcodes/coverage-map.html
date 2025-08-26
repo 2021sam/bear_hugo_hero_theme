@@ -37,13 +37,20 @@
       L.marker([lat, lng]).addTo(map).bindPopup("BEAR – 3393 Enterprise Ave, Hayward");
   
       var meters = miles * 1609.344;
-      L.circle([lat, lng], {
-        radius: meters,
-        color: "#1d4ed8",
-        fillColor: "#3b82f6",
-        fillOpacity: 0.12,
-        weight: 2
-      }).addTo(map);
+  
+      const circle = L.circle([lat, lng], {
+  radius: meters,
+  color: "#1d4ed8",
+  fillColor: "#3b82f6",
+  fillOpacity: 0.12,
+  weight: 2
+}).addTo(map);
+
+// Auto-zoom so the whole circle is visible
+map.fitBounds(circle.getBounds());
+
+
+
     }
   
     loadLeaflet(init);
