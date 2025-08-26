@@ -1,6 +1,8 @@
 +++
 # content/_index.md
-title = "Welcome To BEAR"
+title = "RV, Truck & Auto Body Collision Repair – San Francisco Bay Area"
+description = "RV, truck, trailer, and auto body collision repair in Hayward and the San Francisco Bay Area. Trusted since 1979 and known for better-than-factory restorations, including painting, frame, welding & insurance support."
+
 author = "admin"
 date = 2025-04-29T16:23:24Z
 layout = "swiper-showcase-wrap"
@@ -11,10 +13,11 @@ data = "home"
 
 {{< slideshow index="1" >}}
 
-Welcome to **BEAR Collision Center,** your premier partner in comprehensive
-collision and repair services since 1979. We offer expert services across a
-wide range of vehicles, including RVs, Class A trucks, and everything in
-between.
+Welcome to **{{< brand >}}**, your premier partner in comprehensive
+collision and repair services since 1979. Known for *better-than-factory restorations*, 
+we offer expert services across a wide range of vehicles, including motorhomes, 
+trailers, Class A commercial trucks, RVs, and cars throughout the San Francisco Bay Area.
+
 
 <div class="flipcard-grid">
   {{< flipcard front="images/welcome/circle_RV.png" back="images/welcome/learnMore.png" title="RV Repair" link="/rv-repair/" >}}

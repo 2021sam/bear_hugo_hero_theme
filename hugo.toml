@@ -5,6 +5,13 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "hugo-arcana"
 
+
+[params]
+brand_name = "BEAR RV, Truck, Auto Body & Collision Repair Center"
+brand_short = "BEAR"
+
+
+
 [menu]
 
   # Welcome

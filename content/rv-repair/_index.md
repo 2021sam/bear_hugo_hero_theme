@@ -7,7 +7,7 @@ data = "rv-service"
 
 ### Your Premier Destination for RV Repairs and Services
 
-At **BEAR Collision Center,** we specialize in providing comprehensive RV
+At **{{< brand >}}**, we specialize in providing comprehensive RV
 services tailored to meet the unique needs of both individual RV owners and
 insurance companies. Located conveniently in Hayward, we offer a full spectrum
 of expert services to keep your RV in optimal condition and ensure your peace
