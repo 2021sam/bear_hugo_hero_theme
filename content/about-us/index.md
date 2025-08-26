@@ -26,13 +26,12 @@ time.
 
 {{< circleimage src="images/about/exquisite-automotive-refinishing.jpg" alt="Circle image" >}}
 
-
+---
 
 ## Locations Served {#locations-served}
 
 At **Bay Equipment And Repair (BEAR) RV & Truck Collision & Repair Center**, we're proud to provide expert **RV and motorhome collision repair** to customers across the entire **San Francisco Bay Area**. Based in **Hayward, CA**, we serve locations within a **100-mile radius**, offering both in-shop and mobile services to make your repair process as convenient as possible.
 
----
 
 ## 📍 East Bay
 
@@ -96,7 +95,6 @@ At **Bay Equipment And Repair (BEAR) RV & Truck Collision & Repair Center**, we'
 {{< coverage-map id="bay-coverage" lat="37.6335943" lng="-122.1244158" radius_miles="100" zoom="9" >}}
 
 
----
 
 ## ❓ Not Sure If We Serve Your Area?
 

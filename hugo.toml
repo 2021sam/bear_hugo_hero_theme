@@ -16,14 +16,14 @@ brand_short = "BEAR"
 
   # Welcome
   [[menu.main]]
-  name = "Welcome"
+  name = "Home"
   url = "/"
   weight = 1
 
   # RV
   [[menu.main]]
   identifier = "rv"
-  name = "RV Repair"
+  name = "RV & Motorhome Repair"
   url = "/rv-repair/"
   weight = 2
 

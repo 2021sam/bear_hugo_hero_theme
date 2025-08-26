@@ -1,17 +1,26 @@
 +++
-title = "RV Collision Repair"
+title = "RV Collision Repair – San Francisco Bay Area"
 layout = "swiper-showcase-wrap"
 data = "rv-service"
+description = "RV collision repair for motorhomes, fifth wheels, travel trailers, campers, and toy haulers in the San Francisco Bay Area. Expert frame, bodywork, painting, and insurance assistance since 1979."
+weight = 3
 +++
 
-# 🛠️ RV Collision Repair for Travel Trailers, Campers & Fifth Wheels
+# 🛠️ RV Collision Repair for Motorhomes, Trailers & Campers
 
-BEAR Collision Center specializes in RV collision repair for fifth wheels, travel trailers, camper vans, and toy haulers. Our goal: get you back on the road safely and efficiently — with quality repairs you can trust.
+At **{{< brand >}}**, we specialize in **RV collision repair** for 
+**motorhomes, fifth wheels, travel trailers, camper vans, and toy haulers**. 
+From minor scrapes to major collision rebuilds, our certified technicians 
+use **factory repair methods** to restore your RV to *better-than-factory condition*.  
 
-From minor scrapes to major collision rebuilds, our certified technicians use factory repair methods to restore your RV to like-new condition. Whether your vehicle was rear-ended, sideswiped, or suffered structural frame damage, we’ve got you covered.
+Whether your vehicle was rear-ended, sideswiped, or suffered structural 
+**frame damage**, we have the expertise to get you safely back on the road.  
+We work with all major insurance companies and provide **photo estimates** 
+to ensure a smooth and transparent repair process.
 
 We work with all major insurance companies and provide photo estimates to ensure a smooth and transparent repair process.
 
+---
 
 ## We Handle All Forms of RV Damage:
 

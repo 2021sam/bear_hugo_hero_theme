@@ -1,9 +1,12 @@
 +++
-title = "RV Repair"
+title = "RV Collision & Repair – San Francisco Bay Area"
 url = "/rv-repair/"
 layout = "swiper-showcase-wrap"
 data = "rv-service"
+description = "Expert RV collision repair in the San Francisco Bay Area. Serving motorhomes, travel trailers, and fifth wheels with painting, bodywork, frame repair, and insurance support since 1979."
 +++
+
+
 
 ### Your Premier Destination for RV Repairs and Services
 

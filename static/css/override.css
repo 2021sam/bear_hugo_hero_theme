@@ -1,3 +1,5 @@
+/* static/css/override.css */
+
 /* ---- Always show header + logo ---- */
 #header,
 #header .logo,
@@ -53,4 +55,13 @@ nav.site-menu li:hover > ul { display: block; }
 @media (max-width: 480px) {
   nav.site-menu > ul { gap: 8px !important; }
   nav.site-menu a { padding: 8px 10px !important; }
+}
+
+
+
+hr {
+  border: none;
+  border-top: 3px solid #004c91; /* BEAR blue */
+  margin: 2em auto;
+  width: 60%;                    /* not full-width */
 }

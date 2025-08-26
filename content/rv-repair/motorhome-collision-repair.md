@@ -1,18 +1,20 @@
 +++
-title = "Motorhome Collision Repair"
+title = "Motorhome Collision Repair – San Francisco Bay Area"
 layout = "swiper-showcase-wrap"
 data = "rv-service"
+description = "Motorhome collision repair for Class A, B, and C RVs in the San Francisco Bay Area. Expert frame, body, roof, and painting services with insurance claim support since 1979."
+weight = 4
 +++
 
 # 🛠️ Motorhome Collision Repair — Class A, B, and C RVs
 
 Accidents happen — and when they do, you need a collision repair team that understands the unique structure and value of your motorhome.
 
-At **BEAR Collision Center**, we specialize in the repair of **Class A, B, and C motorhomes**, including diesel pushers and bus-style RVs. Whether you're dealing with roof impact, side panel scrapes, or full front-end collisions, our expert technicians restore your coach to pre-accident condition.
+At **{{< brand >}}**, we specialize in **Class A, B, and C motorhome collision repair**, including diesel pushers and bus-style RVs. Whether you’re dealing with roof impact, side panel scrapes, or full front-end collisions, our expert technicians restore your coach to *better-than-factory condition*.
 
 ---
 
-## Why Motorhome Owners Trust BEAR:
+## Why Motorhome Owners Trust {{< brand >}}
 
 - ✅ **Full-size repair bays** to accommodate long and tall vehicles  
 - ✅ **Aluminum, fiberglass, gel coat, and composite panel repair**  
@@ -42,6 +44,7 @@ Our certified technicians follow factory methods for structural repair and use t
 
 ## Designed for Motorhomes — Equipped for Quality
 
-BEAR is one of the few Bay Area collision centers fully equipped to handle motorhome repairs. Our dedicated bays, specialty tools, and expert painters ensure you receive professional service with fast turnaround.
+**{{< brand >}}** is one of the few Bay Area collision centers fully equipped to handle large motorhomes. Our dedicated bays, specialty tools, and expert painters ensure you receive professional service with fast turnaround.
 
-🧭 **Contact BEAR Collision Center** today for a photo estimate or insurance inspection. Get back on the road with confidence.
+🧭 **Contact {{< brand >}} today** for a photo estimate or insurance inspection — and get back on the road with confidence.
+
