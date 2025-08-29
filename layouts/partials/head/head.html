@@ -10,23 +10,25 @@
 
 
 
-
 <!-- Favicons -->
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
 <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
-<link rel="apple-touch-icon" href="{{ "images/logo/logo.png" | relURL }}">
-<link rel="icon" type="image/png" href="{{ "images/logo/logo.png" | relURL }}">
 
-<!-- Organization schema (for Google logo in search) -->
+<!-- Touch/PNG icon (match site header logo) -->
+<link rel="apple-touch-icon" href="{{ "images/logo/cabear-logo.png" | relURL }}">
+<link rel="icon" type="image/png" href="{{ "images/logo/cabear-logo.png" | relURL }}">
+
+<!-- Organization schema (Google site logo) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Bear Collision and Service Center",
   "url": "https://cabear.com",
-  "logo": "{{ "images/logo/BEAR.png" | absURL }}"
+  "logo": "{{ "images/logo/cabear-logo.png" | absURL }}"
 }
 </script>
+
 
 
 
