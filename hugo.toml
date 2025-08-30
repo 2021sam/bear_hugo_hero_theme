@@ -9,6 +9,7 @@ theme = "hugo-arcana"
 [params]
 brand_name = "BEAR RV, Truck, Auto Body & Collision Repair Center"
 brand_short = "BEAR"
+home_seo_title = "RV & Truck Collision & Paint | Hayward & San Francisco Bay Area | BEAR"
 
 
 
