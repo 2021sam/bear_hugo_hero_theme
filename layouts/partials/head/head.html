@@ -4,24 +4,34 @@
 {{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass (dict "outputStyle" "compressed") }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
-<!-- <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title> -->
+
 <title>
-  {{- with .Params.seo_title -}}
+  {{ with .Params.seo_title }}
     {{ . }}
-  {{- else if .IsHome -}}
-    {{ .Site.Title }}
-  {{- else -}}
-    {{ .Title }} | {{ .Site.Title }}
-  {{- end -}}
+  {{ else }}
+    {{ if .IsHome }}
+      {{ with .Site.Params.home_seo_title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}
+    {{ else }}
+      {{ .Title }} | {{ .Site.Title }}
+    {{ end }}
+  {{ end }}
   </title>
   
+
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-{{ with .Params.description }}
-<meta name="description" content="{{ . }}">
+
+{{ if .Params.description }}
+  <meta name="description" content="{{ .Params.description }}">
+{{ else if .Site.Params.description }}
+  <meta name="description" content="{{ .Site.Params.description }}">
+{{ else if .Summary }}
+  <meta name="description" content="{{ .Summary | plainify | truncate 155 }}">
 {{ end }}
+
+
 
 
 <!-- Favicons -->
