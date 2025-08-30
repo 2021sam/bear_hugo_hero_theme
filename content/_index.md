@@ -1,6 +1,7 @@
 +++
 # content/_index.md
 title = "RV, Truck & Auto Body Collision Repair – San Francisco Bay Area"
+seo_title = "RV & Truck Collision & Paint | Hayward & San Francisco Bay Area | BEAR"
 description = "RV, truck, trailer, and auto body collision repair in Hayward and the San Francisco Bay Area. Trusted since 1979 and known for better-than-factory restorations, including painting, frame, welding & insurance support."
 
 author = "admin"

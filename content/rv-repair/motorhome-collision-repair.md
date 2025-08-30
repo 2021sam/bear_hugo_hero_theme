@@ -1,5 +1,6 @@
 +++
 title = "Motorhome Collision Repair – San Francisco Bay Area"
+seo_title = "RV & Truck Collision & Paint | Hayward & San Francisco Bay Area | BEAR"
 layout = "swiper-showcase-wrap"
 data = "rv-service"
 description = "Motorhome collision repair for Class A, B, and C RVs in the San Francisco Bay Area. Expert frame, body, roof, and painting services with insurance claim support since 1979."

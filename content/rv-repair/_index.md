@@ -1,5 +1,6 @@
 +++
 title = "RV Collision & Repair – San Francisco Bay Area"
+seo_title = "RV & Truck Collision & Paint | Hayward & San Francisco Bay Area | BEAR"
 url = "/rv-repair/"
 layout = "swiper-showcase-wrap"
 data = "rv-service"

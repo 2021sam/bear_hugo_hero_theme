@@ -4,10 +4,24 @@
 {{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass (dict "outputStyle" "compressed") }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<!-- <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title> -->
+<title>
+  {{- with .Params.seo_title -}}
+    {{ . }}
+  {{- else if .IsHome -}}
+    {{ .Site.Title }}
+  {{- else -}}
+    {{ .Title }} | {{ .Site.Title }}
+  {{- end -}}
+  </title>
+  
+
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
+{{ with .Params.description }}
+<meta name="description" content="{{ . }}">
+{{ end }}
 
 
 <!-- Favicons -->
@@ -30,7 +44,46 @@
 </script>
 
 
-
+<!-- Organization schema -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://cabear.com/#org",
+    "name": "BEAR Collision Center",
+    "url": "https://cabear.com",
+    "logo": "{{ "images/logo/cabear-logo.png" | absURL }}"
+  }
+  </script>
+  
+  <!-- LocalBusiness schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoBodyShop",
+    "@id": "https://cabear.com/#business",
+    "name": "BEAR RV & Truck Collision & Paint",
+    "url": "https://cabear.com",
+    "image": "{{ "images/logo/cabear-logo.png" | absURL }}",
+    "telephone": "(510) 783-9050",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3393 Enterprise Avenue",
+      "addressLocality": "Hayward",
+      "addressRegion": "CA",
+      "postalCode": "94545",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "08:00",
+      "closes": "17:00"
+    }],
+    "brand": { "@type": "Organization", "@id": "https://cabear.com/#org" }
+  }
+  </script>
+  
 
 
 
