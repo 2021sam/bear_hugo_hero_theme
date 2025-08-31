@@ -1,84 +1,73 @@
 +++
-title = "RV Maintenance"
+title = "RV Maintenance – Roof Resealing, Leak Prevention & Inspections"
 layout = "swiper-showcase-wrap"
 data = "rv-service"
+description = "RV maintenance services in the Bay Area including roof resealing, leak prevention, tank and brake inspections. Protect your motorhome, camper, trailer, or fifth wheel with expert care."
 +++
 
-Scheduled maintenance, roof resealing, tank inspections, brakes, etc.
+# RV Maintenance Services – Roof Resealing, Leak Prevention & Inspections  
 
-
----
-
-## Recreation Vehicle (RV) Roof Maintenance: Caulking, Sealing & Water Protection
-
-At **BEAR Collision Service Center**, we specialize in **preventative RV roof maintenance** to protect your investment and prevent costly water damage. Our expert technicians provide thorough inspections, caulking, sealing, and leak prevention services to keep your motorhome, camper, or trailer road-ready and watertight.
+At **{{< brand >}}** in **Hayward, CA**, we specialize in **preventative RV maintenance** that protects your vehicle and prevents costly repairs. From **roof resealing** and **waterproofing** to **tank checks** and **brake inspections**, our expert technicians keep your motorhome, travel trailer, camper, or fifth wheel safe, watertight, and road-ready.  
 
 ---
 
-### Why RV Roof Maintenance Matters
+## RV Roof Maintenance – Caulking, Sealing & Water Protection  
 
-RV roofs are exposed to the elements year-round — sun, rain, wind, and debris all take a toll. **Even small cracks or failed sealants** can lead to:
+Your RV roof is exposed year-round to sun, rain, wind, and debris. Even small cracks or failed sealants can quickly lead to:  
 
-* Interior water damage
-* Mold or mildew
-* Structural rot
-* Expensive repairs
+* Interior water damage  
+* Mold or mildew growth  
+* Structural wood rot  
+* Expensive repair bills  
 
-**Regular roof maintenance** helps prevent these issues and extends the life of your RV.
-
----
-
-### What We Offer
-
-#### ✅ Roof Inspection
-
-We start with a **comprehensive visual inspection** of your entire RV roof — rubber (EPDM), TPO, fiberglass, or aluminum — to identify cracks, loose seams, bubbling, or dried-out caulking.
-
-#### ✅ Professional Caulking & Sealing
-
-We apply **high-quality RV-grade sealants** around:
-
-* Roof edges & seams
-* Vents, skylights, antennas
-* A/C units, solar panel brackets, ladders
-
-We use industry-approved products like **Dicor® or Alpha Systems®**, ensuring maximum flexibility and adhesion.
-
-#### ✅ Leak Testing & Prevention
-
-We pressure test your RV for leaks and apply protective coatings to vulnerable areas, especially around transitions and joints.
-
-#### ✅ UV Protection & Roof Recoating
-
-We offer **reflective UV-protective coatings** that prevent cracking, chalking, and sun degradation—ideal for RVs exposed to harsh California sunlight.
+That’s why **regular RV roof inspections and resealing** are critical. Our team uses industry-trusted products like **Dicor®** and **Alpha Systems®** to keep your RV protected from leaks and California’s harsh UV rays.  
 
 ---
 
-### Signs Your RV Roof Needs Maintenance
+## What Our RV Maintenance Includes  
 
-* Black streaks or discoloration
-* Soft spots or bubbling under roof membrane
-* Cracked or missing sealant
-* Water stains on ceiling or walls
-* Age of sealant (recommended re-caulking every 1–2 years)
+### ✅ Roof Inspections  
+Thorough inspection of **EPDM rubber, TPO, fiberglass, or aluminum RV roofs** to identify cracks, bubbling, loose seams, or dried-out caulking.  
 
----
+### ✅ Professional Caulking & Sealing  
+Application of premium RV sealants around roof edges, vents, skylights, antennas, A/C units, solar panel brackets, and ladders.  
 
-### Serving the Bay Area with Fast Turnaround
+### ✅ Leak Testing & Prevention  
+Pressure testing for hidden leaks plus protective coatings applied to joints and transition points.  
 
-BEAR’s large facility allows us to service **motorhomes, fifth wheels, travel trailers, and toy haulers** quickly and efficiently. Whether it’s a **scheduled roof reseal** or **emergency leak repair**, we’re here to help.
-
----
-
-### Book a Roof Inspection Today
-
-Protect your RV from California’s unpredictable weather.
-**Call us or request an appointment online** to schedule your RV roof inspection and sealing service.
+### ✅ UV Protection & Roof Recoating  
+Reflective, UV-protective coatings prevent chalking, cracking, and sun degradation — ideal for RVs stored outdoors in the Bay Area.  
 
 ---
 
-{{< showcase index="14" >}}
+## Signs Your RV Roof Needs Maintenance  
 
-{{< showcase index="5" >}}
+* Black streaks or roof discoloration  
+* Soft spots or bubbling under roof membrane  
+* Cracked or missing caulking  
+* Water stains on walls or ceiling  
+* Aged sealant (reseal every 1–2 years recommended)  
 
-{{< showcase index="12" >}}
+---
+
+## Why Bay Area RV Owners Choose {{< brand >}}  
+
+- Large facility to service **motorhomes, fifth wheels, toy haulers, and travel trailers** quickly  
+- Experienced technicians specializing in **RV roof resealing and leak repair**  
+- Use of **industry-approved RV sealants and coatings** for lasting results  
+- Convenient location in **Hayward, CA**, serving **Oakland, Fremont, San Jose, Pleasanton, and surrounding Bay Area cities**  
+
+---
+
+### Book Your RV Roof Inspection Today  
+
+Protect your RV from leaks, UV damage, and costly repairs.  
+Contact **{{< brand >}}** today to schedule your **roof reseal, inspection, or emergency leak repair** and keep your RV road-ready.  
+
+---
+
+{{< showcase index="14" >}}  
+
+{{< showcase index="5" >}}  
+
+{{< showcase index="12" >}}  
