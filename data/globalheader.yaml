@@ -1,5 +1,5 @@
 # data/globalheader.yaml
 
-image: "images/logo/cabear-logo.png"      # Path under /static/, no leading slash
+image: "images/logo/bear-logo.png"      # Path under /static/, no leading slash
 image_alt: "BEAR RV & Truck Collision & Paint Logo"
 title: "BEAR RV & Truck Collision & Paint"
