@@ -1,12 +1,17 @@
 +++
-# content/commercial-truck-repair/_index.md
-title = "Commercial Truck Repair"
-description = "Expert commercial truck collision repair, utility body refinishing, and fleet services in Hayward and the Bay Area."
+title = "Commercial Truck Repair – Collision, Utility Body & Fleet Services"
+description = "Commercial truck repair services in the Bay Area. Collision repair, utility body refinishing, and fleet maintenance for Class 4–8 trucks, trailers, and specialty vehicles."
 layout = "swiper-showcase-wrap"
 data = "truck-service"
 +++
 
-**BEAR Collision Center** services commercial trucks, trailers, and specialty vehicles across **DOT Classes 4–8** — covering vehicles with a **GVWR (Gross Vehicle Weight Rating) of 14,001 lbs to over 33,000 lbs** — with support for select **super-heavy Class 9 rigs** by permit. This includes construction fleets, municipal service trucks, delivery vehicles, fire trucks, and more.
+# Commercial Truck Repair in the Bay Area
+
+At **{{< brand >}}** in **Hayward, CA**, we service **commercial trucks, trailers, and specialty vehicles** across **DOT Classes 4–8** — with support for select **super-heavy Class 9 rigs** by permit. That means we’re equipped to handle everything from **medium-duty box trucks** to **heavy-duty semis and municipal fleets**, including construction vehicles, fire trucks, delivery trucks, and buses.  
+
+We understand how critical it is to keep your trucks on the road. Our certified technicians provide **collision repair, frame straightening, body refinishing, and utility body work** for steel, aluminum, fiberglass, and composite truck bodies. Whether you manage a single rig or an entire fleet, we deliver quality workmanship with fast turnaround to minimize downtime.  
+
+---
 
 <details>
 <summary><strong>📋 DOT Vehicle Class Reference (Click to Expand)</strong></summary>
@@ -22,31 +27,28 @@ data = "truck-service"
 
 </details>
 
-We understand the critical importance of minimizing downtime and keeping your vehicles road-ready. Our certified technicians are equipped to handle everything from collision and frame repairs to composite, aluminum, and steel body work — including truck bodies, utility bodies, pickups, vans, and specialty service vehicles.
+---
+
+## 🚚 Our Commercial Truck Services  
+
+{{< showcase-left index="1" >}}  
+{{< showcase-right index="2" >}}  
+
+- **Collision & Frame Repair** – structural realignment and heavy-duty collision restoration  
+- **Utility Body Repair & Refinishing** – for dump, refuse, service, and municipal vehicles  
+- **Fleet Services** – tailored programs for delivery, construction, and public service fleets  
+- **Painting & Protective Coatings** – OEM-quality refinishing with urethane and ceramic options  
+- **Trailer Repairs** – including dry vans, flatbeds, lowboys, tankers, and reefers  
 
 ---
 
-## Services include:
+## 🚛 Commercial Vehicles We Service  
 
-{{< showcase-left index="1" >}}
-
-{{< showcase-right index="2" >}}
+We handle a broad range of commercial vehicles used in **construction, freight, municipal services, emergency response, towing, passenger transport, and specialized industries**.  
 
 ---
 
-## 🚛 Commercial Vehicles We Service
-
-We proudly serve a broad range of vehicles used in construction, freight, emergency response, municipal work, passenger transport, and more. Whether you're operating a single truck or managing a fleet, we deliver quality workmanship and fast turnaround times.
-
----
-
-## 🧾 Classes & Types of Commercial Vehicles
-
-Below, we’ve grouped supported vehicle types by functional category for clarity:
-
----
-
-### 🧱 Construction Vehicles
+### 🧱 Construction Vehicles  
 *(Primarily Class 6–8)*  
 - Dump trucks (small and full-size)  
 - Cement mixers / concrete trucks  
@@ -57,11 +59,11 @@ Below, we’ve grouped supported vehicle types by functional category for clarit
 - Lowboy trailers / heavy-haul trailers  
 - Boom trucks / crane trucks  
 - Logging trucks  
-- On-site service trucks
+- On-site service trucks  
 
 ---
 
-### 🚚 Freight & Delivery Vehicles
+### 🚚 Freight & Delivery Vehicles  
 *(Class 4–8)*  
 - Box trucks / cube vans  
 - Step vans / walk-in delivery vans  
@@ -72,10 +74,11 @@ Below, we’ve grouped supported vehicle types by functional category for clarit
 - Semi-trucks (day cab, sleeper cab)  
 - Gooseneck trailers  
 - Car haulers  
-- Refrigerated trucks (reefers)
+- Refrigerated trucks (reefers)  
 
 ---
-### 🚨 Utility & Emergency Vehicles
+
+### 🚨 Utility & Emergency Vehicles  
 *(Subset of Class 4–8)*  
 - Fire trucks / ladder apparatus  
 - Ambulances (Type I, II)  
@@ -87,37 +90,37 @@ Below, we’ve grouped supported vehicle types by functional category for clarit
 - Water trucks  
 - Vacuum / septic trucks  
 - Municipal maintenance vehicles  
-- Mobile command units / rescue trucks
+- Mobile command units / rescue trucks  
 
 ---
 
-### ♻️ Municipal & Waste Vehicles
+### ♻️ Municipal & Waste Vehicles  
 *(Class 6–8)*  
 - Garbage / refuse trucks  
 - Recycling trucks  
 - Street sweepers  
 - Leaf collection vehicles  
 - Hook-lift bin trucks  
-- Bulk waste haulers
+- Bulk waste haulers  
 
 ---
 
-### 🛠 Towing & Recovery Vehicles
+### 🛠 Towing & Recovery Vehicles  
 *(Class 4–8)*  
 - Tow trucks / wreckers  
 - Rollback trucks  
 - Heavy-duty recovery trucks  
-- Rotator tow trucks (Class 8+)
+- Rotator tow trucks (Class 8+)  
 
 ---
 
-### 🚌 Buses & Passenger Transport
+### 🚌 Buses & Passenger Transport  
 *(Class 4–8)*  
 - School buses  
 - Shuttle buses (hotel, hospital, airport)  
 - Tour coaches / intercity buses  
 - Transit buses (Class 7–8 city buses)  
-- Minibuses (typically Class 4–6)
+- Minibuses (Class 4–6)  
 
 ---
 
@@ -131,17 +134,31 @@ Below, we’ve grouped supported vehicle types by functional category for clarit
 - Liftgate trailers  
 - Dump trailers  
 - Car carrier trailers  
-- Refrigerated (reefer) trailers
+- Refrigerated (reefer) trailers  
 
 ---
 
-### ⚠️ Super-Heavy “Class 9” Rigs *(Permit Required)*
+## ⚠️ Super-Heavy “Class 9” Rigs (By Permit)  
 
-Though DOT vehicle classifications end at Class 8, we also support oversized **Class 9** vehicles through permitted access and facility clearance.
+While DOT classifications officially end at Class 8, **{{< brand >}}** also supports oversized Class 9 vehicles with the proper permits and facility clearance.  
 
 - Multi-axle lowboy trailers  
 - Oversized equipment haulers  
 - Bridge formula vehicles  
-- Permit-required overdimensional carriers
+- Overdimensional carriers  
 
-> Contact us to discuss special requirements for super-heavy-duty or non-standard configurations.
+> Contact us to discuss **special requirements for super-heavy-duty rigs** and non-standard configurations.  
+
+---
+
+## Serving the Bay Area  
+
+Located in **Hayward, CA**, **{{< brand >}}** proudly serves trucking companies and fleet operators across the **San Francisco Bay Area** — including **Oakland, Fremont, San Jose, Pleasanton, and beyond**.  
+
+Whether you need a **collision repair on a single dump truck** or **fleet refinishing for a dozen service vehicles**, our team delivers reliable results with minimal downtime.  
+
+---
+
+### Request a Commercial Truck Repair Estimate  
+
+Contact **{{< brand >}}** today to schedule your **commercial truck repair, utility body refinishing, or fleet service consultation**. Keep your trucks road-ready and your business moving.  
