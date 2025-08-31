@@ -1,42 +1,48 @@
 +++
-title = "Utility Truck Body Refinishing"
-description = "Complete refinishing services including sandblasting, color matching, and protective coatings for utility truck bodies and vocational fleets."
+title = "Utility Truck Body Refinishing – Fire, Concrete, Garbage, Refuse & Fleet Vehicles"
+description = "Utility truck body refinishing in Hayward and the San Francisco Bay Area. Sandblasting, color matching, and protective coatings for fire trucks, concrete pump and mixer trucks, garbage/refuse/disposal trucks, and municipal fleets (Class 6–8)."
 layout = "swiper-showcase-wrap"
 data = "truck-service"
 +++
 
-**BEAR Collision Center** provides expert refinishing services for utility trucks, trailers, and specialty commercial vehicles operating in demanding environments. Whether you're restoring a concrete pumper, prepping a municipal fleet, or coating a fuel delivery truck for corrosion resistance — we deliver durable, high-performance finishes tailored to your operational needs.
+# 🖌️ Utility Truck Body Refinishing in the San Francisco Bay Area  
 
-We support Class 4–8 vehicles including dump trucks, garbage trucks, pumpers, and custom utility bodies across California and the Bay Area.
+At **{{< brand >}}** in **Hayward, CA**, we provide **professional refinishing services for utility trucks, municipal fleets, and specialty commercial vehicles**. From **fire trucks and concrete mixers** to **garbage/refuse/disposal trucks, vacuum tankers, and custom service bodies**, our expert refinishing restores both **appearance and durability**.  
 
-{{< showcase-right index="5" data="truck-service" >}}
-
----
-
-## 🧼 Sandblasting & Priming
-
-Our industrial-grade sandblasting process strips away rust, paint, grease, and contaminants to prepare metal surfaces for maximum primer adhesion. We handle steel, aluminum, galvanized, and composite substrates.
-
-We then apply fleet-grade primers designed for corrosion control, high-adhesion, and compatibility with urethane, epoxy, or basecoat/clearcoat systems.
+Whether you’re refreshing a single vehicle or updating an entire fleet, our team delivers **high-performance finishes** that stand up to heavy-duty use across the **San Francisco Bay Area and East Bay**.  
 
 ---
 
-## 🎯 Fleet Color Matching
-
-We offer precision color matching for utility, municipal, and branded commercial fleets using computer-calibrated spectrophotometers. Whether you're restoring factory finish, matching custom colors, or updating a full fleet, we ensure professional results with minimal downtime.
+{{< showcase-right index="5" data="truck-service" >}}  
 
 ---
 
-## 🛡 Protective Coatings
+## 🧼 Sandblasting & Priming  
 
-We apply a variety of durable topcoats designed for extreme-duty use:
-- Single-stage and two-stage paint systems
-- Urethane and epoxy coatings
-- Textured or non-slip surfaces
-- High-gloss or matte finishes
-- Abrasion, salt, and chemical-resistant options
+Our industrial-grade **sandblasting** process removes rust, paint, grease, and contaminants to prepare surfaces for optimal primer adhesion. We handle **steel, aluminum, galvanized, and composite truck bodies**.  
 
-Common applications include concrete pumpers, refuse trucks, boom service bodies, and utility fleet vehicles exposed to harsh job sites or coastal environments.
+We then apply **fleet-grade primers** engineered for corrosion control and compatibility with **urethane, epoxy, or basecoat/clearcoat paint systems**.  
+
+---
+
+## 🎯 Fleet Color Matching  
+
+We use **computer-calibrated spectrophotometers** for exact color matching — ensuring seamless results whether you’re restoring a **factory finish, updating branding, or refinishing an entire fleet**.  
+
+Our services minimize downtime and maintain a professional, consistent appearance across all vehicles.  
+
+---
+
+## 🛡 Protective Coatings  
+
+We apply **durable coatings** designed for heavy-duty service, including:  
+- Single-stage and two-stage paint systems  
+- Urethane and epoxy coatings  
+- Textured or non-slip surfaces  
+- High-gloss or matte finishes  
+- Abrasion, salt, and chemical-resistant options  
+
+Common applications: **fire trucks, concrete pumpers, concrete mixers, refuse/garbage/disposal trucks, boom trucks, and municipal fleet vehicles** exposed to harsh job sites or coastal environments.  
 
 ---
 
@@ -47,12 +53,29 @@ Common applications include concrete pumpers, refuse trucks, boom service bodies
 
 | Application Area           | Compliance Standards               | What It Means for Your Vehicle |
 |---------------------------|-------------------------------------|--------------------------------|
-| **SF Bay / Port Fleets**  | CA Drayage Rules, EPA 2007+ Engines | Use marine-grade coatings, corrosion prep, and emissions-compliant equipment |
+| **San Francisco Bay / Port Fleets** | CA Drayage Rules, EPA 2007+ Engines | Use marine-grade coatings, corrosion prep, and emissions-compliant finishes |
 | **Industrial Vehicles**   | OSHA, FMCSA, DOT Standards          | Standard prep and finishes for high-use commercial and municipal fleets |
-| **Military / Government** | MIL‑STD‑1223, MIL‑STD‑1473, TEMF    | Paint, markings, and corrosion control must meet military-grade protocols |
+| **Military / Government** | MIL-STD-1223, MIL-STD-1473, TEMF    | Paint, markings, and corrosion control to military-grade specifications |
 
 </details>
 
 ---
 
-> Whether you're managing five vehicles or fifty, our team delivers expert refinishing solutions that keep your utility fleet looking sharp and protected for the long haul.
+## 🚛 Vehicles Commonly Refinished  
+*(Primarily Class 6–8 Utility, Emergency & Municipal Vehicles)*  
+- Fire trucks / ladder apparatus  
+- Concrete pump trucks  
+- Concrete mixer trucks  
+- Garbage / refuse / disposal trucks  
+- Vacuum trucks  
+- Water and fuel tankers  
+- Utility service trucks (Class 6–8)  
+- Municipal maintenance vehicles  
+
+---
+
+## 📅 Schedule Utility Truck Body Refinishing  
+
+Whether you manage a **single concrete mixer** or a **fleet of refuse trucks**, **{{< brand >}}** provides **sandblasting, refinishing, and protective coating services** that extend service life and maintain fleet appearance.  
+
+👉 [Contact us today](/contact/) to schedule a **utility truck body refinishing estimate** and learn why contractors and municipalities across the **San Francisco Bay Area** trust **{{< brand >}}** for reliable, long-lasting finishes.  
