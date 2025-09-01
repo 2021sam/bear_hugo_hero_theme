@@ -4,7 +4,6 @@
 {{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass (dict "outputStyle" "compressed") }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
-
 <title>
   {{ with .Params.seo_title }}
     {{ . }}
@@ -18,73 +17,85 @@
   </title>
   
 
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  
-  <!-- Open Graph / Social preview -->
-  <meta property="og:image" content='{{ "images/og-preview.jpg" | absURL }}'>
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta name="robots" content="max-image-preview:large">
-  
-  {{ if .Params.description }}
-    <meta name="description" content="{{ .Params.description }}">
-  {{ else if .Site.Params.description }}
-    <meta name="description" content="{{ .Site.Params.description }}">
-  {{ else if .Summary }}
-    <meta name="description" content="{{ .Summary | plainify | truncate 155 }}">
-  {{ end }}
-  
-  <!-- Favicons -->
-  <link rel="icon" type="image/png" sizes="48x48"  href='{{ "favicon.png" | relURL }}'>
-  <link rel="icon" type="image/png" sizes="192x192" href='{{ "favicon.png" | relURL }}'>
-  <link rel="icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
 
-  
-  <!-- Canonical -->
-  <link rel="canonical" href="{{ .Permalink }}" />
-  
-  <!-- Single Organization schema using full logo -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": "https://cabear.com/#org",
-    "name": "BEAR Collision Center",
-    "url": "https://cabear.com",
-    "logo": "{{ "images/logo/bear-logo.png" | absURL }}"
-  }
-  </script>
-  
-  <!-- LocalBusiness schema (kept) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "AutoBodyShop",
-    "@id": "https://cabear.com/#business",
-    "name": "BEAR RV & Truck Collision & Paint",
-    "url": "https://cabear.com",
-    "image": "{{ "images/logo/bear-logo.png" | absURL }}",
-    "telephone": "(510) 783-9050",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "3393 Enterprise Avenue",
-      "addressLocality": "Hayward",
-      "addressRegion": "CA",
-      "postalCode": "94545",
-      "addressCountry": "US"
-    },
-    "openingHoursSpecification": [{
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-      "opens": "08:00",
-      "closes": "17:00"
-    }],
-    "brand": { "@type": "Organization", "@id": "https://cabear.com/#org" }
-  }
-  </script>
-  
 
+<!-- Core meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="max-image-preview:large">
+
+<!-- Open Graph / Social preview -->
+<meta property="og:image" content='{{ "favicon.png" | absURL }}'>
+<meta property="og:image:width" content="512">
+<meta property="og:image:height" content="512">
+<meta property="og:image:alt" content="{{ .Site.Params.brand_name }} logo">
+<meta property="og:title" content='{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else if .IsHome }}{{ with .Site.Params.home_seo_title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}'>
+
+{{- $desc := .Params.description | default .Site.Params.description | default (.Summary | plainify) -}}
+<meta property="og:description" content="{{ $desc | plainify | replaceRE `\s+` ` ` | truncate 155 }}">
+
+
+<meta property="og:url" content='{{ .Permalink }}'>
+
+<meta property="og:type" content='{{ cond (or .IsHome .IsSection) "website" "article" }}'>
+
+<!-- Favicons (simple 1-file setup) -->
+<link rel="icon" type="image/png" href='{{ "favicon.png" | relURL }}'>
+{{ if (fileExists "static/favicon.ico") }}
+<link rel="icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
+{{ end }}
+
+<!-- Description -->
+{{ if .Params.description }}
+  <meta name="description" content="{{ .Params.description }}">
+{{ else if .Site.Params.description }}
+  <meta name="description" content="{{ .Site.Params.description }}">
+{{ else if .Summary }}
+  <meta name="description" content="{{ .Summary | plainify | truncate 155 }}">
+{{ end }}
+
+<!-- Canonical -->
+<link rel="canonical" href="{{ .Permalink }}" />
+
+<!-- Single Organization schema using full logo -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://cabear.com/#org",
+  "name": "{{ .Site.Params.brand_name }}",
+  "url": "https://cabear.com",
+  "logo": "{{ "images/logo/bear-logo.png" | absURL }}"
+}
+</script>
+
+<!-- LocalBusiness schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoBodyShop",
+  "@id": "https://cabear.com/#business",
+  "name": "{{ .Site.Params.brand_name }}",
+  "url": "https://cabear.com",
+  "image": "{{ "images/logo/bear-logo.png" | absURL }}",
+  "telephone": "(510) 783-9050",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3393 Enterprise Avenue",
+    "addressLocality": "Hayward",
+    "addressRegion": "CA",
+    "postalCode": "94545",
+    "addressCountry": "US"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "08:00",
+    "closes": "17:00"
+  }],
+  "brand": { "@type": "Organization", "@id": "https://cabear.com/#org" }
+}
+</script>
 
 {{- partial "analytics/google-tag-manager/head.html" . -}}
 {{- partial "head/custom.html" . -}}
