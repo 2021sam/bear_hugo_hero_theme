@@ -1,4 +1,4 @@
-<!-- /Users/2021sam/apps/BEAR/hugo/05_05_wp_conv/bear/layouts/partials/head/head.html -->
+<!-- layouts/partials/head/head.html -->
 
 {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" .Site.Params.enableSourceMaps) }}
 {{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass (dict "outputStyle" "compressed") }}
@@ -18,55 +18,45 @@
   </title>
   
 
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  
+  <!-- Open Graph / Social preview -->
+  <meta property="og:image" content='{{ "images/og-preview.jpg" | absURL }}'>
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="robots" content="max-image-preview:large">
+  
+  {{ if .Params.description }}
+    <meta name="description" content="{{ .Params.description }}">
+  {{ else if .Site.Params.description }}
+    <meta name="description" content="{{ .Site.Params.description }}">
+  {{ else if .Summary }}
+    <meta name="description" content="{{ .Summary | plainify | truncate 155 }}">
+  {{ end }}
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="48x48"  href='{{ "favicon.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="192x192" href='{{ "favicon.png" | relURL }}'>
+  <link rel="icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
 
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-
-
-{{ if .Params.description }}
-  <meta name="description" content="{{ .Params.description }}">
-{{ else if .Site.Params.description }}
-  <meta name="description" content="{{ .Site.Params.description }}">
-{{ else if .Summary }}
-  <meta name="description" content="{{ .Summary | plainify | truncate 155 }}">
-{{ end }}
-
-
-
-
-<!-- Favicons -->
-<link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
-<link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
-
-<!-- Touch/PNG icon (match site header logo) -->
-<link rel="apple-touch-icon" href="{{ "images/logo/cabear-logo.png" | relURL }}">
-<link rel="icon" type="image/png" href="{{ "images/logo/cabear-logo.png" | relURL }}">
-
-<!-- Organization schema (Google site logo) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Bear Collision and Service Center",
-  "url": "https://cabear.com",
-  "logo": "{{ "images/logo/cabear-logo.png" | absURL }}"
-}
-</script>
-
-
-<!-- Organization schema -->
-<script type="application/ld+json">
+  
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ .Permalink }}" />
+  
+  <!-- Single Organization schema using full logo -->
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": "https://cabear.com/#org",
     "name": "BEAR Collision Center",
     "url": "https://cabear.com",
-    "logo": "{{ "images/logo/cabear-logo.png" | absURL }}"
+    "logo": "{{ "images/logo/bear-logo.png" | absURL }}"
   }
   </script>
   
-  <!-- LocalBusiness schema -->
+  <!-- LocalBusiness schema (kept) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -74,7 +64,7 @@
     "@id": "https://cabear.com/#business",
     "name": "BEAR RV & Truck Collision & Paint",
     "url": "https://cabear.com",
-    "image": "{{ "images/logo/cabear-logo.png" | absURL }}",
+    "image": "{{ "images/logo/bear-logo.png" | absURL }}",
     "telephone": "(510) 783-9050",
     "address": {
       "@type": "PostalAddress",
@@ -94,7 +84,6 @@
   }
   </script>
   
-
 
 
 {{- partial "analytics/google-tag-manager/head.html" . -}}
