@@ -25,7 +25,7 @@ of mind on the road.
 {{< showcase index="8" >}}
 
 
-#### Why Choose Us?
+#### Why Choose BEAR ?
 
 - **Efficiency** : We pride ourselves on completing repairs promptly to minimize downtime and inconvenience for our customers.
 - **Expertise** : Our dedicated team of professionals ensures top-notch workmanship and uses only high-quality materials.
