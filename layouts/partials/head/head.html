@@ -25,11 +25,15 @@
 <meta name="robots" content="max-image-preview:large">
 
 <!-- Open Graph / Social preview -->
-<meta property="og:image" content='{{ "favicon-512.png" | absURL }}'>
-<meta property="og:image:width" content="512">
-<meta property="og:image:height" content="512">
+<meta property="og:image" content='{{ "images/logo/bear-logo-og.png" | absURL }}'>
+<meta property="og:image:secure_url" content='{{ "images/logo/bear-logo-og.png" | absURL }}'>
+<meta property="og:image:width" content="1200">   <!-- set to real width -->
+<meta property="og:image:height" content="630">   <!-- set to real height -->
 <meta property="og:image:alt" content="{{ .Site.Params.brand_name }} logo">
 <meta property="og:title" content='{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else if .IsHome }}{{ with .Site.Params.home_seo_title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}'>
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+
 
 {{- $desc := .Params.description | default .Site.Params.description | default (.Summary | plainify) -}}
 <meta property="og:description" content="{{ $desc | plainify | replaceRE `\s+` ` ` | truncate 155 }}">
@@ -40,8 +44,12 @@
 <meta property="og:type" content='{{ cond (or .IsHome .IsSection) "website" "article" }}'>
 
 
-<link rel="icon" href='{{ "favicon.svg" | relURL }}' type="image/svg+xml">
-<link rel="icon" type="image/png" sizes="32x32" href='{{ "favicon-32.png" | relURL }}'>
+<!-- Favicons -->
+<link rel="icon" href='{{ "favicon.svg" | absURL }}' type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href='{{ "favicon-32.png" | absURL }}'>
+<link rel="icon" type="image/png" sizes="64x64" href='{{ "favicon-64.png" | absURL }}'>
+<link rel="icon" type="image/png" sizes="512x512" href='{{ "favicon-512.png" | absURL }}'>
+<!-- <link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}" type="image/x-icon" sizes="any"> -->
 
 
 <!-- Description -->
