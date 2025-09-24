@@ -3,7 +3,7 @@ baseURL = "https://cabear.com/"
 canonifyURLs = true
 languageCode = "en-us"
 title = "BEAR RV, Truck, Auto Body Collision Repair & Paint"   # <-- was "My New Hugo Site"
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 # Optional: if you don't want tag & taxonomy listing pages indexed/created
 # disableKinds = ["taxonomy", "term"]
