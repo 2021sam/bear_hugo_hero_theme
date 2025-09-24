@@ -1,8 +1,21 @@
 <!-- layouts/partials/head/head.html -->
 
-{{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" .Site.Params.enableSourceMaps) }}
-{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass (dict "outputStyle" "compressed") }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+{{/* Compile site styles from assets if present; supports SCSS or CSS */}}
+{{ $res := resources.Get "sass/main.scss" }}
+{{ if not $res }}{{ $res = resources.Get "sass/custom.scss" }}{{ end }}
+{{ if not $res }}{{ $res = resources.Get "sass/custom.css" }}{{ end }}
+
+{{ if $res }}
+  {{ $out := $res | resources.ExecuteAsTemplate $res.Name . }}
+  {{ if eq (path.Ext $res) ".scss" }}
+    {{ $out = $out | css.Sass (dict "outputStyle" "compressed") }}
+  {{ else }}
+    {{ $out = $out | resources.Minify }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ $out.RelPermalink }}">
+{{ end }}
+
+
 
 <title>
   {{ with .Params.seo_title }}
@@ -104,6 +117,20 @@
 }
 </script>
 
-{{- partial "analytics/google-tag-manager/head.html" . -}}
-{{- partial "head/custom.html" . -}}
+
+
+{{ if and (templates.Exists "partials/analytics/google-tag-manager/head.html") (.Site.Params.googleTagManagerID) }}
+  {{ partial "analytics/google-tag-manager/head.html" . }}
+{{ end }}
+
+{{ if templates.Exists "partials/head/custom.html" }}
+  {{ partial "head/custom.html" . }}
+{{ end }}
+
+{{/* Custom head hook (only if present) */}}
+{{ if templates.Exists "partials/head/custom.html" }}
+  {{ partial "head/custom.html" . }}
+{{ end }}
+
+{{/* Twitter cards (built-in) */}}
 {{- template "_internal/twitter_cards.html" . -}}
