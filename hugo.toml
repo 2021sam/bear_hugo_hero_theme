@@ -1,14 +1,20 @@
+# hugo.toml
 baseURL = "https://cabear.com/"
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "hugo-arcana"
+canonifyURLs = true
+languageCode = "en-us"
+title = "BEAR RV, Truck, Auto Body Collision Repair & Paint"   # <-- was "My New Hugo Site"
+enableRobotsTXT = true
 
+# Optional: if you don't want tag & taxonomy listing pages indexed/created
+# disableKinds = ["taxonomy", "term"]
 
 [params]
 brand_name = "BEAR RV, Truck, Auto Body Collision Repair & Paint"
 brand_short = "BEAR"
 home_seo_title = "RV & Truck Collision & Paint | Hayward & San Francisco Bay Area | BEAR"
+description = "RV, truck, trailer, and auto body collision repair in Hayward, CA and the San Francisco Bay Area. Since 1979. PPG paint, frame, welding, insurance support."
 
+theme = "hugo-arcana"
 
 
 [menu]
