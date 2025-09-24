@@ -33,7 +33,7 @@ hugo server -D --noHTTPCache --bind 0.0.0.0 --port 1313 --baseURL http://10.0.0.
 ## 🛠️ Bluehost Server
 
 ```bash
-hugo --baseURL="https://cabear.com/hugo/" --cleanDestinationDir
+hugo --baseURL="https://cabear.com/" --cleanDestinationDir
 ```
 
 

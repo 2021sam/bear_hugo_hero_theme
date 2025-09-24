@@ -44,12 +44,12 @@
 <meta property="og:type" content='{{ cond (or .IsHome .IsSection) "website" "article" }}'>
 
 
-<!-- Favicons -->
-<link rel="icon" href='{{ "favicon.svg" | absURL }}' type="image/svg+xml">
-<link rel="icon" type="image/png" sizes="32x32" href='{{ "favicon-32.png" | absURL }}'>
-<link rel="icon" type="image/png" sizes="64x64" href='{{ "favicon-64.png" | absURL }}'>
-<link rel="icon" type="image/png" sizes="512x512" href='{{ "favicon-512.png" | absURL }}'>
-<!-- <link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}" type="image/x-icon" sizes="any"> -->
+<!-- Favicons (serve from site root; keep URLs stable) -->
+<link rel="icon" href="/favicon.ico" sizes="any">                 <!-- legacy + broad support -->
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">  <!-- Google-friendly -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">        <!-- modern browsers -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">  <!-- iOS home screen -->
+<link rel="manifest" href="/site.webmanifest">                     <!-- optional PWA -->
 
 
 <!-- Description -->
