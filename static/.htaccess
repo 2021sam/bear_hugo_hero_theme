@@ -1,3 +1,5 @@
+# static/.htaccess
+
 # Serve the static index
 DirectoryIndex index.html
 
@@ -56,4 +58,26 @@ RewriteRule ^ https://cabear.com%{REQUEST_URI} [L,R=301]
   Header always set X-Frame-Options "SAMEORIGIN"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+
+
+# --- Favicon & PWA MIME types ---
+<IfModule mod_mime.c>
+  AddType image/x-icon .ico
+  AddType image/svg+xml .svg
+  AddType application/manifest+json .webmanifest
+</IfModule>
+
+# --- Cache-control for favicons & manifest ---
+<IfModule mod_headers.c>
+  # Favicons (ok to cache a week; change if you prefer)
+  <FilesMatch "\.(ico|svg)$">
+    Header set Cache-Control "public, max-age=604800"
+  </FilesMatch>
+
+  # PWA manifest + large app icons can be long-lived & immutable
+  <FilesMatch "\.(webmanifest|png)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
 </IfModule>
