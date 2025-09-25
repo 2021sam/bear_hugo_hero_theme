@@ -2,6 +2,7 @@
 title = "Commercial Truck Repair – Collision, Utility Body & Fleet Services"
 description = "Commercial truck repair services in the Bay Area. Collision repair, utility body refinishing, and fleet maintenance for Class 4–8 trucks, trailers, and specialty vehicles."
 layout = "swiper-showcase-wrap"
+aliases = ["/truck-services/"]
 data = "truck-service"
 +++
 
