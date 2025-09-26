@@ -5,7 +5,7 @@ layout = "swiper-showcase-wrap"
 data = "rv-service"
 +++
 
-**BEAR Collision Center** is the Bay Area’s trusted source for **all types of trailer repair** — from **freight and beverage trailers** to **Cozad heavy-haul trailers, utility trailers, and RV tow-behinds**. Our team handles everything from **corner caps and reflooring** to **slide-sheet replacement, complete restorations, and upgrades**.
+**{{< brand >}}** is the Bay Area’s trusted source for **all types of trailer repair** — from **freight and beverage trailers** to **Cozad heavy-haul trailers, utility trailers, and RV tow-behinds**. Our team handles everything from **corner caps and reflooring** to **slide-sheet replacement, complete restorations, and upgrades**.
 
 ---
 
