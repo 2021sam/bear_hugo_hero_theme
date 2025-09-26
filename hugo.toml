@@ -16,6 +16,9 @@ description = "RV, truck, trailer, and auto body collision repair in Hayward, CA
 
 theme = "hugo-arcana"
 
+[taxonomies]
+# no categories or tags
+
 
 [menu]
 
