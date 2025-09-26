@@ -56,4 +56,4 @@ Hayward, San Leandro, Castro Valley, Fremont, and the **Tri-Valley**—with quic
 ## 📞 Ready to Schedule Repairs?
 Get in touch with our team for estimates and scheduling.  
 
-[Contact Us →](/contact/)
+[Contact Us →](/contact-us/)   # if you kept /contact-us/
