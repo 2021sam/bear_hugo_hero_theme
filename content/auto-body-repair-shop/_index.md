@@ -51,4 +51,9 @@ From **rust removal** to **refinishing**, we restore classics and work vehicles.
 ## 📍 Service Area
 Hayward, San Leandro, Castro Valley, Fremont, and the **Tri-Valley**—with quick access from **I-880** and **Hwy 92**.
 
-{{< contact-box >}}
+---
+
+## 📞 Ready to Schedule Repairs?
+Get in touch with our team for estimates and scheduling.  
+
+[Contact Us →](/contact/)
