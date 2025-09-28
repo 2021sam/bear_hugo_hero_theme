@@ -1,4 +1,5 @@
 +++
+# content/insurance/_index.md
 title = "Insurance Partnerships"
 layout = "insurance"
 +++
