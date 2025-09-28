@@ -1,4 +1,0 @@
-+++
-title = "Welding"
-draft = false
-+++
