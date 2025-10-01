@@ -14,11 +14,8 @@ layout = "swiper-showcase-wrap"
     img2="images/media-sandblasting/gallery_1/sand_blasting_small-1-1024x727.jpg"
     img3="images/media-sandblasting/gallery_1/sandblasting-car-parts.jpg"
 >}}
+After parts are removed or protected, abrasive blasting exposes clean bare metal and creates a uniform anchor profile for downstream finishing per SSPC surface-preparation guidelines.
 {{< /info_card_gallery >}}
-
-
-## Restore Factory Finish
-After parts are removed or protected, abrasive blasting exposes clean bare metal and creates a uniform **anchor profile** for downstream finishing per **SSPC** surface-preparation guidelines.
 
 
 {{< info_card_gallery

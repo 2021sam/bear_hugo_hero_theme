@@ -14,11 +14,11 @@ We provide full-service metal restoration for trailers, equipment, vehicles, and
 
 ## Our Services
 
-- **Abrasive Blasting & Surface Prep** – remove rust, paint, or corrosion
-- **Metal Fabrication & Structural Repair** – cut out and replace damaged or rusted sections
-- **Custom Upgrades & Reinforcement** – modify or strengthen metal parts for better durability or function
+- [**Abrasive Blasting & Surface Prep**]({{< relref "abrasive-blasting.md" >}}) — removes rust, paint, and corrosion
+- [**Metal Fabrication & Structural Repair**]({{< relref "fabrication-repair.md" >}}) — cuts out and replaces damaged or rusted sections
+- [**Custom Upgrades & Reinforcement**]({{< relref "fabrication-repair.md" >}}) — strengthens or modifies parts for durability and function
 
-[Explore Our Services →](/metal-restoration/)
+
 
 ## Why Choose Us?
 
@@ -26,5 +26,6 @@ We provide full-service metal restoration for trailers, equipment, vehicles, and
 - Quality materials and workmanship
 - Fast turnaround and fair pricing
 - Serving the entire San Francisco Bay Area
+
 
 Ready to get started? [Contact us today](/contact-us/) for a free quote.
