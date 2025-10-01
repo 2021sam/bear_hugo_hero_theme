@@ -59,7 +59,6 @@ theme = "hugo-arcana"
     url = "/rv-repair/motorhome-collision-repair/"
     weight = 4
 
-
     [[menu.main]]
     parent = "rv"
     name = "RV Painting"
@@ -125,25 +124,24 @@ theme = "hugo-arcana"
     url = "/auto-body-repair-shop/restoration/"
     weight = 2
 
-  # Quality Services
+
   [[menu.main]]
-  identifier = "quality"
-  name = "Quality Services"
-  url = "/rust-removal-repair/"
+  identifier = "metal-restoration"
+  name = "Metal Restoration"
+  url = "/metal-restoration/"
   weight = 6
 
     [[menu.main]]
-    parent = "quality"
-    name = "Fabrication Repair"
-    url = "/fabrication-repair/"
+    parent = "metal-restoration"
+    name = "Abrasive Blasting"
+    url = "/metal-restoration/abrasive-blasting/"
     weight = 1
 
     [[menu.main]]
-    parent = "quality"
-    name = "Media Sandblasting"
-    url = "/media-sandblasting/"
+    parent = "metal-restoration"
+    name = "Fabrication & Repair"
+    url = "/metal-restoration/fabrication-repair/"
     weight = 2
-
 
 
 

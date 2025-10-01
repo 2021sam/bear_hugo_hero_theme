@@ -1,4 +1,5 @@
 +++
+# content/commercial-truck-repair/utility-truck-body-refinishing.md
 title = "Utility Truck Body Refinishing – Fire, Concrete, Garbage, Refuse & Fleet Vehicles"
 description = "Utility truck body refinishing in Hayward and the San Francisco Bay Area. Sandblasting, color matching, and protective coatings for fire trucks, concrete pump and mixer trucks, garbage/refuse/disposal trucks, and municipal fleets (Class 6–8)."
 layout = "swiper-showcase-wrap"
