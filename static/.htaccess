@@ -6,6 +6,18 @@ DirectoryIndex index.html
 # Enable rewrite engine
 RewriteEngine On
 
+
+
+
+
+# --- Permanent removals (serve 410 Gone) ---
+Redirect 410 /rv/
+Redirect 410 /truck-services/
+Redirect 410 /insurance-partnership/
+Redirect 410 /wp-content/uploads/2016/06/ICAR-Certificate-8.pdf
+
+
+
 # -------------------------------------------------------------------
 # Force HTTPS
 RewriteCond %{HTTPS} !=on
