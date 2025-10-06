@@ -8,14 +8,12 @@ RewriteEngine On
 
 
 
-
-
 # --- Permanent removals (serve 410 Gone) ---
-Redirect 410 /rv/
-Redirect 410 /truck-services/
-Redirect 410 /insurance-partnership/
-Redirect 410 /wp-content/uploads/2016/06/ICAR-Certificate-8.pdf
-
+# (matches /rv, /rv/, /rv/index.html — and same for the others)
+RewriteRule ^rv(/|/index\.html)?$ - [R=410,L]
+RewriteRule ^truck-services(/|/index\.html)?$ - [R=410,L]
+RewriteRule ^insurance-partnership(/|/index\.html)?$ - [R=410,L]
+RewriteRule ^wp-content/uploads/2016/06/ICAR-Certificate-8\.pdf$ - [R=410,L]
 
 
 # -------------------------------------------------------------------
