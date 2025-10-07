@@ -1,44 +1,44 @@
 <!-- layouts/partials/swiper/showcase-right.html -->
 
-{{ $ctx  := .ctx }}
-{{ $data := .data }}
-{{ $idx  := .index }}
-{{ $key  := printf "swiper_images_%d" $idx }}
-{{ $all  := index site.Data.swipers $data }}
-{{ $show := index $all $key }}
+{{ $data := .data }}{{ $idx := .index }}
+{{ $key := printf "swiper_images_%d" $idx }}
+{{ $show := index (index site.Data.swipers $data) $key }}
 
 {{ if $show }}
 <section class="showcase-section showcase-{{ $idx }}">
-  <div class="showcase-block" style="display: flex; flex-wrap: wrap; align-items: center; border: 2px solid #ccc; border-radius: 10px; padding: 1rem; margin: 1rem 0; background: #fff;">
+  <div class="showcase-block" style="display:flex;flex-wrap:wrap;gap:2rem;align-items:center;background:#fff;padding:1rem;border:2px solid #ccc;border-radius:10px;margin:1rem 0;">
 
-    <!-- Text First (Left) -->
-    <div class="info-box-text" style="flex: 1 1 50%; padding: 1rem;">
+    <!-- Text LEFT -->
+    <div class="info-box-text" style="flex:1 1 420px;min-width:280px;max-width:100%;">
       <h2>{{ $show.header }}</h2>
-
       {{ $desc := $show.description }}
       {{ if eq (printf "%T" $desc) "[]interface {}" }}
-        <ul>
-          {{ range $desc }}
-            <li>{{ . }}</li>
-          {{ end }}
-        </ul>
+        <ul>{{ range $desc }}<li>{{ . }}</li>{{ end }}</ul>
       {{ else }}
-        <p>{{ $desc }}</p>
+        <p style="margin:0;">{{ $desc }}</p>
       {{ end }}
     </div>
 
-    <!-- Swiper Second (Right) -->
-    <div class="swiper {{ $key }}" style="flex: 1 1 50%; padding: 1rem;">
-      <div class="swiper-wrapper">
-        {{ range $show.images }}
-          <div class="swiper-slide">
-            <img src="{{ . | relURL }}" alt="Slide from {{ $key }}" style="max-width: 100%; height: auto;">
+    <!-- Slider RIGHT (clamped) -->
+    <div class="swiper-wrap" style="flex:1 1 420px;min-width:280px;max-width:100%;">
+      <div class="swiper {{ $key }}" style="width:100%;max-width:100%;">
+        <div class="swiper-wrapper">
+          {{ range $show.images }}
+          <div class="swiper-slide" style="display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;max-width:100%;">
+            <img
+              src="{{ . | relURL }}"
+              alt="Slide from {{ $key }}"
+              loading="lazy" decoding="async"
+              style="width:100%;height:100%;object-fit:contain;max-width:100%;"
+            >
           </div>
-        {{ end }}
+          {{ end }}
+        </div>
+
+        <div class="swiper-pagination pagination-{{ $key }}"></div>
+        <div class="swiper-button-prev prev-{{ $key }}"></div>
+        <div class="swiper-button-next next-{{ $key }}"></div>
       </div>
-      <div class="swiper-pagination pagination-{{ $key }}"></div>
-      <div class="swiper-button-prev prev-{{ $key }}"></div>
-      <div class="swiper-button-next next-{{ $key }}"></div>
     </div>
 
   </div>
