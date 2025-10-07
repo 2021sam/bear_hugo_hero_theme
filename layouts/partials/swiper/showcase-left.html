@@ -1,6 +1,4 @@
-<!-- <div style="background: blue;">
-  /Users/2021sam/apps/BEAR/hugo/05_19/hugo-swiper-gallery/layouts/partials/swiper/showcase.html
-</div> -->
+<!-- layouts/partials/swiper/showcase-left.html -->
 
 {{ $ctx  := .ctx }}
 {{ $data := .data }}
@@ -10,42 +8,45 @@
 {{ $show := index $all $key }}
 
 {{ if $show }}
-<section class="showcase-section showcase-{{ .index }}">
-  <div class="showcase-block showcase-left" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; background: #fff; padding: 1rem; border: 2px solid #ccc; border-radius: 10px; margin: 1rem 0;">
-    
-    <div class="swiper-container" style="flex: 1 1 50%;">
-      <div class="swiper swiper_images_{{ .index }}">
+<section class="showcase-section showcase-{{ $idx }}">
+  <div class="showcase-block showcase-left" style="display:flex;flex-wrap:wrap;gap:2rem;align-items:center;background:#fff;padding:1rem;border:2px solid #ccc;border-radius:10px;margin:1rem 0;">
+
+    <!-- Swiper (Left) -->
+    <div class="swiper-wrap" style="flex:1 1 420px;min-width:280px;max-width:100%;">
+      <div class="swiper {{ $key }}" style="width:100%;max-width:100%;">
         <div class="swiper-wrapper">
-          {{ range (index (index site.Data.swipers .data) (printf "swiper_images_%d" .index)).images }}
-          <div class="swiper-slide">
-            <img src="{{ . | relURL }}" alt="Slide image" />
+          {{ range $show.images }}
+          <div class="swiper-slide" style="display:flex;align-items:center;justify-content:center;/* maintain ratio without overflow */aspect-ratio:16/9;max-width:100%;">
+            <img
+              src="{{ . | relURL }}"
+              alt="Slide from {{ $key }}"
+              loading="lazy" decoding="async"
+              style="width:100%;height:100%;object-fit:contain;max-width:100%;"
+            >
           </div>
           {{ end }}
         </div>
-        <div class="swiper-pagination pagination-swiper_images_{{ .index }}"></div>
-        <div class="swiper-button-prev prev-swiper_images_{{ .index }}"></div>
-        <div class="swiper-button-next next-swiper_images_{{ .index }}"></div>
+
+        <div class="swiper-pagination pagination-{{ $key }}"></div>
+        <div class="swiper-button-prev prev-{{ $key }}"></div>
+        <div class="swiper-button-next next-{{ $key }}"></div>
       </div>
     </div>
 
-    <div class="info-box-text" style="flex: 1 1 45%;">
-      <h2>{{ (index (index site.Data.swipers .data) (printf "swiper_images_%d" .index)).header }}</h2>
+    <!-- Text (Right) -->
+    <div class="info-box-text" style="flex:1 1 420px;min-width:280px;max-width:100%;">
+      <h2>{{ $show.header }}</h2>
 
-      {{ $desc := (index (index site.Data.swipers .data) (printf "swiper_images_%d" .index)).description }}
+      {{ $desc := $show.description }}
       {{ if eq (printf "%T" $desc) "[]interface {}" }}
         <ul>
-          {{ range $desc }}
-            <li>{{ . }}</li>
-          {{ end }}
+          {{ range $desc }}<li>{{ . }}</li>{{ end }}
         </ul>
       {{ else }}
-        <p>{{ $desc }}</p>
+        <p style="margin:0;">{{ $desc }}</p>
       {{ end }}
-      
-
     </div>
 
   </div>
 </section>
-
 {{ end }}
