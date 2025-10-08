@@ -7,13 +7,12 @@ DirectoryIndex index.html
 RewriteEngine On
 
 
+# --- Retired URLs (serve 404) ---
+RewriteRule ^rv(/|/index\.html)?$ - [R=404,L]
+RewriteRule ^truck-services(/|/index\.html)?$ - [R=404,L]
+RewriteRule ^insurance-partnership(/|/index\.html)?$ - [R=404,L]
+RewriteRule ^wp-content/uploads/2016/06/ICAR-Certificate-8\.pdf$ - [R=404,L]
 
-# --- Permanent removals (serve 410 Gone) ---
-# (matches /rv, /rv/, /rv/index.html — and same for the others)
-RewriteRule ^rv(/|/index\.html)?$ - [R=410,L]
-RewriteRule ^truck-services(/|/index\.html)?$ - [R=410,L]
-RewriteRule ^insurance-partnership(/|/index\.html)?$ - [R=410,L]
-RewriteRule ^wp-content/uploads/2016/06/ICAR-Certificate-8\.pdf$ - [R=410,L]
 
 
 # -------------------------------------------------------------------
